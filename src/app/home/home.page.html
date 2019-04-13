@@ -1,14 +1,33 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+
+  <div class="app-slideshow a1-relative">
+    <div class="a1-absolute a1-top a1-width-100 a1-z-10">
+      <app-header></app-header>
+    </div>
+    <ion-slides pager scrollbar="true"  [options]="slideOptions" class="a1-container">
+      <ion-slide class="a1-container">
+        <div [style.backgroundImage]="'url(assets/images/1.jpg)'" class="full-image"></div>
+      </ion-slide>
+      <ion-slide class="a1-container">
+        <div [style.backgroundImage]="'url(assets/images/2.jpg)'" class="full-image"></div>
+      </ion-slide>
+      <ion-slide class="a1-container">
+        <div [style.backgroundImage]="'url(assets/images/3.jpg)'" class="full-image"></div>
+      </ion-slide>
+      <ion-slide class="a1-container">
+        <div [style.backgroundImage]="'url(assets/images/4.jpg)'" class="full-image"></div>
+      </ion-slide>
+      <ion-slide class="a1-container">
+        <div [style.backgroundImage]="'url(assets/images/5.jpg)'" class="full-image"></div>
+      </ion-slide>
+    </ion-slides>
+
+  </div>
+
   <div class="ion-padding">
     The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be
+      your guide.</p>
   </div>
+  <app-footer></app-footer>
 </ion-content>
