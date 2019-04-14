@@ -11,9 +11,11 @@
 }
 
 .content-header{
-    font-size: 1.4em;
+    color: var(--ion-color-medium);
     font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .content-item{
-    padding: 10px;
+    padding: 10px 0;
 }

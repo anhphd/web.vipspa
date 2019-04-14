@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'download', loadChildren: './download/download.module#DownloadPageModule' },
   { path: 'news', loadChildren: './news/news.module#NewsPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
+  { path: 'product-detail', loadChildren: './product-detail/product-detail.module#ProductDetailPageModule' },
 ];
 
 @NgModule({

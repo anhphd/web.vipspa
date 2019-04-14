@@ -9,3 +9,29 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+
+
+
+$color-red: #FF0000;
+$color-green: #00FF00;
+$color-blue: #0000FF;
+
+.page-content{
+    min-height: calc(100vh - 260px);
+}
+
+.a1-pointer{
+    cursor: pointer;
+    color: var(--ion-color-success);
+}
+
+.a1-clear-link{
+    color: white;
+    text-decoration: none;
+}
+
+.a1-link:hover{
+    cursor: pointer;
+    color: var(--ion-color-success);
+}
