@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./company.page.scss'],
 })
 export class CompanyPage implements OnInit {
-
+  view: string = "profile";
   constructor() { }
 
   ngOnInit() {
+  }
+  showView(viewName: string) {
+    this.view = viewName ? viewName : 'profile';
   }
 
 }

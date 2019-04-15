@@ -1,0 +1,13 @@
+.line-striker{
+    background: var(--ion-color-success);
+    height: 1px;
+}
+
+.sub-menu-item{
+    padding: 10px 16px;
+    border-bottom: solid 1px white;
+    &.selected{
+        color: var(--ion-color-success);
+        border-bottom: solid 1px var(--ion-color-success);
+    }
+}

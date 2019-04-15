@@ -1,6 +1,161 @@
-
 <ion-content>
-    <app-header></app-header>
-    <div class="page-content"></div>
+    <app-slideshow></app-slideshow>
+    <div class="page-content text-center" style="padding: 40px">
+        <div>
+            <div>
+                <ion-text color="success">
+                    <h1>ABOUT VIPSPA</h1>
+                </ion-text>
+
+                <hr style="background-color:lightgray">
+            </div>
+
+            <div class="a1-padding-top">
+                <div class="a3-container-center a1-padding">
+                    <div class="sub-menu-item a1-link" (click)="showView('profile')" [class.selected]="view=='profile'">
+                        Company
+                        Profile</div>
+                    <div class="sub-menu-item  a1-link" (click)="showView('certificate')"
+                        [class.selected]="view=='certificate'">
+                        Certification</div>
+                    <div class="sub-menu-item  a1-link" (click)="showView('chart')" [class.selected]="view=='chart'">
+                        Organization
+                        Chart</div>
+                    <div class="sub-menu-item  a1-link" (click)="showView('video')" [class.selected]="view=='video'">
+                        Video</div>
+                    <div class="sub-menu-item  a1-link" (click)="showView('news')" [class.selected]="view=='news'">News
+                        Center
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="view=='chart'" class="animated fadeIn" style="line-height:2em;">
+                <div padding text-center>
+                    <img src="assets/images/c2.jpg">
+
+                </div>
+               
+
+            </div>
+            <div *ngIf="view=='certificate'" class="animated fadeIn" style="line-height:2em;">
+                <div padding text-center>
+                    <img src="assets/images/c1.jpg">
+
+                </div>
+                <p>
+                    <b>Product Certificate</b><br>
+                    Products manufactured by Yuehua have passed the inspection of the State Quality Inspection
+                    Administration and comply with the national standard. The products have passed the CE
+                    certificate are massage bathtubs, Swimming Pool, Steam Cabinet, Whirlpool Spas and sauna room.
+                    The products have passed the Australia SAA certificate are massage bathtubs, Swimming Pool and
+                    steam cabinet. Whirlpool Spas and Steam cabinet has passed the US ETL certificate. Meanwhile,
+                    the massage bathtubs are under the testing of the US ETL certificate.
+                </p>
+                <p>
+                    <b>Cooperate Certificate</b><br>
+                    Yuehua has passed "ISO9001: 2000 quality control system" and ISO14001 environment manage
+                    systematic attestation in 2003
+                </p>
+
+            </div>
+
+            <div *ngIf="view=='profile'" class="animated fadeIn">
+                <div padding text-center>
+                    <ion-text color="success" style="font-size:3em; font-weight: bold; letter-spacing: 2px">
+                        VIPSPA
+                    </ion-text>
+                </div>
+                <div text-center class="a1-padding-bottom a1-relative" style="height:3em">
+                    <div class="a1-content-center a1-width-50 line-striker"></div>
+                    <ion-text class="a1-content-center" color="success"
+                        style="font-size:1.4em; font-weight: 200; background: white; padding: 0 20px">
+                        WELLNESS & SPA FOR EVERYONE
+                    </ion-text>
+                </div>
+                <div style="line-height:2em;">
+                    <p>Located at Gaoming Zone, Foshan City, Guangdong Foshan Gaoming Yuehua Sanitary Ware Co.,Ltd. is a
+                        global sanitary ware manufacturer and exporter, selling to Europe, America and Asian countries.
+                        Established in 1995, Yuehua Sanitary Ware has set up sales network in the medium and large
+                        cities in China after more than ten years of hard working. In 2005 Yuehua obtained the
+                        self-importation and exportation rights.</p>
+
+                    <p>Covering 30,000 m2 (with a under construction production base about 70,000m2), there are four
+                        major workshops: molding workshop, wood products workshop and manufacturer & assembling
+                        workshops for massage bathtubs, Swim spa and sauna room. With advanced technology and a team of
+                        talents, Yuehua provides the global buyers with "all-in-one service" including product design,
+                        molding, manufacture, sales and export trading.</p>
+
+                    <p> Molding Workshop: There are different kinds of sophisticated facilities to ensure product
+                        quality, such as semi auto molding machine equipment from 4 meter to 12 meter, double location
+                        semi-automatic molding machine, semi-automatic edge trimmer, reinforced spray gun and water
+                        curtain dust removal, etc .
+                        Wood Product Workshop: There are automatic cutting machines, four side planer, sanding machines,
+                        semi-automatic edge trimmer, etc.
+                        Swimming Pool and Massage Bathtubs Workshop: There are semi-automatic molding machine equipment,
+                        double location semi automatic molding machine, semi auto edge trimmer and reinforced spray gun,
+                        etc.</p>
+                    <img src="assets/images/6.jpg" alt="">
+                    <p>Each workshop has standardized work flow from molding, strengthening, cutting, hole making,
+                        assembling and inspection to packing. Mature manufacturing system with strict management of each
+                        step ensures qualified products.</p>
+
+                    <p>Brands: MEXDA, ANGESI and FACESPA are the three major brands of Yuehua. MEXDA was assessed as
+                        "Guangdong Famous Brand" in March, 2010.</p>
+
+                    <p>
+                        <b>Products</b><br>
+                        The main products are massage bathtubs, Steam Bathroom, Shower Enclosure, Bathroom Cabinet,
+                        sauna room and Swim spa, etc. Meanwhile, Yuehua also provide with OEM services.
+                    </p>
+                    <img src="assets/images/8.jpg" alt="">
+                    <p>
+                        <b>Product Certificate</b> <br>
+                        Products manufactured by Yuehua have passed the inspection of the State Quality Inspection
+                        Administration and comply with the national standard. The products have passed the CE
+                        certificate are massage bathtubs, Swimming Pool, Steam Cabinet, Whirlpool Spas and sauna room.
+                        The products
+                        have passed the Australia SAA certificate are massage bathtubs, Swimming Pool and steam cabinet.
+                        Whirlpool Spas and Steam cabinet has passed the US ETL certificate. Meanwhile, the massage
+                        bathtubs are under the testing of the US ETL certificate.
+                    </p>
+
+                    <p>
+                        <b> Cooperate Certificate</b><br>
+                        Yuehua has passed "ISO9001: 2000 quality control system" and
+                        ISO14001 environment manage systematic
+                        attestation in 2003
+                    </p>
+
+                    <p>
+                        <b>Corporate Culture</b><br>
+                        The concept of design is human oriented and aims to provide with the comfortable products.
+                    </p>
+
+                    <p>
+                        <b>Quality Policy</b><br>
+                        To strengthen the overall quality of the staff and be strict in managing the production.
+                    </p>
+
+                    <p>
+                        <b>Business Philosophy</b><br>
+                        To regard customer as the centre and satisfy their needs.
+                    </p>
+
+                    <p>
+                        <b>Objective</b><br>
+                        Sticking to the steady and prudential style of work, being professional and persisting in scale
+                        production, Yuehua spares no effort to establish the Asian large scale production base of
+                        sanitary ware and manufactures products with good quality to satisfy the needs of global buyers
+                        by
+                        innovation, environmental awareness education, response action of low carbon and perfection of
+                        management.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
     <app-footer></app-footer>
 </ion-content>

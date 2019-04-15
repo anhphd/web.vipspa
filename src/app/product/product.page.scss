@@ -1,0 +1,32 @@
+.sub-menu-item{
+    padding: 10px 16px;
+    border-bottom: solid 1px white;
+    &.selected{
+        color: var(--ion-color-success);
+        border-bottom: solid 1px var(--ion-color-success);
+    }
+}
+
+.category-container{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.list-category-product{
+    width:320px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.product-container{
+
+}
+
+.list-product{
+    width:320px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.product-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

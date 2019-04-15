@@ -1,7 +1,133 @@
-
-
 <ion-content>
-    <app-header></app-header>
-    <div class="page-content"></div>
+    <app-slideshow></app-slideshow>
+    <div class="page-content text-center" style="padding: 40px">
+        <div>
+            <div>
+                <ion-text color="success">
+                    <h1>PRODUCT CATEGORIES</h1>
+                </ion-text>
+
+                <hr style="background-color:lightgray">
+            </div>
+
+            <div class="a1-padding-top">
+                <div class="a3-container-center a1-padding">
+                    <div class="sub-menu-item a1-link" *ngFor="let category of categories"
+                        (click)="onSelectCategory(category)" [class.selected]="view==category.id">
+                        {{category.name}}</div>
+                </div>
+            </div>
+            <div *ngIf="view==''" class="animated fadeIn" style="line-height:2em;">
+                <div *ngFor="let category of categories">
+                    <ion-text color="success">
+                        <h6>{{category.name}}</h6>
+                    </ion-text>
+
+                    <div class="a1-padding category-container">
+                        <div *ngFor="let product of category.products" class="list-category-product">
+                            <div [style.backgroundImage]="'url(assets/images/' + product.thumb + ')'"
+                                style="width:320px; height: 240px"></div>
+                            <div padding text-center>{{product.name}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div *ngIf="view=='swimspa'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+
+        </div>
+        <div *ngIf="view=='luxuryspa'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+
+        </div>
+        <div *ngIf="view=='saunaroom'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+        <div *ngIf="view=='massagebathtub'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+        <div *ngIf="view=='steambathroom'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+        <div *ngIf="view=='showercolumn'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+        <div *ngIf="view=='gazebo'" class="animated fadeIn" style="line-height:2em;">
+            <div class="a1-padding product-container">
+                <ion-grid>
+                    <ion-row style="flex-wrap:wrap">
+                        <ion-col size="3" *ngFor="let product of products">
+                            <img [src]="sanitize(product.thumb)" style="height:16vw">
+                            <div padding text-center class="product-name">
+                                {{product.name}}</div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+    </div>
     <app-footer></app-footer>
 </ion-content>
