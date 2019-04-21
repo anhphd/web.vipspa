@@ -1,0 +1,17 @@
+<div padding text-center class="a3-container-center">
+  <div class="item-navigation a3-container-center" (click)="onClickFirst()">
+    <ion-icon src="assets/icon/last.svg" class="item-left"></ion-icon>
+  </div>
+  <div class="item-navigation a3-container-center" (click)="onClickPrevious()">
+    <ion-icon src="assets/icon/next.svg" class="item-left"></ion-icon>
+  </div>
+  <div *ngFor="let item of data.items" class="item-navigation a3-container-center"
+    [class.selected]="data.selectedPageIndex == item.val" (click)="onClickSelectItem(item)">{{item.name}}</div>
+  <div class="item-navigation a3-container-center" (click)="onClickNext()">
+    <ion-icon src="assets/icon/next.svg"></ion-icon>
+  </div>
+  <div class="item-navigation a3-container-center" (click)="onClickLast()">
+    <ion-icon src="assets/icon/last.svg"></ion-icon>
+  </div>
+
+</div>

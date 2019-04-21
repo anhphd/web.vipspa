@@ -1,8 +1,100 @@
-<ion-content>
-  <app-header></app-header>
+<ion-content class="a1-relative">
 
-  <div class="page-content"></div>
 
+  <app-slideshow></app-slideshow>
+  <div class="page-content text-center" style="padding: 40px">
+    <div>
+      <div>
+        <ion-text color="success">
+          <h1>Danh mục sản phẩm</h1>
+        </ion-text>
+
+        <hr style="background-color:lightgray">
+      </div>
+
+      <div class="a1-padding-top">
+        <div class="a3-container-center a1-padding">
+          <div class="sub-menu-item a1-link"
+            *ngFor="let category of (_DataService._Categories | activeItems | sortPriority)"
+            (click)="onClickSelectCategory(category)"
+            [class.selected]="_DataService._CategorySelected && _DataService._CategorySelected.id==category.id">
+            {{category.name}} <span *ngIf="category.totalProducts">({{category.totalProducts}})</span></div>
+        </div>
+      </div>
+    </div>
+
+    <ion-grid style="padding : 20px 80px;">
+      <ion-row class="a1-relative">
+        <ion-col size="6">
+          <div class="a1-width-100 a1-relative" style="min-height:20vw" id="_ID_ImgPreviewContainer">
+            <img [src]="_CurrentImage" id="_ID_ImagePreview">
+            <div id="_ID_Preview_Shadow"></div>
+          </div>
+          <div style="overflow-x: auto; white-space: nowrap; height:48px; margin-top: 16px">
+            <img *ngFor="let img of _Data.images" (click)="onClickSelectImage(img)" [src]="img"
+              style="height:100%; margin-right: 10px" [class.imgSelected]="img==_CurrentImage" class="imgPreview">
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="a1-width-100 a1-padding-left">
+            <div> <span style="color:gray; min-width: 100px">Tên sản phẩm</span> :
+              <strong>{{_Data.product.name}}</strong> </div>
+            <div class="a1-padding-top"> <span style="color:gray; min-width: 100px">Mã sản phẩm</span> :
+              {{_Data.product.code}}</div>
+            <div class="a1-padding-top"> <span style="color:gray; min-width: 100px">Kích thước</span> :
+              {{_Data.product.brand}}</div>
+          </div>
+        </ion-col>
+
+        <div id="_ID_ImgPreviewSideContainer">
+          <div class="a1-container">
+            <img [src]="_CurrentImage" id="_ID_ImagePreviewSide" style="position:absolute">
+          </div>
+        </div>
+      </ion-row>
+      <ion-row>
+        <div class="a1-padding-top">
+          <strong>Chi tiết sản phẩm</strong>
+        </div>
+        <div class="a1-width-100 a1-padding-left">
+          <div *ngFor="let item of _Data.details" class="a1-padding-top" footer>
+            <span style="color:gray; min-width: 100px">{{item.name}}</span> :
+            <span><strong>{{item.value}}</strong></span>
+          </div>
+        </div>
+      </ion-row>
+      <ion-row>
+        <div class="other-product-container">
+          <div><strong>Xem thêm các sản phẩm khác</strong></div>
+          <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
+            <div class="product-container" *ngFor="let product of _SimilarProducts">
+              <img [src]="sanitize(product.thumb)" [routerLink]="['/product/details/'+product.id]"
+                routerDirection="backward" style="height:120px">
+              <div padding text-center class="product-name app-link" [routerLink]="['/product/details/'+product.id]"
+                >
+                {{product.name}}</div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+
+      <ion-row>
+        <div class="other-product-container">
+          <div><strong>Các sản phẩm bạn đã xem</strong></div>
+          <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
+            <div class="product-container" *ngFor="let product of _RecentProducts">
+              <img [src]="sanitize(product.thumb)" [routerLink]="['/product/details/'+product.id]"
+                routerDirection="backward" style="height:120px">
+              <div padding text-center class="product-name app-link" [routerLink]="['/product/details/'+product.id]"
+                routerDirection="backward">
+                {{product.name}}</div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </ion-grid>
+
+
+  </div>
   <app-footer></app-footer>
-
 </ion-content>

@@ -4,13 +4,16 @@ import { IonicModule } from '@ionic/angular';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { PaginationComponent } from './pagination/pagination.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
-  declarations: [HeaderComponent,FooterComponent,SlideshowComponent],
+  declarations: [HeaderComponent,FooterComponent,SlideshowComponent,PaginationComponent],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    PipesModule
   ],
-  exports: [HeaderComponent,FooterComponent,SlideshowComponent]
+  exports: [HeaderComponent,FooterComponent,SlideshowComponent,PaginationComponent]
 })
 export class ComponentsModule { }

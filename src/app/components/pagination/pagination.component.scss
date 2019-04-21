@@ -1,0 +1,25 @@
+.item-navigation{
+    background: white;
+    border-radius: 2px;
+    color: black;
+    width: 36px;
+    height: 36px;
+    transition: all 300ms;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.item-navigation:hover{
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.selected{
+    cursor: default !important;
+    background: var(--ion-color-primary) !important;
+    color: white !important;
+}
+
+.item-left{
+    transform: scaleX(-1);
+}

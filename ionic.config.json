@@ -1,5 +1,7 @@
 {
   "name": "VipSpa",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
