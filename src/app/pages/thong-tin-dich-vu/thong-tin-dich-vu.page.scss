@@ -1,0 +1,18 @@
+
+.router-container{
+    margin-top: 20px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: solid 1px var(--ion-color-primary);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#_ID_Content{
+    padding: 16px;
+    }
+@media only screen and (min-width: 800px) {
+#_ID_Content{
+padding: 20px 40px;
+}
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-dich-vu',
@@ -6,20 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dich-vu.page.scss'],
 })
 export class DichVuPage implements OnInit {
-  _Services: Array<{ name: string; img: string; description: string }> = [
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." },
-    { name: "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp", img: "https://static.thenounproject.com/png/340719-200.png", description: "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..." }
-  ];
-  constructor() { }
+  _Services: Array<{ url: string, name: string; img: string; description: string }> = [];
+  _Loading: boolean = false;
+  constructor(public _DataService: DataService) {
+    this.loadData();
+  }
 
   ngOnInit() {
   }
 
+  loadData() {
+    this._Loading = true;
+    this._DataService.getDataFromJson('assets/data/services.json').then(res => { this.onLoadedData(res); this._Loading = false; }, err => { this._Loading = false; });
+  }
+  onLoadedData(res) {
+    this._Services = res;
+  }
 }

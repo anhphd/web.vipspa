@@ -12,10 +12,18 @@
 
 .content-header{
     color: var(--ion-color-medium);
-    font-weight: bold;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .content-item{
     padding: 10px 0;
+    padding-left: 10px;
+}
+
+.img-social{
+    cursor: pointer;
+    padding: 10px;
+    width: 52px;
+    height: 52px;
 }

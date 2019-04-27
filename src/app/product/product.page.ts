@@ -32,7 +32,10 @@ export class ProductPage implements OnInit {
           return;
         }
       }
+    }else{
+      console.log("no category selected");
     }
+    this._DataService.setMenuSelected('san-pham');
   }
   ngOnInit() {
 

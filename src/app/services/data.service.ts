@@ -16,6 +16,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
+
   _Categories: Array<ICategory> = [];
   _CategorySelected: ICategory = null;
   _MenuItems: Array<IMenuItem> = [];
@@ -28,11 +29,11 @@ export class DataService {
 
   constructor(public _Storage: Storage, public _ProductService: ProductService, public httpClient: HttpClient) {
     this._MenuItems = [
-      { id: 'trang-chu', name: 'Trang chủ', url: '/trang-chu' },
-      { id: 'san-pham', name: 'Sản phẩm', url: '/san-pham' },
-      { id: 'dic-hvu', name: 'Dịch vụ', url: '/dich-vu' },
-      { id: 'tin-tuc', name: 'Tin tức', url: '/tin-tuc' },
-      { id: 'cong-ty', name: 'Hỗ trợ', url: '/cong-ty' }
+      { id: 'trang-chu', name: 'Trang chủ', url: 'trang-chu' },
+      { id: 'san-pham', name: 'Sản phẩm', url: 'san-pham' },
+      { id: 'dich-vu', name: 'Dịch vụ', url: 'dich-vu' },
+      { id: 'tin-tuc', name: 'Tin tức', url: 'tin-tuc' },
+      { id: 'cong-ty', name: 'Hỗ trợ', url: 'cong-ty' }
     ];
 
     this._Categories = [
@@ -58,7 +59,7 @@ export class DataService {
         id: "phong-xong-hoi-uot", name: "Phòng xông hơi ướt", thumb: '', products: []
       },
       {
-        id: "may-va-phu-kien", name: "Máy và phụ kiện", thumb: '', priority: 9, products: []
+        id: "may-va-phu-kien", name: "Máy và thiết bị", thumb: '', priority: 9, products: []
       },
       { id: "vong-canh-spa", name: "Vọng cảnh spa", thumb: '', products: [] },
     ];
@@ -76,7 +77,9 @@ export class DataService {
     });
     this.setSelectedCategory(this._Categories[0]);
   }
-
+  setMenuSelected(id: string) {
+    this._MenuItemSelected = this._MenuItems.find(ele => { return ele.id == id; });
+  }
   getProducts(cateogryID: string, page: number, itemsPerPage?: number): Array<IProduct> {
     let category: ICategory = this._Categories.find(ele => { return ele.id == cateogryID; });
     if (category) {
@@ -109,6 +112,7 @@ export class DataService {
     }
     return null;
   }
+
   setSelectedCategory(category: ICategory) {
     this._CategorySelected = category;
     if (category) {
@@ -121,19 +125,50 @@ export class DataService {
     return this.getProducts(this._CategorySelected.id, this._PaginationSelected ? this._PaginationSelected.selectedPageIndex : 0);
   }
 
-  getProductDetail(productID: string) : Promise<any>{
+  getProductDetail(productID: string): Promise<any> {
     return new Promise((resolve, reject) => {
       this.httpClient.get(`assets/datas/${productID}.json`).subscribe((response) => {
-        if(response){
-          console.log(response);
+        if (response) {
           return resolve(response);
-        }else{
+        } else {
           return reject();
         }
+      }, error => {
+        return reject(error);
       });
     });
-    //    return { "id": "549", "images": ["http://www.chinamesda.com/imageRepository/6a00013f-26b8-49d1-a3ca-b37e7190c14f.jpg", "http://www.chinamesda.com/imageRepository/cc2f17fd-b44f-4ab5-ac2d-6e927069bd7f.jpg", "http://www.chinamesda.com/imageRepository/f787a296-c482-4041-aa48-a4785591c378.jpg", "http://www.chinamesda.com/imageRepository/54d403c1-a342-433c-999e-0ac007bd3f55.jpg", "http://www.chinamesda.com/imageRepository/c5e48318-9d78-4c7b-a6d1-a0d12bdd706e.jpg", "http://www.chinamesda.com/imageRepository/093de31f-ff16-430d-b671-fd438b103a6b.jpg"], "product": { "name": "WS-1818", "code": "WS-1818", "brand": "1500x1100x1900mm top:1700x1300x2100mm" }, "details": [{ "name": "WS-1818", "value": "Configuration" }, { "name": "Type", "value": "Sauna" }, { "name": "Control system", "value": "1pc" }, { "name": "Wooden material", "value": "Hemlock: External, Internal: Aspen" }, { "name": "Lamp", "value": "LED color changing light, Head lamp 1pc" }, { "name": "Music", "value": "Bluetooth,FM,MP3" }, { "name": "Heating device", "value": "Harvia sauna stove Vega 3kW" }, { "name": "Accessories", "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass" }] };
   }
+
+  getHtmlContent(link: string): Promise<any> {
+    return new Promise((resolve, reject) => {
+      this.httpClient.get(`assets/html/${link}.html`, {
+        responseType: 'text'
+      }).subscribe((response) => {
+        if (response) {
+          return resolve(response);
+        } else {
+          return reject();
+        }
+      }, error => {
+        return reject(error);
+      });
+    });
+  }
+
+  getDataFromJson(url: string): Promise<any> {
+    return new Promise((resolve, reject) => {
+      this.httpClient.get(url).subscribe((response) => {
+        if (response) {
+          return resolve(response);
+        } else {
+          return reject();
+        }
+      }, error => {
+        return reject(error);
+      });
+    });
+  }
+
 
 
   getSimilarProducts(productID: string): Array<IProduct> {

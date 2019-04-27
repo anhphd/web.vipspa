@@ -2,8 +2,23 @@
 
 
   <app-slideshow></app-slideshow>
-  <div class="page-content text-center" style="padding: 40px">
-    <div>
+
+  <div class="router-container">
+    <div class="a3-container a3-items-center">
+      <ion-button fill="clear" routerLink="/san-pham">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+      <span>/</span>
+      <ion-button fill="clear" routerLink="/san-pham" style="text-transform: none">Sản phẩm</ion-button>
+      <span *ngIf="_DataService._CategorySelected">/</span>
+      <ion-button fill="clear" style="text-transform: none" *ngIf="_DataService._CategorySelected" [routerLink]='"/san-pham/"+_DataService._CategorySelected.id' >{{_DataService._CategorySelected.name}}</ion-button>
+      <span *ngIf="_Product">/</span>
+      <ion-button fill="clear" style="text-transform: none" *ngIf="_Product"  >{{_Product.name}}</ion-button>
+    </div>
+  </div>
+
+  <div class="page-content text-center">
+    <div class="ion-hide-sm-down">
       <div>
         <ion-text color="success">
           <h1>Danh mục sản phẩm</h1>
@@ -23,21 +38,24 @@
       </div>
     </div>
 
-    <div *ngIf="!_Data">
-
-      <div padding text-center style="margin-top:20vh">
+    <div *ngIf="_Loading">
+      <div padding text-center style="margin-top:10vh">
         <div padding text-center>
           <ion-spinner name="dots"></ion-spinner>
-
         </div>
         <div text-center> Đang tải dữ liệu!</div>
-
       </div>
-
     </div>
-    <ion-grid style="padding : 20px 80px;" *ngIf="_Data">
+
+    <div *ngIf="!_Loading&&!_Data">
+      <div padding text-center style="margin-top:10vh">
+        Chưa có thông tin sản phẩm!
+      </div>
+    </div>
+
+    <ion-grid *ngIf="_Data&&!_Loading">
       <ion-row class="a1-relative">
-        <ion-col size="6">
+        <ion-col size="12" size-md="6">
           <div class="a1-width-100 a1-relative" style="min-height:20vw" id="_ID_ImgPreviewContainer">
             <img [src]="_CurrentImage" id="_ID_ImagePreview">
             <div id="_ID_Preview_Shadow"></div>
@@ -47,7 +65,7 @@
               style="height:100%; margin-right: 10px" [class.imgSelected]="img==_CurrentImage" class="imgPreview">
           </div>
         </ion-col>
-        <ion-col size="6">
+        <ion-col size="12" size-md="6">
           <div class="a1-width-100 a1-padding-left">
             <div> <span style="color:gray; min-width: 100px">Tên sản phẩm</span> :
               <strong>{{_Data.product.name}}</strong> </div>
@@ -55,7 +73,9 @@
               {{_Data.product.code}}</div>
             <div class="a1-padding-top"> <span style="color:gray; min-width: 100px">Kích thước</span> :
               {{_Data.product.brand}}</div>
+            <app-order-product-form></app-order-product-form>
           </div>
+
         </ion-col>
 
         <div id="_ID_ImgPreviewSideContainer">
@@ -69,22 +89,9 @@
           <strong>Chi tiết sản phẩm</strong>
         </div>
         <div class="a1-width-100 a1-padding-left">
-
-            <table style="width:100%">
-                <tr>
-                  <th>Tên</th>
-                  <th>Cấu hình</th>                   
-                </tr>
-                <tr *ngFor="let item of _Data.details">
-                  <td>{{item.name}}</td>
-                  <td><strong>{{item.value}}</strong></td> 
-                </tr>
-              </table>
-              
           <div *ngFor="let item of _Data.details" class="a1-padding-top" footer>
-            <span style="color:gray; min-width: 100px;">{{item.name}}</span> :
+            <span style="color:gray; min-width: 100px;" class="item-name">{{item.name}}</span> :
             <span><strong>{{item.value}}</strong></span>
-
           </div>
         </div>
       </ion-row>

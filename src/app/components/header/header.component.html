@@ -1,14 +1,29 @@
 <div class="app-header">
-  <div class="a3-container a1-fill-parent">
+  <div class="a3-container a1-fill-parent ion-hide-sm-down">
     <div class="a3-container-center a1-height-100 a1-padding app-brand">
       <a href="/" class="a1-clear-link a1-link">{{_DataService._AppData.name}}</a>
     </div>
     <div class="a3-flex-1 a1-height-100">
       <div class="a3-container a1-fill-parent">
-        <a *ngFor="let menu of _DataService._MenuItems | activeItems" [href]="menu.url"
-          class="a3-container-center a1-clear-link header-menu-item">{{menu.name}}</a>
+        <div *ngFor="let menu of _DataService._MenuItems | activeItems" class=" header-menu-item dropdown">
+          <a class="a1-clear-link dropbtn a3-container-center a1-fill-parent" [href]="menu.url"
+            [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</a>
+          <div class="dropdown-content">
+
+          </div>
+        </div>
       </div>
     </div>
     <div class="a3-container a1-height-100" style="width:20vw"> </div>
+  </div>
+  <div class="a3-container a3-items-center a1-fill-parent ion-hide-md-up">
+    <ion-menu-button class="a1-padding-left">
+      <ion-icon name="menu" style="font-size:2em; color: white">
+      </ion-icon>
+    </ion-menu-button>
+
+    <div *ngIf="_DataService._MenuItemSelected"
+      style="font-size:1.4em; color: white; line-height: 1.4em; padding-left: 6px">
+      {{_DataService._MenuItemSelected.name}}</div>
   </div>
 </div>

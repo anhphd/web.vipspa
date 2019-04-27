@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-news',
@@ -7,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsPage implements OnInit {
 
-  constructor() { }
-
+  constructor(public _DataService: DataService) {
+    this._DataService.setMenuSelected('tin-tuc');
+  }
   ngOnInit() {
   }
 

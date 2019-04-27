@@ -33,6 +33,7 @@
     overflow: hidden;
     visibility: hidden;
     border: solid 1px var(--ion-color-primary);
+    z-index: 9999;
 }   
 #_ID_ImgPreviewContainer:hover{
     cursor: pointer;
@@ -63,3 +64,38 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.item-name{
+    width: 160px;
+    display: inline-block;
+}
+
+.page-content{
+    padding: 10px;
+}
+
+.router-container{
+    margin-top: 20px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: solid 1px var(--ion-color-primary);
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 800px) {
+    .page-content{
+        padding: 40px;
+    }
+    ion-grid{
+        padding: 20px 80px;
+    }
+
+
+.router-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
+
+

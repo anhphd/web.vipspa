@@ -14,8 +14,42 @@
     text-align: center;
     height: 100%;    
     flex-grow: 1;
+    opacity: .9;
 }
+
+.menu-active{
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+}
+
+  .dropdown {
+   position: relative;
+  }
+  
+  .dropdown-content {
+    top: 100%;
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+.dropdown-content a:hover {  background: rgba(0,0,0,.4); }
+
 .header-menu-item:hover{
     background: rgba(0,0,0,.4);
     color: var(--ion-color-success);
+    opacity: 1;
+    .dropdown-content {display: block;}
 }

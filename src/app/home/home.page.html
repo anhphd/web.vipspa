@@ -1,7 +1,8 @@
 <ion-content>
   <app-slideshow></app-slideshow>
-  <div class="ion-padding">
-
+  <div class="page-content">
+    <app-loading *ngIf="_Loading"></app-loading>
+    <div *ngIf="!_Loading" padding [innerHtml]="_PageContent"></div>
   </div>
   <app-footer></app-footer>
 </ion-content>

@@ -14,27 +14,43 @@ export class ProductDetailPage implements OnInit {
   view: string = '';
 
   _Data = null;
-
+  _Loading: boolean = false;
   _CurrentImage: string = '';
 
   _SimilarProducts: Array<IProduct> = [];
   _RecentProducts: Array<IProduct> = [];
+  _ProductID: string = '548';
+  _Product : IProduct = null;
   constructor(public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _DataService: DataService, public router: Router) {
-    let productID = '548';
-    if (activeRoute.snapshot.paramMap.has('productID')) {
-      productID = activeRoute.snapshot.paramMap.get('productID');
-    }
-    this._DataService.getProductDetail(productID).then(res => {
 
-      this.onResponseProductDetail(res);
-    }, error => {
-      this._Data = null;
-    });
-    
-    this._SimilarProducts = this._DataService.getSimilarProducts(productID);
-    this._DataService.addProductToRecent(this._DataService.getProductByID(productID));
+    if (activeRoute.snapshot.paramMap.has('productID')) {
+      this._ProductID = activeRoute.snapshot.paramMap.get('productID');
+    }
+
+    this.requestProductDetail();
+
+
+    this._SimilarProducts = this._DataService.getSimilarProducts(this._ProductID);
+    this._DataService.addProductToRecent(this._DataService.getProductByID(this._ProductID));
     this._DataService.getRecentProducts().then(products => {
       this._RecentProducts = products;
+    });
+
+    this._DataService.setMenuSelected('san-pham');
+    this._Product = this._DataService.getProductByID(this._ProductID);
+
+  }
+  requestProductDetail() {
+    this._Loading = true;
+    this._DataService.getProductDetail(this._ProductID).then(res => {
+      this.onResponseProductDetail(res);
+      this._Loading = false;
+    }, error => {
+      this._Data = null;
+      this._Loading = false;
+    }).catch(er => {
+      this._Data = null;
+      this._Loading = false;
     });
   }
   onResponseProductDetail(res) {

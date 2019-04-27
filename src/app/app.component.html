@@ -1,3 +1,17 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu side="start" menuId="first" type="overlay">
+    <ion-content class="menu-content">
+      <div padding text-center>
+        <div style="padding:40px 0" text-center>
+          Steamtec
+        </div>
+      </div>
+      <ion-list>
+        <ion-item class="menu-item" *ngFor="let menu of _DataService._MenuItems | activeItems" [href]="menu.url"
+          [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet main></ion-router-outlet>
 </ion-app>
