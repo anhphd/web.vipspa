@@ -13,29 +13,40 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class ProductDetailPage implements OnInit {
   view: string = '';
 
-  _Data = {};
+  _Data = null;
 
   _CurrentImage: string = '';
 
   _SimilarProducts: Array<IProduct> = [];
   _RecentProducts: Array<IProduct> = [];
   constructor(public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _DataService: DataService, public router: Router) {
-    let productID = '549';
+    let productID = '548';
     if (activeRoute.snapshot.paramMap.has('productID')) {
       productID = activeRoute.snapshot.paramMap.get('productID');
     }
-    this._Data = this._DataService.getProductDetail(productID);
-    this._CurrentImage = this._Data['images'][0];
+    this._DataService.getProductDetail(productID).then(res => {
+
+      this.onResponseProductDetail(res);
+    }, error => {
+      this._Data = null;
+    });
+    
     this._SimilarProducts = this._DataService.getSimilarProducts(productID);
     this._DataService.addProductToRecent(this._DataService.getProductByID(productID));
     this._DataService.getRecentProducts().then(products => {
       this._RecentProducts = products;
     });
   }
-  onClickSelectImage(image: string) {
-    this._CurrentImage = image;
+  onResponseProductDetail(res) {
+    this._Data = res;
+    setTimeout(() => {
+      this._initEventHandlers();
+    }, 1000);
+
   }
-  ngOnInit() {
+  _initEventHandlers() {
+    if (!this._Data) return;
+    this._CurrentImage = this._Data['images'][0];
     let imagePreviewSide = document.getElementById('_ID_ImagePreviewSide');
     let imagePreviewContainer = document.getElementById('_ID_ImgPreviewContainer');
     let previewShadow = document.getElementById('_ID_Preview_Shadow');
@@ -99,10 +110,16 @@ export class ProductDetailPage implements OnInit {
     }
 
   }
+  onClickSelectImage(image: string) {
+    this._CurrentImage = image;
+  }
+  ngOnInit() {
+
+  }
 
   onClickSelectCategory(category: ICategory) {
     this._DataService.setSelectedCategory(category);
-    this.router.navigateByUrl('/product/'+ category.id);
+    this.router.navigateByUrl('/san-pham/' + category.id);
   }
 
   sanitize(url: string) {

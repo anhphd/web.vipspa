@@ -23,14 +23,26 @@
       </div>
     </div>
 
-    <ion-grid style="padding : 20px 80px;">
+    <div *ngIf="!_Data">
+
+      <div padding text-center style="margin-top:20vh">
+        <div padding text-center>
+          <ion-spinner name="dots"></ion-spinner>
+
+        </div>
+        <div text-center> Đang tải dữ liệu!</div>
+
+      </div>
+
+    </div>
+    <ion-grid style="padding : 20px 80px;" *ngIf="_Data">
       <ion-row class="a1-relative">
         <ion-col size="6">
           <div class="a1-width-100 a1-relative" style="min-height:20vw" id="_ID_ImgPreviewContainer">
             <img [src]="_CurrentImage" id="_ID_ImagePreview">
             <div id="_ID_Preview_Shadow"></div>
           </div>
-          <div style="overflow-x: auto; white-space: nowrap; height:48px; margin-top: 16px">
+          <div style="overflow-x: auto; white-space: nowrap; height:60px; padding: 5px 0; margin-top: 16px">
             <img *ngFor="let img of _Data.images" (click)="onClickSelectImage(img)" [src]="img"
               style="height:100%; margin-right: 10px" [class.imgSelected]="img==_CurrentImage" class="imgPreview">
           </div>
@@ -57,9 +69,22 @@
           <strong>Chi tiết sản phẩm</strong>
         </div>
         <div class="a1-width-100 a1-padding-left">
+
+            <table style="width:100%">
+                <tr>
+                  <th>Tên</th>
+                  <th>Cấu hình</th>                   
+                </tr>
+                <tr *ngFor="let item of _Data.details">
+                  <td>{{item.name}}</td>
+                  <td><strong>{{item.value}}</strong></td> 
+                </tr>
+              </table>
+              
           <div *ngFor="let item of _Data.details" class="a1-padding-top" footer>
-            <span style="color:gray; min-width: 100px">{{item.name}}</span> :
+            <span style="color:gray; min-width: 100px;">{{item.name}}</span> :
             <span><strong>{{item.value}}</strong></span>
+
           </div>
         </div>
       </ion-row>
@@ -68,10 +93,9 @@
           <div><strong>Xem thêm các sản phẩm khác</strong></div>
           <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
             <div class="product-container" *ngFor="let product of _SimilarProducts">
-              <img [src]="sanitize(product.thumb)" [routerLink]="['/product/details/'+product.id]"
+              <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
                 routerDirection="backward" style="height:120px">
-              <div padding text-center class="product-name app-link" [routerLink]="['/product/details/'+product.id]"
-                >
+              <div padding text-center class="product-name app-link" [routerLink]="['/san-pham/chi-tiet/'+product.id]">
                 {{product.name}}</div>
             </div>
           </div>
@@ -83,9 +107,9 @@
           <div><strong>Các sản phẩm bạn đã xem</strong></div>
           <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
             <div class="product-container" *ngFor="let product of _RecentProducts">
-              <img [src]="sanitize(product.thumb)" [routerLink]="['/product/details/'+product.id]"
+              <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
                 routerDirection="backward" style="height:120px">
-              <div padding text-center class="product-name app-link" [routerLink]="['/product/details/'+product.id]"
+              <div padding text-center class="product-name app-link" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
                 routerDirection="backward">
                 {{product.name}}</div>
             </div>

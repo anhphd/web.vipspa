@@ -11,7 +11,7 @@
             </div>
 
             <div class="a1-padding-top" id="_ID_Categories_Container">
-                <div class="a3-container-center a1-padding">
+                <div class="a3-container-center a1-padding category-container">
                     <div class="sub-menu-item a1-link"
                         *ngFor="let category of (_DataService._Categories | activeItems | sortPriority)"
                         (click)="onClickSelectCategory(category)"
@@ -28,11 +28,11 @@
                     <ion-row style="flex-wrap:wrap">
                         <ion-col size="3" *ngFor="let product of products" class="product">
                             <div class="product-image">
-                                <img [src]="sanitize(product.thumb)" [routerLink]="['/product/details/'+product.id]"
+                                <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
                                     >
                             </div>
                             <div padding text-center class="product-name app-link"
-                                [routerLink]="['/product/details/'+product.id]">
+                                [routerLink]="['/san-pham/chi-tiet/'+product.id]">
                                 {{product.name}}</div>
                         </ion-col>
                     </ion-row>

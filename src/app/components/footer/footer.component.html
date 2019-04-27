@@ -4,28 +4,19 @@
       <div class="a3-container a1-padding">
         
         <div style="font-weight:bold; font-size: 2em;min-width: 20vw; text-align: center" >
-        <a href="/" class="a1-clear-link a1-link">Steamtec</a>
+        <a href="/" class="a1-clear-link a1-link">{{_DataService._AppData.name}}</a>
         </div>
       </div>
       <div class="a3-flex-1 a1-padding">
         <div class="a3-container a1-fill-parent">
           <div class="list-content a3-flex-1">
-            <div class="content-header">About</div>
-            <div class="content-item a1-link">Company</div>
-            <div class="content-item a1-link">Certification</div>
-            <div class="content-item a1-link">Video</div>
-            <div class="content-item a1-link">Download</div>
-            <div class="content-item a1-link">Contacts</div>
+            <div class="content-header">Danh mục</div>
+            <div class="content-item a1-link" *ngFor="let menu of _DataService._MenuItems | activeItems" (click)="onClickMenu(menu)">{{menu.name}}</div>
           </div>
 
           <div class="list-content  a3-flex-1">
-            <div class="content-header">Product</div>
-            <div class="content-item a1-link">Swim Spa</div>
-            <div class="content-item a1-link">Outdoor Spa</div>
-            <div class="content-item a1-link">Sauna Spa</div>
-            <div class="content-item a1-link">Massage Bathtub</div>
-            <div class="content-item a1-link">Steam Bathroom</div>
-            <div class="content-item a1-link">Shower Column</div>
+            <div class="content-header">Sản phẩm</div>
+            <div class="content-item a1-link" *ngFor="let category of _DataService._Categories"  (click)="onClickCategory(category)">{{category.name}}</div>
           </div>
 
           <div class="list-content  a3-flex-1">
@@ -46,7 +37,7 @@
   </div>
   <div class="app-copyright a1-padding">
     <div class="a3-container a3-items-center a3-justify-between a1-padding-right">
-      <div>@ Copyright, 2019 Steamtec Hà Đông Hà Nội</div>
+      <div>{{_DataService._AppData.copyright}}</div>
       <div class="a3-container-center">
         <div class="a1-padding-right a1-link">Việt Nam (English)</div><img src="assets/icon/vn.svg" style="width:2em">
       </div>

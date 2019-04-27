@@ -9,6 +9,7 @@ import { IPaginationData } from 'src/classes/interface/IPaginationData';
 
 
 import { Storage } from '@ionic/storage';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -21,42 +22,45 @@ export class DataService {
   _MenuItemSelected: IMenuItem;
   _DefaultProductPerPage: number = 12;
   _PaginationSelected: IPaginationData;
-
-
   private _PaginationMap: Map<string, IPaginationData> = new Map<string, IPaginationData>();
   private _RecentProducts: Array<IProduct> = [];
 
-  constructor(public _Storage: Storage, public _ProductService: ProductService) {
+
+  constructor(public _Storage: Storage, public _ProductService: ProductService, public httpClient: HttpClient) {
     this._MenuItems = [
-      { id: 'home', name: 'Trang chủ', url: '/home' },
-      { id: 'product', name: 'Sản phẩm', url: '/product' },
-      { id: 'news', name: 'Tin tức', url: '/news' },
-      { id: 'company', name: 'Hỗ trợ', url: '/company' }
+      { id: 'trang-chu', name: 'Trang chủ', url: '/trang-chu' },
+      { id: 'san-pham', name: 'Sản phẩm', url: '/san-pham' },
+      { id: 'dic-hvu', name: 'Dịch vụ', url: '/dich-vu' },
+      { id: 'tin-tuc', name: 'Tin tức', url: '/tin-tuc' },
+      { id: 'cong-ty', name: 'Hỗ trợ', url: '/cong-ty' }
     ];
 
     this._Categories = [
       {
-        id: "swimspa", name: "Bể bơi ngoài trời", thumb: '', products: []
+        id: "be-boi-massage", name: "Bể bơi massage", thumb: '', products: []
       },
       {
-        id: "mayxonghoi", name: "Máy xông hơi", thumb: '', priority: 9, products: []
+        id: "may-xong-hoi", name: "Máy xông hơi", thumb: '', priority: 9, products: []
       },
       {
-        id: "luxuryspa", name: "Luxury Spa", thumb: '', products: []
+        id: "be-tam-massage", name: "Bể tắm massage", thumb: '', products: []
       },
       {
-        id: "saunaroom", name: "Phòng xông hơi", thumb: '', priority: 10, products: []
+        id: "phong-xong-hoi-kho", name: "Phòng xông hơi khô", thumb: '', priority: 10, products: []
       },
       {
-        id: "massagebathtub", name: "Bể xục", thumb: '', priority: 8, products: []
+        id: "phong-xong-hoi-hon-hop", name: "Phòng xông hơi hỗn hợp", thumb: '', priority: 10, products: []
       },
       {
-        id: "steambathroom", name: "Steam Bathroom", thumb: '', products: []
+        id: "bon-tam-massage", name: "Bồn tắm massage", thumb: '', priority: 8, products: []
       },
       {
-        id: "showercolumn", name: "Phụ kiện", thumb: '', priority: 9, products: []
+        id: "phong-xong-hoi-uot", name: "Phòng xông hơi ướt", thumb: '', products: []
       },
-      { id: "gazebo", name: "Gazebo", thumb: '', products: [] },
+      {
+        id: "may-va-phu-kien", name: "Máy và phụ kiện", thumb: '', priority: 9, products: []
+      },
+      { id: "vong-canh-spa", name: "Vọng cảnh spa", thumb: '', products: [] },
     ];
 
 
@@ -117,8 +121,18 @@ export class DataService {
     return this.getProducts(this._CategorySelected.id, this._PaginationSelected ? this._PaginationSelected.selectedPageIndex : 0);
   }
 
-  getProductDetail(productID: string) {
-    return { "id": "549", "images": ["http://www.chinamesda.com/imageRepository/6a00013f-26b8-49d1-a3ca-b37e7190c14f.jpg", "http://www.chinamesda.com/imageRepository/cc2f17fd-b44f-4ab5-ac2d-6e927069bd7f.jpg", "http://www.chinamesda.com/imageRepository/f787a296-c482-4041-aa48-a4785591c378.jpg", "http://www.chinamesda.com/imageRepository/54d403c1-a342-433c-999e-0ac007bd3f55.jpg", "http://www.chinamesda.com/imageRepository/c5e48318-9d78-4c7b-a6d1-a0d12bdd706e.jpg", "http://www.chinamesda.com/imageRepository/093de31f-ff16-430d-b671-fd438b103a6b.jpg"], "product": { "name": "WS-1818", "code": "WS-1818", "brand": "1500x1100x1900mm top:1700x1300x2100mm" }, "details": [{ "name": "WS-1818", "value": "Configuration" }, { "name": "Type", "value": "Sauna" }, { "name": "Control system", "value": "1pc" }, { "name": "Wooden material", "value": "Hemlock: External, Internal: Aspen" }, { "name": "Lamp", "value": "LED color changing light, Head lamp 1pc" }, { "name": "Music", "value": "Bluetooth,FM,MP3" }, { "name": "Heating device", "value": "Harvia sauna stove Vega 3kW" }, { "name": "Accessories", "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass" }] };
+  getProductDetail(productID: string) : Promise<any>{
+    return new Promise((resolve, reject) => {
+      this.httpClient.get(`assets/datas/${productID}.json`).subscribe((response) => {
+        if(response){
+          console.log(response);
+          return resolve(response);
+        }else{
+          return reject();
+        }
+      });
+    });
+    //    return { "id": "549", "images": ["http://www.chinamesda.com/imageRepository/6a00013f-26b8-49d1-a3ca-b37e7190c14f.jpg", "http://www.chinamesda.com/imageRepository/cc2f17fd-b44f-4ab5-ac2d-6e927069bd7f.jpg", "http://www.chinamesda.com/imageRepository/f787a296-c482-4041-aa48-a4785591c378.jpg", "http://www.chinamesda.com/imageRepository/54d403c1-a342-433c-999e-0ac007bd3f55.jpg", "http://www.chinamesda.com/imageRepository/c5e48318-9d78-4c7b-a6d1-a0d12bdd706e.jpg", "http://www.chinamesda.com/imageRepository/093de31f-ff16-430d-b671-fd438b103a6b.jpg"], "product": { "name": "WS-1818", "code": "WS-1818", "brand": "1500x1100x1900mm top:1700x1300x2100mm" }, "details": [{ "name": "WS-1818", "value": "Configuration" }, { "name": "Type", "value": "Sauna" }, { "name": "Control system", "value": "1pc" }, { "name": "Wooden material", "value": "Hemlock: External, Internal: Aspen" }, { "name": "Lamp", "value": "LED color changing light, Head lamp 1pc" }, { "name": "Music", "value": "Bluetooth,FM,MP3" }, { "name": "Heating device", "value": "Harvia sauna stove Vega 3kW" }, { "name": "Accessories", "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass" }] };
   }
 
 
@@ -190,4 +204,11 @@ export class DataService {
     }
     return null;
   }
+
+
+  public _AppData = {
+    name: "Steamtec",
+    version: "1.0.0",
+    copyright: "@ Copyright, 2019 Steamtec Hà Đông Hà Nội"
+  };
 }

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project.page.scss'],
 })
 export class ProjectPage implements OnInit {
-
+ 
   constructor() { }
 
   ngOnInit() {
