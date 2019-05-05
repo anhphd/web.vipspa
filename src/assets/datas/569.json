@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/db19adce-fa65-4918-a262-c795a2aa137a.jpg"],"id":"569","product":{"name":"WS-90FZ, WS-100FZ","code":"WS-90FZ WS-100FZ","brand":"900x1050x1900mm  1000x1050x1900mm"},"details":[{"name":"WS-90FZ WS-100FZ","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Finland pine"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/db19adce-fa65-4918-a262-c795a2aa137a.jpg"
+    ],
+    "id": "569",
+    "product": {
+        "name": "WS-90FZ, WS-100FZ",
+        "code": "WS-90FZ WS-100FZ",
+        "brand": "900x1050x1900mm  1000x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-90FZ WS-100FZ",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Finland pine"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

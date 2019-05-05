@@ -1,1 +1,30 @@
-{"images":["http://www.chinamesda.com/imageRepository/6a428cb7-0da7-4361-8944-57215af365af.jpg","http://www.chinamesda.com/imageRepository/12bb3298-8dc7-40db-895e-ae284175735d.jpg"],"id":"195","product":{"name":"WS-214STW-P7","code":"WS-214STW-P7","brand":"3745x1795x2205mm"},"details":[{"name":"Material","value":"Merbau wooden frame & floor, tempered glass, Imported acrylic"},{"name":"Computer system","value":"K821B computer system"},{"name":"Function","value":"Touch screen wireless control panel, FM radio & CD connection, Temperature/Time setting, Top color changing light, 12KW steam generator, Child-lock function, Handle shower tap with constant temperature function"},{"name":"Others","value":"1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 10.8KW steam generator."}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/6a428cb7-0da7-4361-8944-57215af365af.jpg",
+        "http://www.chinamesda.com/imageRepository/12bb3298-8dc7-40db-895e-ae284175735d.jpg"
+    ],
+    "id": "195",
+    "product": {
+        "name": "WS-214STW-P7",
+        "code": "WS-214STW-P7",
+        "brand": "3745x1795x2205mm"
+    },
+    "details": [
+        {
+            "name": "Material",
+            "value": "Merbau wooden frame & floor, tempered glass, Imported acrylic"
+        },
+        {
+            "name": "Computer system",
+            "value": "K821B computer system"
+        },
+        {
+            "name": "Function",
+            "value": "Touch screen wireless control panel, FM radio & CD connection, Temperature/Time setting, Top color changing light, 12KW steam generator, Child-lock function, Handle shower tap with constant temperature function"
+        },
+        {
+            "name": "Others",
+            "value": "1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 10.8KW steam generator."
+        }
+    ]
+}

@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/ebdf2591-dd22-487e-a64a-aa060f542654.jpg","http://www.chinamesda.com/imageRepository/42bef650-5d56-44ec-9c42-b07489f4838b.jpg"],"id":"238","product":{"name":"WS-609A","code":"WS-609A","brand":"1300x1300x2200mm"},"details":[{"name":"Function","value":"1. GD6001Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp 。\n2. Water massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan 。\n3. Voltage :210~240V, Total power: 3.75 KW"},{"name":"Packing & Weight","value":"carton with wooden cases packing\nG.W: 237 KG N.W.: 168 KG Package size: 2.09 CM"},{"name":"Transportation","value":"20GP: 10 pcs 40HQ: 29 pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ebdf2591-dd22-487e-a64a-aa060f542654.jpg",
+        "http://www.chinamesda.com/imageRepository/42bef650-5d56-44ec-9c42-b07489f4838b.jpg"
+    ],
+    "id": "238",
+    "product": {
+        "name": "WS-609A",
+        "code": "WS-609A",
+        "brand": "1300x1300x2200mm"
+    },
+    "details": [
+        {
+            "name": "Function",
+            "value": "1. GD6001Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp 。\n2. Water massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan 。\n3. Voltage :210~240V, Total power: 3.75 KW"
+        },
+        {
+            "name": "Packing & Weight",
+            "value": "carton with wooden cases packing\nG.W: 237 KG N.W.: 168 KG Package size: 2.09 CM"
+        },
+        {
+            "name": "Transportation",
+            "value": "20GP: 10 pcs 40HQ: 29 pcs"
+        }
+    ]
+}

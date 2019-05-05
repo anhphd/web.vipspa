@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/df29c8f8-c55a-4452-9dff-73123b4b77df.jpg"],"id":"318","product":{"name":"WS-180105SN, WS-200135SN","code":"WS-180105SN, WS-200135SN","brand":"1800x1050x1900mm  2000x1350x1900mm"},"details":[{"name":"WS-180105SN\n\nWS-200135SN","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":" Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/df29c8f8-c55a-4452-9dff-73123b4b77df.jpg"
+    ],
+    "id": "318",
+    "product": {
+        "name": "WS-180105SN, WS-200135SN",
+        "code": "WS-180105SN, WS-200135SN",
+        "brand": "1800x1050x1900mm  2000x1350x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-180105SN\n\nWS-200135SN",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": " Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

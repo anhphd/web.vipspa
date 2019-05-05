@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/abaf9c08-4fb3-489a-90cc-371a55e747e0.jpg"],"id":"436","product":{"name":"Grey color PS panel","code":"Grey color PS panel","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/abaf9c08-4fb3-489a-90cc-371a55e747e0.jpg"
+    ],
+    "id": "436",
+    "product": {
+        "name": "Grey color PS panel",
+        "code": "Grey color PS panel",
+        "brand": ""
+    },
+    "details": []
+}

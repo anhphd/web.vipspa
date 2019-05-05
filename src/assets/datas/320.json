@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/18270b8c-dce8-4fa5-8f3f-059dc9c10b67.jpg"],"id":"320","product":{"name":"WS-21SN","code":"WS-21SN","brand":"1635x1230x2040mm"},"details":[{"name":"WS-21SN","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White pine"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/18270b8c-dce8-4fa5-8f3f-059dc9c10b67.jpg"
+    ],
+    "id": "320",
+    "product": {
+        "name": "WS-21SN",
+        "code": "WS-21SN",
+        "brand": "1635x1230x2040mm"
+    },
+    "details": [
+        {
+            "name": "WS-21SN",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White pine"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

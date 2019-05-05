@@ -1,1 +1,49 @@
-{"images":["http://www.chinamesda.com/imageRepository/d3e92de2-b1fd-4603-8b97-11f9a0c34aa0.jpg"],"id":"296","product":{"name":"WS-1102","code":"1102","brand":"2200x2000x2100mm  2000x1700x2100mm  1800x1500x2100mm"},"details":[{"name":"WS-1102","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White poplar wood"},{"name":"Decoration","value":"Rome stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/d3e92de2-b1fd-4603-8b97-11f9a0c34aa0.jpg"
+    ],
+    "id": "296",
+    "product": {
+        "name": "WS-1102",
+        "code": "1102",
+        "brand": "2200x2000x2100mm  2000x1700x2100mm  1800x1500x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1102",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White poplar wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "Rome stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

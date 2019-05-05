@@ -1,1 +1,41 @@
-{"images":["http://www.chinamesda.com/imageRepository/d06b8755-b2ba-45e6-a97e-52ace7d70582.jpg"],"id":"337","product":{"name":"WS-120HX, WS-135HX,","code":"WS-120HX, WS-135HX,","brand":"1200x1200x1900mm  1350x1350x1900mm"},"details":[{"name":"WS-120HX WS-135HX","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"With Finland pine inside and, beech wood board external"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating element","value":"Ceramics Heating element 5pcs 1.75kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/d06b8755-b2ba-45e6-a97e-52ace7d70582.jpg"
+    ],
+    "id": "337",
+    "product": {
+        "name": "WS-120HX, WS-135HX,",
+        "code": "WS-120HX, WS-135HX,",
+        "brand": "1200x1200x1900mm  1350x1350x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-120HX WS-135HX",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "With Finland pine inside and, beech wood board external"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating element",
+            "value": "Ceramics Heating element 5pcs 1.75kW"
+        }
+    ]
+}

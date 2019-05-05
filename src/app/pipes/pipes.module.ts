@@ -8,6 +8,6 @@ import { PreviewsPipe } from './previews.pipe';
 @NgModule({
     declarations: [ActiveItemsPipe, SortPriorityPipe, SortPipe, PreviewsPipe],
     imports: [IonicModule],
-    exports: [ActiveItemsPipe, SortPriorityPipe,SortPipe]
+    exports: [ActiveItemsPipe, SortPriorityPipe,SortPipe,PreviewsPipe]
 })
 export class PipesModule { }

@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/2f298575-8a6b-4517-92e6-ad8cbbc9bfd6.jpg"],"id":"411","product":{"name":"Melamine-plate-A","code":"Melamine-plate-A","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/2f298575-8a6b-4517-92e6-ad8cbbc9bfd6.jpg"
+    ],
+    "id": "411",
+    "product": {
+        "name": "Melamine-plate-A",
+        "code": "Melamine-plate-A",
+        "brand": ""
+    },
+    "details": []
+}

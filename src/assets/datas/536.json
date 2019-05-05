@@ -1,1 +1,49 @@
-{"images":["http://www.chinamesda.com/imageRepository/7227b268-a6e9-4330-9795-b04693c7e409.jpg"],"id":"536","product":{"name":"WS-1222","code":"WS-1222","brand":"2200x1700x2100mm  2000x1700x2100mm  1800x1500x2100mm"},"details":[{"name":"WS-1222","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 6kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/7227b268-a6e9-4330-9795-b04693c7e409.jpg"
+    ],
+    "id": "536",
+    "product": {
+        "name": "WS-1222",
+        "code": "WS-1222",
+        "brand": "2200x1700x2100mm  2000x1700x2100mm  1800x1500x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1222",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 6kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

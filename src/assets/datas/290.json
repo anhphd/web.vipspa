@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/780995d9-2a4f-494e-9597-3b21849c7eff.jpg","http://www.chinamesda.com/imageRepository/3c516aa4-2437-4ab3-9600-b0de9ff160cc.jpg"],"id":"290","product":{"name":"WS-1251","code":"WS-1251","brand":"2200x1800x2100mm  2000x1800x2100mm"},"details":[{"name":"WS-1251","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Amboyna wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, LED color changing light,  Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 6kW"},{"name":"Accessories","value":"Thermo-hygrometer,Sandglass,Automatic sprinkler"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/780995d9-2a4f-494e-9597-3b21849c7eff.jpg",
+        "http://www.chinamesda.com/imageRepository/3c516aa4-2437-4ab3-9600-b0de9ff160cc.jpg"
+    ],
+    "id": "290",
+    "product": {
+        "name": "WS-1251",
+        "code": "WS-1251",
+        "brand": "2200x1800x2100mm  2000x1800x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1251",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Amboyna wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, LED color changing light,  Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 6kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Thermo-hygrometer,Sandglass,Automatic sprinkler"
+        }
+    ]
+}

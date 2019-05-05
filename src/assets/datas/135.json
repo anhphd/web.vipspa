@@ -1,1 +1,122 @@
-{"images":["http://www.chinamesda.com/imageRepository/39a9f87f-6864-48cc-bcbc-c52932f427d5.jpg","http://www.chinamesda.com/imageRepository/06f8f0ce-aa4e-41ac-8d88-8f424b0e6c33.jpg"],"id":"135","product":{"name":"WS-296TV","code":"WS-296TV","brand":"1960x1960x860mm"},"details":[{"name":"Spa color","value":"Standard: White\nOptional Material :\nImports: White/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture:\nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."},{"name":"Wooden panel","value":"Standard:red Option:Natural wood/black/ Wood kind:white pine/ash"},{"name":"Leather panel","value":"Standard: Light yellow Option:Light grey"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"1.5KWx2pcs 0.75KWx1pc"},{"name":"Heater","value":"3KWx1pc"},{"name":"Air blower","value":"0.4KWx1pc"},{"name":"Colourful light","value":"1pc"},{"name":"Little LED","value":"26pcs"},{"name":"Filter","value":"1pc"},{"name":"Diverter","value":"2pcs"},{"name":"Jet","value":"3”LED rotating Jet:4pcs\n2”rotating Jet:14pcs\nSmall Jet:39pcs|\nAir bubble Jet:12pcs"},{"name":"Pillow","value":"2pcs"},{"name":"Seating capacity","value":"5person"},{"name":"Cubage(m3 )","value":"1.5m3"},{"name":"Water fall","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"FM/CD","value":"1pc"},{"name":"Total power","value":"7.15KW"},{"name":"Extra","value":"Pop-up TV 15”(Extra)/DVD(Extra)"},{"name":"Package size","value":"Cubage"},{"name":"N.W.","value":"G.W"},{"name":"Package quantity","value":"40HQ"},{"name":"20GP","value":"210x91x224CM"},{"name":"4.29CBM","value":"306KGS"},{"name":"365 KGS","value":"1pc"},{"name":"13pcs","value":"6pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/39a9f87f-6864-48cc-bcbc-c52932f427d5.jpg",
+        "http://www.chinamesda.com/imageRepository/06f8f0ce-aa4e-41ac-8d88-8f424b0e6c33.jpg"
+    ],
+    "id": "135",
+    "product": {
+        "name": "WS-296TV",
+        "code": "WS-296TV",
+        "brand": "1960x1960x860mm"
+    },
+    "details": [
+        {
+            "name": "Spa color",
+            "value": "Standard: White\nOptional Material :\nImports: White/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture:\nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."
+        },
+        {
+            "name": "Wooden panel",
+            "value": "Standard:red Option:Natural wood/black/ Wood kind:white pine/ash"
+        },
+        {
+            "name": "Leather panel",
+            "value": "Standard: Light yellow Option:Light grey"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "1.5KWx2pcs 0.75KWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3KWx1pc"
+        },
+        {
+            "name": "Air blower",
+            "value": "0.4KWx1pc"
+        },
+        {
+            "name": "Colourful light",
+            "value": "1pc"
+        },
+        {
+            "name": "Little LED",
+            "value": "26pcs"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Diverter",
+            "value": "2pcs"
+        },
+        {
+            "name": "Jet",
+            "value": "3”LED rotating Jet:4pcs\n2”rotating Jet:14pcs\nSmall Jet:39pcs|\nAir bubble Jet:12pcs"
+        },
+        {
+            "name": "Pillow",
+            "value": "2pcs"
+        },
+        {
+            "name": "Seating capacity",
+            "value": "5person"
+        },
+        {
+            "name": "Cubage(m3 )",
+            "value": "1.5m3"
+        },
+        {
+            "name": "Water fall",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "FM/CD",
+            "value": "1pc"
+        },
+        {
+            "name": "Total power",
+            "value": "7.15KW"
+        },
+        {
+            "name": "Extra",
+            "value": "Pop-up TV 15”(Extra)/DVD(Extra)"
+        },
+        {
+            "name": "Package size",
+            "value": "Cubage"
+        },
+        {
+            "name": "N.W.",
+            "value": "G.W"
+        },
+        {
+            "name": "Package quantity",
+            "value": "40HQ"
+        },
+        {
+            "name": "20GP",
+            "value": "210x91x224CM"
+        },
+        {
+            "name": "4.29CBM",
+            "value": "306KGS"
+        },
+        {
+            "name": "365 KGS",
+            "value": "1pc"
+        },
+        {
+            "name": "13pcs",
+            "value": "6pcs"
+        }
+    ]
+}

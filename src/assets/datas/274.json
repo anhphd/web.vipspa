@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/a608c70d-85b5-497e-b211-1511762d2023.jpg","http://www.chinamesda.com/imageRepository/2213dfdc-2832-49dc-a834-7b7fdeb1b511.jpg"],"id":"274","product":{"name":"WS-1409","code":"WS-1409","brand":"1700x1050x1900mm  1500x1050x1900mm"},"details":[{"name":"WS-1409","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White poplar wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/a608c70d-85b5-497e-b211-1511762d2023.jpg",
+        "http://www.chinamesda.com/imageRepository/2213dfdc-2832-49dc-a834-7b7fdeb1b511.jpg"
+    ],
+    "id": "274",
+    "product": {
+        "name": "WS-1409",
+        "code": "WS-1409",
+        "brand": "1700x1050x1900mm  1500x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1409",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White poplar wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

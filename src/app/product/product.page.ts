@@ -21,20 +21,20 @@ export class ProductPage implements OnInit {
 
   constructor(private activeRoute: ActivatedRoute, private sanitizer: DomSanitizer, public route: Router, public _DataService: DataService) {
 
-    if (this.activeRoute.snapshot.paramMap.has('categoryID')) {
-      let categoryID = this.activeRoute.snapshot.paramMap.get('categoryID');
-      if (categoryID) {
-        let category = this._DataService._Categories.find(ele => {
-          return ele.id == categoryID;
-        });
-        if (category) {
-          this._DataService.setSelectedCategory(category);
-          return;
-        }
+    this._DataService.LoadData().then(() => {
+      let categoryID: string = "phong-xong-hoi-kho";
+      if (this.activeRoute.snapshot.paramMap.has('categoryID')) {
+        categoryID = this.activeRoute.snapshot.paramMap.get('categoryID');
       }
-    }else{
-      console.log("no category selected");
-    }
+
+      let category = this._DataService._Categories.find(ele => {
+        return ele.id == categoryID;
+      });
+      if (category) {
+        this._DataService.setSelectedCategory(category);
+        return;
+      }
+    }, err => { });
     this._DataService.setMenuSelected('san-pham');
   }
   ngOnInit() {
@@ -52,9 +52,9 @@ export class ProductPage implements OnInit {
 
     var content = document.getElementById('_ID_Categories_Container');
     if (content) {
-      content.scrollIntoView({  
-        block : 'start',
-        behavior : "smooth"
+      content.scrollIntoView({
+        block: 'start',
+        behavior: "smooth"
       });
     }
   }

@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/733d33f5-ad20-4f47-b451-4aac89e51708.jpg"],"id":"385","product":{"name":"DVD","code":"rcpj006","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/733d33f5-ad20-4f47-b451-4aac89e51708.jpg"
+    ],
+    "id": "385",
+    "product": {
+        "name": "DVD",
+        "code": "rcpj006",
+        "brand": ""
+    },
+    "details": []
+}

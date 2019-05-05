@@ -1,1 +1,85 @@
-{"images":["http://www.chinamesda.com/imageRepository/6755efc0-b249-449e-806a-238640fe2087.jpg","http://www.chinamesda.com/imageRepository/c7e096a0-2fa5-43f9-bdbe-2e1621168a67.jpg","http://www.chinamesda.com/imageRepository/a34db670-0e3e-489d-b417-01e1455cb799.jpg","http://www.chinamesda.com/imageRepository/b82fed39-abf0-457c-850f-3fd7868ab0eb.jpg","http://www.chinamesda.com/imageRepository/1c8e9a00-2abe-47ff-9a40-878ccf1f481a.jpg"],"id":"112","product":{"name":"WS-596","code":"WS-596","brand":"2200x2200x900mm"},"details":[{"name":"WS-596","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"1.5kWx2pcs\n\n0.37kWx1pc"},{"name":"Air pump","value":"0.4kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"Small LED:8pcs  LED:2pcs"},{"name":"Jet","value":"5\"jet:2pcs\n\n4.5\"rotating jet:6pcs\n\n3.5\"rotating jet:3pcs\n\n2.5\"rotating jet:14pcs\n\n2.5\"jet:8pcs\n\n3/4\"jet:26pcs\n\nAir bubble Jet:14pcs"},{"name":"Water column","value":"3pcs"},{"name":"Water column switch","value":"1pc"},{"name":"Water drainer","value":"1pc"},{"name":"Pillow","value":"2pcs"},{"name":"Water Diverter","value":"1pc"},{"name":"Air adjuster","value":"3pcs"},{"name":"Seat","value":"4pcs"},{"name":"Total power","value":"6.77kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/6755efc0-b249-449e-806a-238640fe2087.jpg",
+        "http://www.chinamesda.com/imageRepository/c7e096a0-2fa5-43f9-bdbe-2e1621168a67.jpg",
+        "http://www.chinamesda.com/imageRepository/a34db670-0e3e-489d-b417-01e1455cb799.jpg",
+        "http://www.chinamesda.com/imageRepository/b82fed39-abf0-457c-850f-3fd7868ab0eb.jpg",
+        "http://www.chinamesda.com/imageRepository/1c8e9a00-2abe-47ff-9a40-878ccf1f481a.jpg"
+    ],
+    "id": "112",
+    "product": {
+        "name": "WS-596",
+        "code": "WS-596",
+        "brand": "2200x2200x900mm"
+    },
+    "details": [
+        {
+            "name": "WS-596",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "1.5kWx2pcs\n\n0.37kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.4kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:8pcs  LED:2pcs"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"jet:2pcs\n\n4.5\"rotating jet:6pcs\n\n3.5\"rotating jet:3pcs\n\n2.5\"rotating jet:14pcs\n\n2.5\"jet:8pcs\n\n3/4\"jet:26pcs\n\nAir bubble Jet:14pcs"
+        },
+        {
+            "name": "Water column",
+            "value": "3pcs"
+        },
+        {
+            "name": "Water column switch",
+            "value": "1pc"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Pillow",
+            "value": "2pcs"
+        },
+        {
+            "name": "Water Diverter",
+            "value": "1pc"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "3pcs"
+        },
+        {
+            "name": "Seat",
+            "value": "4pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "6.77kW"
+        }
+    ]
+}

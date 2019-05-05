@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/aecc40d7-02c7-4ab3-8bdc-129bdd61b6e9.jpg","http://www.chinamesda.com/imageRepository/7c02c770-914f-4e6d-af28-b94168c9c830.jpg"],"id":"291","product":{"name":"WS-1252B","code":"WS-1252B","brand":"1500x1100x1900mm  1200x1100x1900mm  1000x1100x1900mm"},"details":[{"name":"WS-1252B","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Amboyna wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, LED color changing light,  Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/aecc40d7-02c7-4ab3-8bdc-129bdd61b6e9.jpg",
+        "http://www.chinamesda.com/imageRepository/7c02c770-914f-4e6d-af28-b94168c9c830.jpg"
+    ],
+    "id": "291",
+    "product": {
+        "name": "WS-1252B",
+        "code": "WS-1252B",
+        "brand": "1500x1100x1900mm  1200x1100x1900mm  1000x1100x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1252B",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Amboyna wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, LED color changing light,  Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

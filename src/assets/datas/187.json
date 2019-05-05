@@ -1,1 +1,30 @@
-{"images":["http://www.chinamesda.com/imageRepository/8c6f0c48-3152-47e0-b9d7-bc50ab731902.jpg","http://www.chinamesda.com/imageRepository/44aae1cc-1758-41a4-8549-d37f833ddfe0.jpg"],"id":"187","product":{"name":"WS-200ST-W2","code":"WS-200ST-W2","brand":"1175x1345x2100mm"},"details":[{"name":"Material","value":"Merbau wooden frame & floor, tempered glass, Imported acrylic"},{"name":"Computer system","value":"PS6073H-2401 computer system"},{"name":"Function","value":"Touch screen wireless control panel, FM radio & CD connection, Temperature/Time setting, Top color changing light, 4.5KW steam generator, Child-lock function, Handle shower tap with constant temperature function"},{"name":"Others","value":"1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 4.5KW steam generator."}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/8c6f0c48-3152-47e0-b9d7-bc50ab731902.jpg",
+        "http://www.chinamesda.com/imageRepository/44aae1cc-1758-41a4-8549-d37f833ddfe0.jpg"
+    ],
+    "id": "187",
+    "product": {
+        "name": "WS-200ST-W2",
+        "code": "WS-200ST-W2",
+        "brand": "1175x1345x2100mm"
+    },
+    "details": [
+        {
+            "name": "Material",
+            "value": "Merbau wooden frame & floor, tempered glass, Imported acrylic"
+        },
+        {
+            "name": "Computer system",
+            "value": "PS6073H-2401 computer system"
+        },
+        {
+            "name": "Function",
+            "value": "Touch screen wireless control panel, FM radio & CD connection, Temperature/Time setting, Top color changing light, 4.5KW steam generator, Child-lock function, Handle shower tap with constant temperature function"
+        },
+        {
+            "name": "Others",
+            "value": "1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 4.5KW steam generator."
+        }
+    ]
+}

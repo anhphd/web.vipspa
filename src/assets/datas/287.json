@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/ac500b95-6f89-49cb-af83-852a626405f5.jpg","http://www.chinamesda.com/imageRepository/a7247155-3d3a-4026-8604-95464b2eb1cf.jpg"],"id":"287","product":{"name":"WS-1247","code":"WS-1247","brand":"2200x1800x2100mm  2000x1800x2100mm"},"details":[{"name":"WS-1247","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"Emerald stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, LED color changing light,  Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 6kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ac500b95-6f89-49cb-af83-852a626405f5.jpg",
+        "http://www.chinamesda.com/imageRepository/a7247155-3d3a-4026-8604-95464b2eb1cf.jpg"
+    ],
+    "id": "287",
+    "product": {
+        "name": "WS-1247",
+        "code": "WS-1247",
+        "brand": "2200x1800x2100mm  2000x1800x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1247",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "Emerald stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, LED color changing light,  Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 6kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

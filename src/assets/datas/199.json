@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/c1f07776-525e-4bf1-998e-55f141e9a003.jpg","http://www.chinamesda.com/imageRepository/685bdfeb-1f9f-44a9-a05d-7c084bf33225.jpg"],"id":"199","product":{"name":"WS-204ST(R5)","code":"WS-204ST(R5)","brand":"1900x1306x2100mm"},"details":[{"name":"Material","value":"Tempered glass 、 Aluminium product 、 ABS （ Extra option ： American Aristech Acrylic ）"},{"name":"Computer system","value":"KL-821Bcontrol system"},{"name":"Function","value":"Temperature/Time adjusting 、 top light 、 9-12KW steam engine 、 Moveable shower with heating function"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/c1f07776-525e-4bf1-998e-55f141e9a003.jpg",
+        "http://www.chinamesda.com/imageRepository/685bdfeb-1f9f-44a9-a05d-7c084bf33225.jpg"
+    ],
+    "id": "199",
+    "product": {
+        "name": "WS-204ST(R5)",
+        "code": "WS-204ST(R5)",
+        "brand": "1900x1306x2100mm"
+    },
+    "details": [
+        {
+            "name": "Material",
+            "value": "Tempered glass 、 Aluminium product 、 ABS （ Extra option ： American Aristech Acrylic ）"
+        },
+        {
+            "name": "Computer system",
+            "value": "KL-821Bcontrol system"
+        },
+        {
+            "name": "Function",
+            "value": "Temperature/Time adjusting 、 top light 、 9-12KW steam engine 、 Moveable shower with heating function"
+        }
+    ]
+}

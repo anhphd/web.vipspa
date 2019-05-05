@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/24bd469c-3d2e-4505-84b7-d7d5ce110fe5.jpg","http://www.chinamesda.com/imageRepository/9ea84ebb-42e8-4261-af90-6bc16a1448c8.jpg"],"id":"273","product":{"name":"WS-1408","code":"WS-1408","brand":"1500x1050x1900mm  1200x1050x1900mm  1000x1050x1900mm"},"details":[{"name":"WS-1408","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"Rome stone, Rose gold stainless steel"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/24bd469c-3d2e-4505-84b7-d7d5ce110fe5.jpg",
+        "http://www.chinamesda.com/imageRepository/9ea84ebb-42e8-4261-af90-6bc16a1448c8.jpg"
+    ],
+    "id": "273",
+    "product": {
+        "name": "WS-1408",
+        "code": "WS-1408",
+        "brand": "1500x1050x1900mm  1200x1050x1900mm  1000x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1408",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "Rome stone, Rose gold stainless steel"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

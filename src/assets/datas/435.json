@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/59d46fb8-6efc-47e6-a14f-463e98d6f99e.jpg"],"id":"435","product":{"name":"Coffee color PS panel","code":"Coffee color PS panel","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/59d46fb8-6efc-47e6-a14f-463e98d6f99e.jpg"
+    ],
+    "id": "435",
+    "product": {
+        "name": "Coffee color PS panel",
+        "code": "Coffee color PS panel",
+        "brand": ""
+    },
+    "details": []
+}

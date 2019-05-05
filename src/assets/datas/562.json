@@ -1,1 +1,46 @@
-{"images":["http://www.chinamesda.com/imageRepository/e6cfa9d6-2877-4d47-bb4e-5cf11494fa0c.jpg","http://www.chinamesda.com/imageRepository/c59c67e7-6d40-4e7c-809a-95fe260924e2.jpg"],"id":"562","product":{"name":"WS-1603SN","code":"WS-1603SN","brand":"1500x1000x1900mm"},"details":[{"name":"WS-1603SN","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/e6cfa9d6-2877-4d47-bb4e-5cf11494fa0c.jpg",
+        "http://www.chinamesda.com/imageRepository/c59c67e7-6d40-4e7c-809a-95fe260924e2.jpg"
+    ],
+    "id": "562",
+    "product": {
+        "name": "WS-1603SN",
+        "code": "WS-1603SN",
+        "brand": "1500x1000x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1603SN",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

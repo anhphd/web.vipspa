@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/3cb95a2e-2ef6-4a70-9f43-88264c3dc2e2.jpg"],"id":"516","product":{"name":"wooden texture PS panel - Teak","code":"Teak","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/3cb95a2e-2ef6-4a70-9f43-88264c3dc2e2.jpg"
+    ],
+    "id": "516",
+    "product": {
+        "name": "wooden texture PS panel - Teak",
+        "code": "Teak",
+        "brand": ""
+    },
+    "details": []
+}

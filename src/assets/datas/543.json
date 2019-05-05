@@ -1,1 +1,53 @@
-{"images":["http://www.chinamesda.com/imageRepository/20f604f5-089e-4b86-87a8-1586d023e0a7.jpg","http://www.chinamesda.com/imageRepository/cb80febd-a59e-416a-8968-162498c528aa.jpg","http://www.chinamesda.com/imageRepository/3945d9a2-4ced-4fc4-bbf9-5e86eea692ad.jpg","http://www.chinamesda.com/imageRepository/e961f9b7-35f1-4b32-93a6-b74257e1bd5a.jpg","http://www.chinamesda.com/imageRepository/d23d57e0-b849-40f1-95ad-53ae3d22c90a.jpg"],"id":"543","product":{"name":"WS-1238","code":"WS-1238","brand":"1700x1070x1900mm  1500x1070x1900mm  1200x1070x1900mm"},"details":[{"name":"WS-1238","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/20f604f5-089e-4b86-87a8-1586d023e0a7.jpg",
+        "http://www.chinamesda.com/imageRepository/cb80febd-a59e-416a-8968-162498c528aa.jpg",
+        "http://www.chinamesda.com/imageRepository/3945d9a2-4ced-4fc4-bbf9-5e86eea692ad.jpg",
+        "http://www.chinamesda.com/imageRepository/e961f9b7-35f1-4b32-93a6-b74257e1bd5a.jpg",
+        "http://www.chinamesda.com/imageRepository/d23d57e0-b849-40f1-95ad-53ae3d22c90a.jpg"
+    ],
+    "id": "543",
+    "product": {
+        "name": "WS-1238",
+        "code": "WS-1238",
+        "brand": "1700x1070x1900mm  1500x1070x1900mm  1200x1070x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1238",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

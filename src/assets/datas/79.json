@@ -1,1 +1,62 @@
-{"images":["http://www.chinamesda.com/imageRepository/3ca706cd-81eb-41b9-b192-abd9c76e6b63.jpg","http://www.chinamesda.com/imageRepository/f0041198-537a-40a7-9e52-efdf0ac827d6.jpg"],"id":"79","product":{"name":"WS-PC03","code":"WS-PC03","brand":"3000X3000X1100mm"},"details":[{"name":"WS-PC03","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n0.45kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Air pump","value":"0.4kWx1pc"},{"name":"UV light","value":"1pc"},{"name":"LED light","value":"LED:1pc"},{"name":"jet","value":"5\"jet:2pcs\n\n3\"jet:15pcs\n\n2\"jet:23pcs\n\nwater column:4pcs\n\nair bubble Jet:8pcs"},{"name":"Sand filter","value":"1pc"},{"name":"Air adjuster","value":"1pc"},{"name":"Seat","value":"7pcs"},{"name":"Total power","value":"6.05kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/3ca706cd-81eb-41b9-b192-abd9c76e6b63.jpg",
+        "http://www.chinamesda.com/imageRepository/f0041198-537a-40a7-9e52-efdf0ac827d6.jpg"
+    ],
+    "id": "79",
+    "product": {
+        "name": "WS-PC03",
+        "code": "WS-PC03",
+        "brand": "3000X3000X1100mm"
+    },
+    "details": [
+        {
+            "name": "WS-PC03",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n0.45kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.4kWx1pc"
+        },
+        {
+            "name": "UV light",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED:1pc"
+        },
+        {
+            "name": "jet",
+            "value": "5\"jet:2pcs\n\n3\"jet:15pcs\n\n2\"jet:23pcs\n\nwater column:4pcs\n\nair bubble Jet:8pcs"
+        },
+        {
+            "name": "Sand filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "1pc"
+        },
+        {
+            "name": "Seat",
+            "value": "7pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "6.05kW"
+        }
+    ]
+}

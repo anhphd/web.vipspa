@@ -1,1 +1,138 @@
-{"images":["http://www.chinamesda.com/imageRepository/48302501-1695-42ef-8fe0-98710f4e2aae.jpg","http://www.chinamesda.com/imageRepository/aed500d3-0117-4f1f-a503-7033d15b63e1.jpg"],"id":"95","product":{"name":"WS-S06","code":"WS-S06","brand":"5890x2260x1110mm"},"details":[{"name":"WS-S06","value":"Gemeral"},{"name":"Swimming pool","value":"Hot tub"},{"name":"Control system","value":"2pcs"},{"name":"1pc","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n1.5kWx2pcs\n0.9kWx1pc\n0.75kWx2pcs"},{"name":"2.2kWx1pc\n1.5kWx1pc\n0.75kWx1pc","value":"1.5kWx1pc\n0.9kWx1pc\n0.75kWx1pc"},{"name":"Filter","value":"2pcs"},{"name":"1pc","value":"1pc"},{"name":"Heater","value":"3kWx2pcs"},{"name":"3kWx1pc","value":"3kWx1pc"},{"name":"Air pump","value":"0.7KWx1pc"},{"name":" ","value":"0.7KWx1pc"},{"name":"ozone","value":"2pcs"},{"name":"1pc","value":"1pc"},{"name":"LED light","value":"Small LED:18pcs + LED:5pcs"},{"name":"Small LED:18pcs + LED:3pcs","value":"LED:2pcs"},{"name":"Diverter","value":"2pcs"},{"name":" ","value":"2pcs"},{"name":"jet","value":"5\"multi jet:6pcs\n5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\n3\"rotating jet:3pcs\nsmall Jet:40pcs\nair bubble Jet:18pcs\nwater column:4pcs"},{"name":"5\"multi jet:6pcs\n5\"rotating jet:1pc \n3\"rotating jet:3pcs\nsmall Jet:9pcs\nwater column:4pcs","value":"5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\nsmall Jet:31pcs\nair bubble Jet:18pcs"},{"name":"Speaker","value":"4pcs"},{"name":"2pcs","value":"2pcs"},{"name":"waterfall","value":"1pc"},{"name":"1pc","value":" "},{"name":"Pillow","value":"4pcs"},{"name":"2pcs","value":"2pcs"},{"name":"Seat","value":"7pcs"},{"name":"3pcs","value":"3pcs"},{"name":"Cubage（m³）","value":"7m³"},{"name":"6m³","value":"1m³"},{"name":"Total power","value":"14.3kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/48302501-1695-42ef-8fe0-98710f4e2aae.jpg",
+        "http://www.chinamesda.com/imageRepository/aed500d3-0117-4f1f-a503-7033d15b63e1.jpg"
+    ],
+    "id": "95",
+    "product": {
+        "name": "WS-S06",
+        "code": "WS-S06",
+        "brand": "5890x2260x1110mm"
+    },
+    "details": [
+        {
+            "name": "WS-S06",
+            "value": "Gemeral"
+        },
+        {
+            "name": "Swimming pool",
+            "value": "Hot tub"
+        },
+        {
+            "name": "Control system",
+            "value": "2pcs"
+        },
+        {
+            "name": "1pc",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n1.5kWx2pcs\n0.9kWx1pc\n0.75kWx2pcs"
+        },
+        {
+            "name": "2.2kWx1pc\n1.5kWx1pc\n0.75kWx1pc",
+            "value": "1.5kWx1pc\n0.9kWx1pc\n0.75kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "2pcs"
+        },
+        {
+            "name": "1pc",
+            "value": "1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx2pcs"
+        },
+        {
+            "name": "3kWx1pc",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.7KWx1pc"
+        },
+        {
+            "name": " ",
+            "value": "0.7KWx1pc"
+        },
+        {
+            "name": "ozone",
+            "value": "2pcs"
+        },
+        {
+            "name": "1pc",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:18pcs + LED:5pcs"
+        },
+        {
+            "name": "Small LED:18pcs + LED:3pcs",
+            "value": "LED:2pcs"
+        },
+        {
+            "name": "Diverter",
+            "value": "2pcs"
+        },
+        {
+            "name": " ",
+            "value": "2pcs"
+        },
+        {
+            "name": "jet",
+            "value": "5\"multi jet:6pcs\n5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\n3\"rotating jet:3pcs\nsmall Jet:40pcs\nair bubble Jet:18pcs\nwater column:4pcs"
+        },
+        {
+            "name": "5\"multi jet:6pcs\n5\"rotating jet:1pc \n3\"rotating jet:3pcs\nsmall Jet:9pcs\nwater column:4pcs",
+            "value": "5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\nsmall Jet:31pcs\nair bubble Jet:18pcs"
+        },
+        {
+            "name": "Speaker",
+            "value": "4pcs"
+        },
+        {
+            "name": "2pcs",
+            "value": "2pcs"
+        },
+        {
+            "name": "waterfall",
+            "value": "1pc"
+        },
+        {
+            "name": "1pc",
+            "value": " "
+        },
+        {
+            "name": "Pillow",
+            "value": "4pcs"
+        },
+        {
+            "name": "2pcs",
+            "value": "2pcs"
+        },
+        {
+            "name": "Seat",
+            "value": "7pcs"
+        },
+        {
+            "name": "3pcs",
+            "value": "3pcs"
+        },
+        {
+            "name": "Cubage（m³）",
+            "value": "7m³"
+        },
+        {
+            "name": "6m³",
+            "value": "1m³"
+        },
+        {
+            "name": "Total power",
+            "value": "14.3kW"
+        }
+    ]
+}

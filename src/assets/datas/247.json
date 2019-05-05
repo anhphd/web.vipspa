@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/a3381434-d2be-4793-a6ed-d5217a7650d9.jpg","http://www.chinamesda.com/imageRepository/63684ea0-1335-49ac-a266-197450157670.jpg"],"id":"247","product":{"name":"WS-180100-01","code":"WS-180100-01","brand":"1700x830x2150mm"},"details":[{"name":"Function","value":"1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan, Sandglass, Head lamp, Sauna heater 6KW.\n3. Voltage :210~240V, Total power: 6 KW"},{"name":"Packing & Weight","value":"carton with wooden cases packing\nG.W: 310 KG N.W.: 233 KG Package size: 2.57 CM"},{"name":"Transportation","value":"20GP: 10 pcs 40HQ: 24 pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/a3381434-d2be-4793-a6ed-d5217a7650d9.jpg",
+        "http://www.chinamesda.com/imageRepository/63684ea0-1335-49ac-a266-197450157670.jpg"
+    ],
+    "id": "247",
+    "product": {
+        "name": "WS-180100-01",
+        "code": "WS-180100-01",
+        "brand": "1700x830x2150mm"
+    },
+    "details": [
+        {
+            "name": "Function",
+            "value": "1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan, Sandglass, Head lamp, Sauna heater 6KW.\n3. Voltage :210~240V, Total power: 6 KW"
+        },
+        {
+            "name": "Packing & Weight",
+            "value": "carton with wooden cases packing\nG.W: 310 KG N.W.: 233 KG Package size: 2.57 CM"
+        },
+        {
+            "name": "Transportation",
+            "value": "20GP: 10 pcs 40HQ: 24 pcs"
+        }
+    ]
+}

@@ -1,1 +1,48 @@
-{"images":["http://www.chinamesda.com/imageRepository/ef71cfb7-726c-4cb3-aed1-39d21d1efd01.jpg","http://www.chinamesda.com/imageRepository/dc6c54f9-dc6e-4c8c-9697-9f1e9659fb8f.jpg","http://www.chinamesda.com/imageRepository/8688a335-caba-4100-9981-59709e1b50f5.jpg","http://www.chinamesda.com/imageRepository/82e823e0-a4f3-4d41-a31d-118fe07c701e.jpg","http://www.chinamesda.com/imageRepository/52b3e1a1-a4c8-4cfd-9708-ed9111d903a8.jpg","http://www.chinamesda.com/imageRepository/b1791ec0-fc20-40e0-b209-25fb894a4ab0.jpg","http://www.chinamesda.com/imageRepository/b3090c32-c664-4de6-a98d-591a958fda5b.jpg","http://www.chinamesda.com/imageRepository/dafb3f96-97e0-4103-91dc-6fb258a5bf4f.jpg"],"id":"531","product":{"name":"WS-1810","code":"WS-1810","brand":"2000x1000x2100mm"},"details":[{"name":"WS-1810","value":"Configuration"},{"name":"Type","value":"Sauna, Shower"},{"name":"Control system","value":"1pc"},{"name":"Wooden material","value":"Merbau wood frame for outside, Inside with Hemlock"},{"name":"Lamp","value":"LED color changing light"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating element","value":"Infrared carbon heating element 3pcs 0.9kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ef71cfb7-726c-4cb3-aed1-39d21d1efd01.jpg",
+        "http://www.chinamesda.com/imageRepository/dc6c54f9-dc6e-4c8c-9697-9f1e9659fb8f.jpg",
+        "http://www.chinamesda.com/imageRepository/8688a335-caba-4100-9981-59709e1b50f5.jpg",
+        "http://www.chinamesda.com/imageRepository/82e823e0-a4f3-4d41-a31d-118fe07c701e.jpg",
+        "http://www.chinamesda.com/imageRepository/52b3e1a1-a4c8-4cfd-9708-ed9111d903a8.jpg",
+        "http://www.chinamesda.com/imageRepository/b1791ec0-fc20-40e0-b209-25fb894a4ab0.jpg",
+        "http://www.chinamesda.com/imageRepository/b3090c32-c664-4de6-a98d-591a958fda5b.jpg",
+        "http://www.chinamesda.com/imageRepository/dafb3f96-97e0-4103-91dc-6fb258a5bf4f.jpg"
+    ],
+    "id": "531",
+    "product": {
+        "name": "WS-1810",
+        "code": "WS-1810",
+        "brand": "2000x1000x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1810",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna, Shower"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Merbau wood frame for outside, Inside with Hemlock"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating element",
+            "value": "Infrared carbon heating element 3pcs 0.9kW"
+        }
+    ]
+}

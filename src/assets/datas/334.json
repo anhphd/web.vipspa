@@ -1,1 +1,41 @@
-{"images":["http://www.chinamesda.com/imageRepository/e7a2068d-e084-4cda-a451-62f99ece1545.jpg"],"id":"334","product":{"name":"WS-180FX, WS-200FX","code":"WS-180FX, WS-200FX","brand":"1800x1050x1900mm  2000x1200x1900mm"},"details":[{"name":"WS-180FX WS-200FX","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"With Finland pine inside and, beech wood board external"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating element","value":"Ceramics Heating element 7pcs  2.45kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/e7a2068d-e084-4cda-a451-62f99ece1545.jpg"
+    ],
+    "id": "334",
+    "product": {
+        "name": "WS-180FX, WS-200FX",
+        "code": "WS-180FX, WS-200FX",
+        "brand": "1800x1050x1900mm  2000x1200x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-180FX WS-200FX",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "With Finland pine inside and, beech wood board external"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating element",
+            "value": "Ceramics Heating element 7pcs  2.45kW"
+        }
+    ]
+}

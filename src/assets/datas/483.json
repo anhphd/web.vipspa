@@ -1,1 +1,75 @@
-{"images":["http://www.chinamesda.com/imageRepository/0771d3b2-7ce2-47dc-b158-f2460cc57475.jpg","http://www.chinamesda.com/imageRepository/d52c0e3a-c476-48f7-b109-99f1616e12d8.jpg","http://www.chinamesda.com/imageRepository/cfe4e55d-0a17-46fb-aab3-8da75d7f5f49.jpg","http://www.chinamesda.com/imageRepository/9e46890e-116a-45c0-98ee-950665c8d326.jpg","http://www.chinamesda.com/imageRepository/213b66ec-7501-401b-a419-e76eedb6c8e4.jpg","http://www.chinamesda.com/imageRepository/978af91b-60c4-4dec-810b-a4cf96805c92.jpg","http://www.chinamesda.com/imageRepository/47075699-4ca1-48ee-94e7-dcc8acb05cd0.jpg"],"id":"483","product":{"name":"WS-696","code":"WS-696","brand":"2150*1600*900mm"},"details":[{"name":"WS-696","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"1.5kWx2pcs\n\n0.37kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"Small LED:30pcs  LED:1pc"},{"name":"Water drainer","value":"1pc"},{"name":"Air adjuster","value":"2pcs"},{"name":"Jet","value":"5\"LED power jet:1pc\n\n5\"rotating jet:3pcs\n\n4.5\"rotating jet:4pcs\n\n3.5\"rotating jet:5pcs\n\n2.5\"rotating jet:12pcs\n\n2.5\"jet:14pcs\n\n3/4\"jet:4pcs"},{"name":"Pillow","value":"2pcs"},{"name":"FRP bottom","value":"√"},{"name":"Seat","value":"3pcs"},{"name":"Total power","value":"6.37kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/0771d3b2-7ce2-47dc-b158-f2460cc57475.jpg",
+        "http://www.chinamesda.com/imageRepository/d52c0e3a-c476-48f7-b109-99f1616e12d8.jpg",
+        "http://www.chinamesda.com/imageRepository/cfe4e55d-0a17-46fb-aab3-8da75d7f5f49.jpg",
+        "http://www.chinamesda.com/imageRepository/9e46890e-116a-45c0-98ee-950665c8d326.jpg",
+        "http://www.chinamesda.com/imageRepository/213b66ec-7501-401b-a419-e76eedb6c8e4.jpg",
+        "http://www.chinamesda.com/imageRepository/978af91b-60c4-4dec-810b-a4cf96805c92.jpg",
+        "http://www.chinamesda.com/imageRepository/47075699-4ca1-48ee-94e7-dcc8acb05cd0.jpg"
+    ],
+    "id": "483",
+    "product": {
+        "name": "WS-696",
+        "code": "WS-696",
+        "brand": "2150*1600*900mm"
+    },
+    "details": [
+        {
+            "name": "WS-696",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "1.5kWx2pcs\n\n0.37kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:30pcs  LED:1pc"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "2pcs"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"LED power jet:1pc\n\n5\"rotating jet:3pcs\n\n4.5\"rotating jet:4pcs\n\n3.5\"rotating jet:5pcs\n\n2.5\"rotating jet:12pcs\n\n2.5\"jet:14pcs\n\n3/4\"jet:4pcs"
+        },
+        {
+            "name": "Pillow",
+            "value": "2pcs"
+        },
+        {
+            "name": "FRP bottom",
+            "value": "√"
+        },
+        {
+            "name": "Seat",
+            "value": "3pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "6.37kW"
+        }
+    ]
+}

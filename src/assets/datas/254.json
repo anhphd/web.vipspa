@@ -1,1 +1,49 @@
-{"images":["http://www.chinamesda.com/imageRepository/13a39928-8b50-4ca9-9b94-03124ca32374.jpg"],"id":"254","product":{"name":"WS-1500","code":"WS-1500","brand":"3000x3000x2200mm 2500x2500x2200mm"},"details":[{"name":"WS-1500","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"Dragon bone stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Marble stone lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"SAWO Sauna heater 12kW"},{"name":"Accessories","value":"Thermo-hygrometer,Sandglass,Automatic sprinkler"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/13a39928-8b50-4ca9-9b94-03124ca32374.jpg"
+    ],
+    "id": "254",
+    "product": {
+        "name": "WS-1500",
+        "code": "WS-1500",
+        "brand": "3000x3000x2200mm 2500x2500x2200mm"
+    },
+    "details": [
+        {
+            "name": "WS-1500",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "Dragon bone stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Marble stone lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "SAWO Sauna heater 12kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Thermo-hygrometer,Sandglass,Automatic sprinkler"
+        }
+    ]
+}

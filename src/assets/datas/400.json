@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/55c2334c-1328-441d-8476-3a43334ca61b.jpg"],"id":"400","product":{"name":"Sauna-heater","code":"Sauna-heater","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/55c2334c-1328-441d-8476-3a43334ca61b.jpg"
+    ],
+    "id": "400",
+    "product": {
+        "name": "Sauna-heater",
+        "code": "Sauna-heater",
+        "brand": ""
+    },
+    "details": []
+}

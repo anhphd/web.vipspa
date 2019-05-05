@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/4acdc819-1004-4ec0-8322-061631376b55.jpg","http://www.chinamesda.com/imageRepository/f78bee7b-0314-4323-ab32-946d61ff43d8.jpg"],"id":"226","product":{"name":"WS-12080AL","code":"WS-12080AL","brand":"1220x820x2210mm"},"details":[{"name":"Function","value":"1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan.\n3. Voltage :210~240V, Total power: 3 KW"},{"name":"Packing & Weight","value":"carton with wooden cases packing\nG.W: 178 KG N.W.: 126 KG Package size: 1.36 CM"},{"name":"Transportation","value":"20GP: 17 pcs 40HQ: 47 pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/4acdc819-1004-4ec0-8322-061631376b55.jpg",
+        "http://www.chinamesda.com/imageRepository/f78bee7b-0314-4323-ab32-946d61ff43d8.jpg"
+    ],
+    "id": "226",
+    "product": {
+        "name": "WS-12080AL",
+        "code": "WS-12080AL",
+        "brand": "1220x820x2210mm"
+    },
+    "details": [
+        {
+            "name": "Function",
+            "value": "1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan.\n3. Voltage :210~240V, Total power: 3 KW"
+        },
+        {
+            "name": "Packing & Weight",
+            "value": "carton with wooden cases packing\nG.W: 178 KG N.W.: 126 KG Package size: 1.36 CM"
+        },
+        {
+            "name": "Transportation",
+            "value": "20GP: 17 pcs 40HQ: 47 pcs"
+        }
+    ]
+}

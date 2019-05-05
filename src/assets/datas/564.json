@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/7d447a77-a766-485c-ace8-fdf9e06d030e.jpg","http://www.chinamesda.com/imageRepository/8b773e1b-f83e-4742-a8e2-4d093aae16f2.jpg","http://www.chinamesda.com/imageRepository/b83b4733-2abb-4b8d-933e-0a9df5f7212c.jpg","http://www.chinamesda.com/imageRepository/eea472d4-2af7-42ed-8d4b-45f4988974df.jpg","http://www.chinamesda.com/imageRepository/f5575781-f58d-44d4-a033-e55d17a392f0.jpg","http://www.chinamesda.com/imageRepository/6db57e32-4a63-49d9-8f6e-aba361adc2d0.jpg"],"id":"564","product":{"name":"WS-1601SN","code":"WS-1601SN","brand":"1200x1050x1900mm"},"details":[{"name":"WS-1601SN","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/7d447a77-a766-485c-ace8-fdf9e06d030e.jpg",
+        "http://www.chinamesda.com/imageRepository/8b773e1b-f83e-4742-a8e2-4d093aae16f2.jpg",
+        "http://www.chinamesda.com/imageRepository/b83b4733-2abb-4b8d-933e-0a9df5f7212c.jpg",
+        "http://www.chinamesda.com/imageRepository/eea472d4-2af7-42ed-8d4b-45f4988974df.jpg",
+        "http://www.chinamesda.com/imageRepository/f5575781-f58d-44d4-a033-e55d17a392f0.jpg",
+        "http://www.chinamesda.com/imageRepository/6db57e32-4a63-49d9-8f6e-aba361adc2d0.jpg"
+    ],
+    "id": "564",
+    "product": {
+        "name": "WS-1601SN",
+        "code": "WS-1601SN",
+        "brand": "1200x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1601SN",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

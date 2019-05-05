@@ -28,55 +28,53 @@ export class DataService {
 
 
   constructor(public _Storage: Storage, public _ProductService: ProductService, public httpClient: HttpClient) {
-    this._MenuItems = [
-      { id: 'trang-chu', name: 'Trang chủ', url: 'trang-chu' },
-      { id: 'san-pham', name: 'Sản phẩm', url: 'san-pham' },
-      { id: 'dich-vu', name: 'Dịch vụ', url: 'dich-vu' },
-      { id: 'tin-tuc', name: 'Tin tức', url: 'tin-tuc' },
-      { id: 'cong-ty', name: 'Hỗ trợ', url: 'cong-ty' }
-    ];
 
-    this._Categories = [
-      {
-        id: "be-boi-massage", name: "Bể bơi massage", thumb: '', products: []
-      },
-      {
-        id: "may-xong-hoi", name: "Máy xông hơi", thumb: '', priority: 9, products: []
-      },
-      {
-        id: "be-tam-massage", name: "Bể tắm massage", thumb: '', products: []
-      },
-      {
-        id: "phong-xong-hoi-kho", name: "Phòng xông hơi khô", thumb: '', priority: 10, products: []
-      },
-      {
-        id: "phong-xong-hoi-hon-hop", name: "Phòng xông hơi hỗn hợp", thumb: '', priority: 10, products: []
-      },
-      {
-        id: "bon-tam-massage", name: "Bồn tắm massage", thumb: '', priority: 8, products: []
-      },
-      {
-        id: "phong-xong-hoi-uot", name: "Phòng xông hơi ướt", thumb: '', products: []
-      },
-      {
-        id: "may-va-phu-kien", name: "Máy và thiết bị", thumb: '', priority: 9, products: []
-      },
-      { id: "vong-canh-spa", name: "Vọng cảnh spa", thumb: '', products: [] },
-    ];
+    this.getDataFromJson('assets/data/app.json').then(res => { this._OnResponseAppData(res); }, error => { });
 
 
-    for (let category of this._Categories) {
-      category.products = this._ProductService.getProducts(category.id, -1);
-      category.totalProducts = category.products.length;
-    }
+
+
+  }
+  private _LoadingData: boolean = false;
+  public LoadData() {
+    return new Promise((resolve, reject) => {
+      if (this._AppData['menus']) return resolve();
+
+      this.getDataFromJson('assets/data/app.json').then(res => {
+        this._OnResponseAppData(res);
+        return resolve();
+      }, error => {
+        return reject();
+      });
+    });
+  }
+
+  private _OnResponseAppData(res) {
+    this._AppData = res;
+    this._Categories = res.categories;
+    this._MenuItems = res.menus;
+    this._ProductService.LoadData().then(success => {
+      for (let category of this._Categories) {
+        this._ProductService.getProducts(category.id, -1).then(res => {
+          category.products = res;
+          category.totalProducts = category.products.length;
+          if (category.products.length > 0 && !category.thumb) category.thumb = category.products[0].thumb;
+        }, errr => { });
+      }
+    }, error => {
+
+    });
 
     this._Categories = this._Categories.sort((a, b) => {
       var aP: number = a.priority ? a.priority : 0;
       var bP: number = b.priority ? b.priority : 0;
       return bP - aP;
     });
-    this.setSelectedCategory(this._Categories[0]);
+    // this.setSelectedCategory(this._Categories[0]);
+
+
   }
+
   setMenuSelected(id: string) {
     this._MenuItemSelected = this._MenuItems.find(ele => { return ele.id == id; });
   }

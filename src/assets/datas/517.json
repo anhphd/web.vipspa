@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/21da8b75-61af-4217-b5d2-0daf292c6b20.jpg"],"id":"517","product":{"name":"wooden texture PS panel - Coffee","code":"Coffee","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/21da8b75-61af-4217-b5d2-0daf292c6b20.jpg"
+    ],
+    "id": "517",
+    "product": {
+        "name": "wooden texture PS panel - Coffee",
+        "code": "Coffee",
+        "brand": ""
+    },
+    "details": []
+}

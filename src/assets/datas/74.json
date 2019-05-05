@@ -1,1 +1,54 @@
-{"images":["http://www.chinamesda.com/imageRepository/be4630ce-a2ca-4cb2-ba2b-e408e4092b72.jpg","http://www.chinamesda.com/imageRepository/ca6e7fa7-0c52-43fb-8e0f-4d3dda99dce5.jpg"],"id":"74","product":{"name":"WS-PC06S","code":"WS-PC06S","brand":"5900X2400X1470mm"},"details":[{"name":"WS-PC06S","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx3pcs\n0.37kWx1pc"},{"name":"recycle net","value":"6pcs"},{"name":"Sand filter","value":"1pc"},{"name":"water column","value":"4pcs"},{"name":"LED light","value":"LED:2pcs"},{"name":"UV light","value":"1pc"},{"name":"jet","value":"U shape jet:1pc"},{"name":"Total power","value":"6.97kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/be4630ce-a2ca-4cb2-ba2b-e408e4092b72.jpg",
+        "http://www.chinamesda.com/imageRepository/ca6e7fa7-0c52-43fb-8e0f-4d3dda99dce5.jpg"
+    ],
+    "id": "74",
+    "product": {
+        "name": "WS-PC06S",
+        "code": "WS-PC06S",
+        "brand": "5900X2400X1470mm"
+    },
+    "details": [
+        {
+            "name": "WS-PC06S",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx3pcs\n0.37kWx1pc"
+        },
+        {
+            "name": "recycle net",
+            "value": "6pcs"
+        },
+        {
+            "name": "Sand filter",
+            "value": "1pc"
+        },
+        {
+            "name": "water column",
+            "value": "4pcs"
+        },
+        {
+            "name": "LED light",
+            "value": "LED:2pcs"
+        },
+        {
+            "name": "UV light",
+            "value": "1pc"
+        },
+        {
+            "name": "jet",
+            "value": "U shape jet:1pc"
+        },
+        {
+            "name": "Total power",
+            "value": "6.97kW"
+        }
+    ]
+}

@@ -1,1 +1,55 @@
-{"images":["http://www.chinamesda.com/imageRepository/df68c78f-8cd8-4d73-9d11-ed34e9ae968f.jpg","http://www.chinamesda.com/imageRepository/197a082f-cff0-46cc-92da-7dfbf5e54c53.jpg","http://www.chinamesda.com/imageRepository/e6d25e12-08fa-4e73-b8f4-410b783f27ec.jpg","http://www.chinamesda.com/imageRepository/58cc5757-922c-48b3-8b8f-b20032d66b83.jpg","http://www.chinamesda.com/imageRepository/784ae937-23c8-4e2d-aefe-caeeba7807cc.jpg","http://www.chinamesda.com/imageRepository/4779aebd-da6d-4d94-8551-eee9d3660b64.jpg","http://www.chinamesda.com/imageRepository/85940684-3eff-4286-ae89-55c5b6475402.jpg"],"id":"529","product":{"name":"WS-1806","code":"WS-1806","brand":"1800x1200x1900mm  1500x1200x1900mm  1200x1200x1900mm"},"details":[{"name":"WS-1806","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Control system","value":"1pc"},{"name":"Wooden material","value":"White poplar wood"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Harvia sauna stove Vega 3kW"},{"name":"Heating element","value":"Infrared carbon heating element 2pcs 0.6kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/df68c78f-8cd8-4d73-9d11-ed34e9ae968f.jpg",
+        "http://www.chinamesda.com/imageRepository/197a082f-cff0-46cc-92da-7dfbf5e54c53.jpg",
+        "http://www.chinamesda.com/imageRepository/e6d25e12-08fa-4e73-b8f4-410b783f27ec.jpg",
+        "http://www.chinamesda.com/imageRepository/58cc5757-922c-48b3-8b8f-b20032d66b83.jpg",
+        "http://www.chinamesda.com/imageRepository/784ae937-23c8-4e2d-aefe-caeeba7807cc.jpg",
+        "http://www.chinamesda.com/imageRepository/4779aebd-da6d-4d94-8551-eee9d3660b64.jpg",
+        "http://www.chinamesda.com/imageRepository/85940684-3eff-4286-ae89-55c5b6475402.jpg"
+    ],
+    "id": "529",
+    "product": {
+        "name": "WS-1806",
+        "code": "WS-1806",
+        "brand": "1800x1200x1900mm  1500x1200x1900mm  1200x1200x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1806",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White poplar wood"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Harvia sauna stove Vega 3kW"
+        },
+        {
+            "name": "Heating element",
+            "value": "Infrared carbon heating element 2pcs 0.6kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

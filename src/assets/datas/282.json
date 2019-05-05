@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/e127eef5-bfa8-46df-80c1-18de25e9d9df.jpg","http://www.chinamesda.com/imageRepository/f9513bba-1481-4bb8-a5ae-e09d3de5a571.jpg"],"id":"282","product":{"name":"WS-1240","code":"WS-1240","brand":"3000x2000x2100mm  2800x2000x2100mm  2500x1800x2100mm  2200x1800x2100mm  2000x1800x2100mm"},"details":[{"name":"WS-1240","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Amboyna wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Color lamp  LED color, changing light,  Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 6kW 2pcs"},{"name":"Accessories","value":"Thermo-hygrometer,Sandglass,Automatic sprinkler"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/e127eef5-bfa8-46df-80c1-18de25e9d9df.jpg",
+        "http://www.chinamesda.com/imageRepository/f9513bba-1481-4bb8-a5ae-e09d3de5a571.jpg"
+    ],
+    "id": "282",
+    "product": {
+        "name": "WS-1240",
+        "code": "WS-1240",
+        "brand": "3000x2000x2100mm  2800x2000x2100mm  2500x1800x2100mm  2200x1800x2100mm  2000x1800x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1240",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Amboyna wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Color lamp  LED color, changing light,  Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 6kW 2pcs"
+        },
+        {
+            "name": "Accessories",
+            "value": "Thermo-hygrometer,Sandglass,Automatic sprinkler"
+        }
+    ]
+}

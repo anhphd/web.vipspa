@@ -1,1 +1,44 @@
-{"images":["http://www.chinamesda.com/imageRepository/123f784d-7425-4e42-8b61-76711a0a2f8b.jpg","http://www.chinamesda.com/imageRepository/f1f03258-4947-4787-acdc-602700a1ac4e.jpg","http://www.chinamesda.com/imageRepository/bf9ed509-d2e4-440d-a1fe-01c658637943.jpg","http://www.chinamesda.com/imageRepository/d20fc738-a51c-43e5-8cfc-f1a877dec63c.jpg"],"id":"492","product":{"name":"WS-1605SR","code":"WS-1605SR","brand":"1500x1000x1900mm"},"details":[{"name":"WS-1605SR","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 8pcs, glass heating board 1pc 2.55kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/123f784d-7425-4e42-8b61-76711a0a2f8b.jpg",
+        "http://www.chinamesda.com/imageRepository/f1f03258-4947-4787-acdc-602700a1ac4e.jpg",
+        "http://www.chinamesda.com/imageRepository/bf9ed509-d2e4-440d-a1fe-01c658637943.jpg",
+        "http://www.chinamesda.com/imageRepository/d20fc738-a51c-43e5-8cfc-f1a877dec63c.jpg"
+    ],
+    "id": "492",
+    "product": {
+        "name": "WS-1605SR",
+        "code": "WS-1605SR",
+        "brand": "1500x1000x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1605SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 8pcs, glass heating board 1pc 2.55kW"
+        }
+    ]
+}

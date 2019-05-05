@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/40ebdecf-4996-4684-859d-a48937e4ae44.jpg","http://www.chinamesda.com/imageRepository/1b0d66a5-5bc7-47f2-9d22-576c8d26766e.jpg"],"id":"233","product":{"name":"WS-9090L","code":"WS-9090L","brand":"920x920Xx2210mm/1000x1000x2210mm"},"details":[{"name":"Function","value":"1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Foot massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan.\n3. Voltage :210~240V, Total power: 3 KW"},{"name":"Packing & Weight","value":"carton with wooden cases packing\nG.W: 131 KG N.W.: 78 KG Package size: 0.85 CM"},{"name":"Transportation","value":"20GP: pcs 40HQ: pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/40ebdecf-4996-4684-859d-a48937e4ae44.jpg",
+        "http://www.chinamesda.com/imageRepository/1b0d66a5-5bc7-47f2-9d22-576c8d26766e.jpg"
+    ],
+    "id": "233",
+    "product": {
+        "name": "WS-9090L",
+        "code": "WS-9090L",
+        "brand": "920x920Xx2210mm/1000x1000x2210mm"
+    },
+    "details": [
+        {
+            "name": "Function",
+            "value": "1. S163Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n2. Foot massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan.\n3. Voltage :210~240V, Total power: 3 KW"
+        },
+        {
+            "name": "Packing & Weight",
+            "value": "carton with wooden cases packing\nG.W: 131 KG N.W.: 78 KG Package size: 0.85 CM"
+        },
+        {
+            "name": "Transportation",
+            "value": "20GP: pcs 40HQ: pcs"
+        }
+    ]
+}

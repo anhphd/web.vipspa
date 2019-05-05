@@ -1,1 +1,51 @@
-{"images":["http://www.chinamesda.com/imageRepository/45d68ded-b0f3-4a91-8b4a-16f906b908d4.jpg","http://www.chinamesda.com/imageRepository/a6f88139-4551-48e0-86bd-b4cba3395939.jpg","http://www.chinamesda.com/imageRepository/ca4b3e1a-5aae-409c-bcb0-37150e34110d.jpg"],"id":"512","product":{"name":"WS-S035","code":"WS-S035","brand":"1900*1100*650mm"},"details":[{"name":"WS-S035","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"0.75kWx1pc"},{"name":"Air pump","value":"0.2kWx1pc"},{"name":"LED light","value":"LED（white light）:1pc"},{"name":"Jet","value":"ultrathin small jet:16pcs\n\nultrathin bubble jet:10pcs"},{"name":"steel stent","value":"√"},{"name":"Water drainer","value":"√"},{"name":"Total power","value":"0.95kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/45d68ded-b0f3-4a91-8b4a-16f906b908d4.jpg",
+        "http://www.chinamesda.com/imageRepository/a6f88139-4551-48e0-86bd-b4cba3395939.jpg",
+        "http://www.chinamesda.com/imageRepository/ca4b3e1a-5aae-409c-bcb0-37150e34110d.jpg"
+    ],
+    "id": "512",
+    "product": {
+        "name": "WS-S035",
+        "code": "WS-S035",
+        "brand": "1900*1100*650mm"
+    },
+    "details": [
+        {
+            "name": "WS-S035",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "0.75kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.2kWx1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED（white light）:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "ultrathin small jet:16pcs\n\nultrathin bubble jet:10pcs"
+        },
+        {
+            "name": "steel stent",
+            "value": "√"
+        },
+        {
+            "name": "Water drainer",
+            "value": "√"
+        },
+        {
+            "name": "Total power",
+            "value": "0.95kW"
+        }
+    ]
+}

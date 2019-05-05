@@ -1,1 +1,12 @@
-{"images":["http://www.chinamesda.com/imageRepository/971ebfbc-0e33-47e9-ac76-20d3d354127b.jpg"],"id":"382","product":{"name":"32‘LCD","code":"rcpj003","brand":""},"details":[]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/971ebfbc-0e33-47e9-ac76-20d3d354127b.jpg"
+    ],
+    "id": "382",
+    "product": {
+        "name": "32‘LCD",
+        "code": "rcpj003",
+        "brand": ""
+    },
+    "details": []
+}

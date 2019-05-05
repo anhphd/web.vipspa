@@ -1,1 +1,74 @@
-{"images":["http://www.chinamesda.com/imageRepository/6ac1d8a3-4ac6-412c-a094-fa3d2c05e08b.jpg","http://www.chinamesda.com/imageRepository/37dac0a8-0195-4246-bc9a-08d66d1a8f9e.jpg"],"id":"126","product":{"name":"WS-190","code":"WS-190","brand":"1800x1800x850mm"},"details":[{"name":"WS-190","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"1.5kWx2pcs\n\n0.37kWx1pc"},{"name":"Air pump","value":"0.7kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"LED:1pc"},{"name":"Jet","value":"5\"rotating jet:4pcs\n\n3/4\"jet:41pcs\n\nair bubble Jet:16pcs"},{"name":"Water Diverter","value":"2pcs"},{"name":"Pillow","value":"3pcs"},{"name":"Water drainer","value":"1pc"},{"name":"Cubage（m³）","value":"1m³"},{"name":"Seat","value":"5pcs"},{"name":"Total power","value":"7.07kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/6ac1d8a3-4ac6-412c-a094-fa3d2c05e08b.jpg",
+        "http://www.chinamesda.com/imageRepository/37dac0a8-0195-4246-bc9a-08d66d1a8f9e.jpg"
+    ],
+    "id": "126",
+    "product": {
+        "name": "WS-190",
+        "code": "WS-190",
+        "brand": "1800x1800x850mm"
+    },
+    "details": [
+        {
+            "name": "WS-190",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "1.5kWx2pcs\n\n0.37kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.7kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"rotating jet:4pcs\n\n3/4\"jet:41pcs\n\nair bubble Jet:16pcs"
+        },
+        {
+            "name": "Water Diverter",
+            "value": "2pcs"
+        },
+        {
+            "name": "Pillow",
+            "value": "3pcs"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Cubage（m³）",
+            "value": "1m³"
+        },
+        {
+            "name": "Seat",
+            "value": "5pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "7.07kW"
+        }
+    ]
+}

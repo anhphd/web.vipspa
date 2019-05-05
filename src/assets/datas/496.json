@@ -1,1 +1,44 @@
-{"images":["http://www.chinamesda.com/imageRepository/44e793da-f39f-4d7b-af5d-082b12d5b6a3.jpg","http://www.chinamesda.com/imageRepository/9dde6463-80ea-4d70-bab6-a481ec786b0d.jpg","http://www.chinamesda.com/imageRepository/abb639aa-3882-4ad1-9e62-612236decdfa.jpg","http://www.chinamesda.com/imageRepository/92bbf219-48a8-49ec-9ce9-6e36d6f9bcf8.jpg"],"id":"496","product":{"name":"WS-1701SR","code":"WS-1701SR","brand":"1000x1000x2000mm"},"details":[{"name":"WS-1701SR","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 4pcs, Ceramics Heating element 1pc 1.55kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/44e793da-f39f-4d7b-af5d-082b12d5b6a3.jpg",
+        "http://www.chinamesda.com/imageRepository/9dde6463-80ea-4d70-bab6-a481ec786b0d.jpg",
+        "http://www.chinamesda.com/imageRepository/abb639aa-3882-4ad1-9e62-612236decdfa.jpg",
+        "http://www.chinamesda.com/imageRepository/92bbf219-48a8-49ec-9ce9-6e36d6f9bcf8.jpg"
+    ],
+    "id": "496",
+    "product": {
+        "name": "WS-1701SR",
+        "code": "WS-1701SR",
+        "brand": "1000x1000x2000mm"
+    },
+    "details": [
+        {
+            "name": "WS-1701SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 4pcs, Ceramics Heating element 1pc 1.55kW"
+        }
+    ]
+}

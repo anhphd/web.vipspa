@@ -1,1 +1,49 @@
-{"images":["http://www.chinamesda.com/imageRepository/a7c08b60-cfd0-403a-9536-420b05bbbfcc.jpg"],"id":"271","product":{"name":"WS-1406","code":"WS-1406","brand":"2200x1700x2100mm  2000x1700x2100mm"},"details":[{"name":"WS-1406","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White poplar wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/a7c08b60-cfd0-403a-9536-420b05bbbfcc.jpg"
+    ],
+    "id": "271",
+    "product": {
+        "name": "WS-1406",
+        "code": "WS-1406",
+        "brand": "2200x1700x2100mm  2000x1700x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1406",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White poplar wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

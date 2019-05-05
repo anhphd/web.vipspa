@@ -1,1 +1,75 @@
-{"images":["http://www.chinamesda.com/imageRepository/5402aba4-1b92-4fe4-a20c-bbdd473987a0.jpg","http://www.chinamesda.com/imageRepository/066059fc-b50c-4309-9307-1fb6ca5b2d4d.jpg","http://www.chinamesda.com/imageRepository/aed972c1-88c7-466c-b285-9fb4ab4228a3.jpg","http://www.chinamesda.com/imageRepository/eebb2e92-3236-45f8-b00e-c5714f19fe24.jpg","http://www.chinamesda.com/imageRepository/2ef2bbb9-1bd9-4622-8b3b-2a1b73803829.jpg","http://www.chinamesda.com/imageRepository/3acc71bb-3629-4ffb-9c85-8c443aa5107e.jpg","http://www.chinamesda.com/imageRepository/cc8ad28d-afac-4903-833a-fa83d4677173.jpg"],"id":"487","product":{"name":"WS-C05","code":"WS-C05","brand":"3760*2080*1100mm"},"details":[{"name":"WS-C05","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx2pcs\n1.5kWx1pc\n0.37kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Heater","value":"3kWx2pcs"},{"name":"Pillow","value":"4pcs"},{"name":"LED light","value":" LED:4pcs"},{"name":"ozone","value":"1pc"},{"name":"FRP bottom","value":"√"},{"name":"jet","value":"5\"rotating jet:8pcs\n3.5\"jet:25pcs\n\n2.5\"jet:4pcs"},{"name":"water drainer","value":"1pc"},{"name":"Air adjuster","value":"3pcs"},{"name":"Seat","value":"4pcs"},{"name":"Total power","value":"12.27kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/5402aba4-1b92-4fe4-a20c-bbdd473987a0.jpg",
+        "http://www.chinamesda.com/imageRepository/066059fc-b50c-4309-9307-1fb6ca5b2d4d.jpg",
+        "http://www.chinamesda.com/imageRepository/aed972c1-88c7-466c-b285-9fb4ab4228a3.jpg",
+        "http://www.chinamesda.com/imageRepository/eebb2e92-3236-45f8-b00e-c5714f19fe24.jpg",
+        "http://www.chinamesda.com/imageRepository/2ef2bbb9-1bd9-4622-8b3b-2a1b73803829.jpg",
+        "http://www.chinamesda.com/imageRepository/3acc71bb-3629-4ffb-9c85-8c443aa5107e.jpg",
+        "http://www.chinamesda.com/imageRepository/cc8ad28d-afac-4903-833a-fa83d4677173.jpg"
+    ],
+    "id": "487",
+    "product": {
+        "name": "WS-C05",
+        "code": "WS-C05",
+        "brand": "3760*2080*1100mm"
+    },
+    "details": [
+        {
+            "name": "WS-C05",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx2pcs\n1.5kWx1pc\n0.37kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx2pcs"
+        },
+        {
+            "name": "Pillow",
+            "value": "4pcs"
+        },
+        {
+            "name": "LED light",
+            "value": " LED:4pcs"
+        },
+        {
+            "name": "ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "FRP bottom",
+            "value": "√"
+        },
+        {
+            "name": "jet",
+            "value": "5\"rotating jet:8pcs\n3.5\"jet:25pcs\n\n2.5\"jet:4pcs"
+        },
+        {
+            "name": "water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "3pcs"
+        },
+        {
+            "name": "Seat",
+            "value": "4pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "12.27kW"
+        }
+    ]
+}

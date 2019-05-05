@@ -1,1 +1,60 @@
-{"images":["http://www.chinamesda.com/imageRepository/0aa238e0-6ffa-44df-98c6-4f5b33670036.jpg","http://www.chinamesda.com/imageRepository/f8ee6c44-fe3f-4aba-afdf-ed17904449c9.jpg","http://www.chinamesda.com/imageRepository/9e55a44f-5dad-48eb-80e6-178935b4b553.jpg","http://www.chinamesda.com/imageRepository/0c1b2207-ce43-4861-b56c-69bb8c9ba087.jpg"],"id":"511","product":{"name":"WS-S029-W","code":"WS-S029-W","brand":"2200*1200*650mm"},"details":[{"name":"WS-S029-W","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"0.75kWx1pc"},{"name":"Air pump","value":"0.2kWx1pc"},{"name":"LED light","value":"colorful led strip:1pc  LED（white light）:1pc"},{"name":"Jet","value":"ultrathin big jet:4pcs\n\nultrathin small jet:8pcs\n\nultrathin bubble jet:10pcs"},{"name":"Air adjuster","value":"1pc"},{"name":"steel stent","value":"√"},{"name":"Water drainer","value":"√"},{"name":"overflow tank","value":"√"},{"name":"Total power","value":"1.7kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/0aa238e0-6ffa-44df-98c6-4f5b33670036.jpg",
+        "http://www.chinamesda.com/imageRepository/f8ee6c44-fe3f-4aba-afdf-ed17904449c9.jpg",
+        "http://www.chinamesda.com/imageRepository/9e55a44f-5dad-48eb-80e6-178935b4b553.jpg",
+        "http://www.chinamesda.com/imageRepository/0c1b2207-ce43-4861-b56c-69bb8c9ba087.jpg"
+    ],
+    "id": "511",
+    "product": {
+        "name": "WS-S029-W",
+        "code": "WS-S029-W",
+        "brand": "2200*1200*650mm"
+    },
+    "details": [
+        {
+            "name": "WS-S029-W",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "0.75kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.2kWx1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "colorful led strip:1pc  LED（white light）:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "ultrathin big jet:4pcs\n\nultrathin small jet:8pcs\n\nultrathin bubble jet:10pcs"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "1pc"
+        },
+        {
+            "name": "steel stent",
+            "value": "√"
+        },
+        {
+            "name": "Water drainer",
+            "value": "√"
+        },
+        {
+            "name": "overflow tank",
+            "value": "√"
+        },
+        {
+            "name": "Total power",
+            "value": "1.7kW"
+        }
+    ]
+}

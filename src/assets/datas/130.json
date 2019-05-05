@@ -1,1 +1,82 @@
-{"images":["http://www.chinamesda.com/imageRepository/64cecd50-9c99-4636-ae80-f552208b5f52.jpg","http://www.chinamesda.com/imageRepository/0f65155a-9be8-407f-b9f6-c7e68b1fcb53.jpg"],"id":"130","product":{"name":"WS-290","code":"WS-290","brand":"1900x1300x830mm"},"details":[{"name":"WS-290","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n\n0.37kWx1pc"},{"name":"Air pump","value":"0.3kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"Small LED:14pcs   LED:1pc"},{"name":"Jet","value":"5\"LED rotating jet:1pc\n\n3.5\"LED rotating jet:3pcs\n\n2.5\"rotating jet:4pcs\n\n3/4\"jet:26pcs\n\nAir bubble Jet:8pcs"},{"name":"Waterfall","value":"1pc"},{"name":"Water Diverter","value":"1pc"},{"name":"Water drainer","value":"1pc"},{"name":"Pillow","value":"1pc"},{"name":"Cubage（m³）","value":"1m³"},{"name":"Seat","value":"3pcs"},{"name":"Total power","value":"5.87kW"},{"name":"Extra","value":"Pop-up TV 15”/DVD"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/64cecd50-9c99-4636-ae80-f552208b5f52.jpg",
+        "http://www.chinamesda.com/imageRepository/0f65155a-9be8-407f-b9f6-c7e68b1fcb53.jpg"
+    ],
+    "id": "130",
+    "product": {
+        "name": "WS-290",
+        "code": "WS-290",
+        "brand": "1900x1300x830mm"
+    },
+    "details": [
+        {
+            "name": "WS-290",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n\n0.37kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.3kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:14pcs   LED:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"LED rotating jet:1pc\n\n3.5\"LED rotating jet:3pcs\n\n2.5\"rotating jet:4pcs\n\n3/4\"jet:26pcs\n\nAir bubble Jet:8pcs"
+        },
+        {
+            "name": "Waterfall",
+            "value": "1pc"
+        },
+        {
+            "name": "Water Diverter",
+            "value": "1pc"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Pillow",
+            "value": "1pc"
+        },
+        {
+            "name": "Cubage（m³）",
+            "value": "1m³"
+        },
+        {
+            "name": "Seat",
+            "value": "3pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "5.87kW"
+        },
+        {
+            "name": "Extra",
+            "value": "Pop-up TV 15”/DVD"
+        }
+    ]
+}

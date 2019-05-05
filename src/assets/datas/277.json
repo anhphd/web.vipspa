@@ -1,1 +1,50 @@
-{"images":["http://www.chinamesda.com/imageRepository/211118dd-29a1-4c01-aa02-3f216d03b85c.jpg","http://www.chinamesda.com/imageRepository/cb158339-4ada-4679-b8aa-356d3985d334.jpg"],"id":"277","product":{"name":"WS-1412","code":"WS-1412","brand":"1500x1050x1900mm  1200x1050x1900mm  1000x1050x1900mm"},"details":[{"name":"WS-1412","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White poplar wood"},{"name":"Decoration","value":"White stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/211118dd-29a1-4c01-aa02-3f216d03b85c.jpg",
+        "http://www.chinamesda.com/imageRepository/cb158339-4ada-4679-b8aa-356d3985d334.jpg"
+    ],
+    "id": "277",
+    "product": {
+        "name": "WS-1412",
+        "code": "WS-1412",
+        "brand": "1500x1050x1900mm  1200x1050x1900mm  1000x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1412",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White poplar wood"
+        },
+        {
+            "name": "Decoration",
+            "value": "White stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

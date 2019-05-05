@@ -1,1 +1,87 @@
-{"images":["http://www.chinamesda.com/imageRepository/ebfbeda5-78ce-412d-9616-dc50effca82c.jpg","http://www.chinamesda.com/imageRepository/3b958f22-e5d8-4d77-92e1-262858b6a08e.jpg","http://www.chinamesda.com/imageRepository/a49dd543-3d11-48a4-9aa4-0e5110eb6ea8.jpg","http://www.chinamesda.com/imageRepository/1aa18871-fb3c-4be6-9197-fd308ef06436.jpg","http://www.chinamesda.com/imageRepository/3e67e750-212f-4192-a138-fa0d031105da.jpg","http://www.chinamesda.com/imageRepository/8e8a6e69-b466-4420-a7cb-17a036b29c60.jpg","http://www.chinamesda.com/imageRepository/5bdaa80e-762e-4eb7-9b89-8c9c7f4b194e.jpg"],"id":"482","product":{"name":"WS-695","code":"WS-695","brand":"2150*1550*900"},"details":[{"name":"Shell","value":"Acrylic "},{"name":"Control system ","value":"1SET(P25B37+PB554)"},{"name":"Water pump","value":"1pc*1.5KW(LP200) "},{"name":"Circulation pump","value":"0.37KW (JA50) x 1pc"},{"name":"Filter ","value":"Strip Skim with 2 filter cores"},{"name":"Heater","value":"With control system"},{"name":"Air adjustor","value":"2pcs"},{"name":"water divertor","value":"X"},{"name":"Colorful light","value":"1pc"},{"name":"LED(20pcs)","value":"16pcs+4pcs（4 corners）"},{"name":"Jets(22pcs)","value":"5'' jets：7pcs"},{"name":"4\"jets:2pcs","value":"3\"jets:3pcs"},{"name":"2\"jets:10pcs","value":"Pillow"},{"name":"4pcs","value":"Ozone"},{"name":"1","value":"PU"},{"name":"√","value":"Fiber glass base"},{"name":"√","value":"Total power"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ebfbeda5-78ce-412d-9616-dc50effca82c.jpg",
+        "http://www.chinamesda.com/imageRepository/3b958f22-e5d8-4d77-92e1-262858b6a08e.jpg",
+        "http://www.chinamesda.com/imageRepository/a49dd543-3d11-48a4-9aa4-0e5110eb6ea8.jpg",
+        "http://www.chinamesda.com/imageRepository/1aa18871-fb3c-4be6-9197-fd308ef06436.jpg",
+        "http://www.chinamesda.com/imageRepository/3e67e750-212f-4192-a138-fa0d031105da.jpg",
+        "http://www.chinamesda.com/imageRepository/8e8a6e69-b466-4420-a7cb-17a036b29c60.jpg",
+        "http://www.chinamesda.com/imageRepository/5bdaa80e-762e-4eb7-9b89-8c9c7f4b194e.jpg"
+    ],
+    "id": "482",
+    "product": {
+        "name": "WS-695",
+        "code": "WS-695",
+        "brand": "2150*1550*900"
+    },
+    "details": [
+        {
+            "name": "Shell",
+            "value": "Acrylic "
+        },
+        {
+            "name": "Control system ",
+            "value": "1SET(P25B37+PB554)"
+        },
+        {
+            "name": "Water pump",
+            "value": "1pc*1.5KW(LP200) "
+        },
+        {
+            "name": "Circulation pump",
+            "value": "0.37KW (JA50) x 1pc"
+        },
+        {
+            "name": "Filter ",
+            "value": "Strip Skim with 2 filter cores"
+        },
+        {
+            "name": "Heater",
+            "value": "With control system"
+        },
+        {
+            "name": "Air adjustor",
+            "value": "2pcs"
+        },
+        {
+            "name": "water divertor",
+            "value": "X"
+        },
+        {
+            "name": "Colorful light",
+            "value": "1pc"
+        },
+        {
+            "name": "LED(20pcs)",
+            "value": "16pcs+4pcs（4 corners）"
+        },
+        {
+            "name": "Jets(22pcs)",
+            "value": "5'' jets：7pcs"
+        },
+        {
+            "name": "4\"jets:2pcs",
+            "value": "3\"jets:3pcs"
+        },
+        {
+            "name": "2\"jets:10pcs",
+            "value": "Pillow"
+        },
+        {
+            "name": "4pcs",
+            "value": "Ozone"
+        },
+        {
+            "name": "1",
+            "value": "PU"
+        },
+        {
+            "name": "√",
+            "value": "Fiber glass base"
+        },
+        {
+            "name": "√",
+            "value": "Total power"
+        }
+    ]
+}

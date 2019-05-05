@@ -1,1 +1,64 @@
-{"images":["http://www.chinamesda.com/imageRepository/a721c2ab-8a46-482f-9d89-c26f6dcd67b3.jpg","http://www.chinamesda.com/imageRepository/122de0c3-b342-4086-8c62-9ca15e125272.jpg","http://www.chinamesda.com/imageRepository/1e7e3ccc-79dd-4dde-b1e2-b1491c9268b9.jpg","http://www.chinamesda.com/imageRepository/60f23c48-6bf8-4b27-b7d9-17b700a17cb9.jpg","http://www.chinamesda.com/imageRepository/aa40acd7-bd24-4c64-9429-8857409a1422.jpg","http://www.chinamesda.com/imageRepository/b1e524af-e745-498f-b736-309e2a32174a.jpg","http://www.chinamesda.com/imageRepository/84fdf391-395b-4565-ae83-3e502da076b9.jpg","http://www.chinamesda.com/imageRepository/c0153b4f-93a0-4638-a753-96204c036400.jpg"],"id":"533","product":{"name":"WS-1804","code":"WS-1804","brand":"4200x2000x2100mm"},"details":[{"name":"WS-1804","value":"Configuration"},{"name":"Type","value":"Sauna, Steam, Shower"},{"name":"Control system","value":"2pcs"},{"name":"Wooden material","value":"Merbau wood frame for outside, White poplar wood inside"},{"name":"Acrylic material","value":"Aristech cloudy grey acrylic"},{"name":"Lamp","value":"LED color changing light, Head lamp 2pcs"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Steam engine","value":"Harvia HGS90 9kW"},{"name":"Shower configuration","value":"Thermostatic faucet, Top Shower"},{"name":"Heating device","value":"Harvia sauna stove KIVI 6.9kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/a721c2ab-8a46-482f-9d89-c26f6dcd67b3.jpg",
+        "http://www.chinamesda.com/imageRepository/122de0c3-b342-4086-8c62-9ca15e125272.jpg",
+        "http://www.chinamesda.com/imageRepository/1e7e3ccc-79dd-4dde-b1e2-b1491c9268b9.jpg",
+        "http://www.chinamesda.com/imageRepository/60f23c48-6bf8-4b27-b7d9-17b700a17cb9.jpg",
+        "http://www.chinamesda.com/imageRepository/aa40acd7-bd24-4c64-9429-8857409a1422.jpg",
+        "http://www.chinamesda.com/imageRepository/b1e524af-e745-498f-b736-309e2a32174a.jpg",
+        "http://www.chinamesda.com/imageRepository/84fdf391-395b-4565-ae83-3e502da076b9.jpg",
+        "http://www.chinamesda.com/imageRepository/c0153b4f-93a0-4638-a753-96204c036400.jpg"
+    ],
+    "id": "533",
+    "product": {
+        "name": "WS-1804",
+        "code": "WS-1804",
+        "brand": "4200x2000x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1804",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna, Steam, Shower"
+        },
+        {
+            "name": "Control system",
+            "value": "2pcs"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Merbau wood frame for outside, White poplar wood inside"
+        },
+        {
+            "name": "Acrylic material",
+            "value": "Aristech cloudy grey acrylic"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 2pcs"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Steam engine",
+            "value": "Harvia HGS90 9kW"
+        },
+        {
+            "name": "Shower configuration",
+            "value": "Thermostatic faucet, Top Shower"
+        },
+        {
+            "name": "Heating device",
+            "value": "Harvia sauna stove KIVI 6.9kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

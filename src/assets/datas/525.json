@@ -1,1 +1,75 @@
-{"images":["http://www.chinamesda.com/imageRepository/3bc5f96d-9cb1-45d4-b221-8ac20ffe2e44.jpg","http://www.chinamesda.com/imageRepository/f6e2ad1c-a34c-40b7-8a44-ab732d7cf495.jpg","http://www.chinamesda.com/imageRepository/dd50ebc6-6d6a-490c-bfa4-2f5324a5a205.jpg","http://www.chinamesda.com/imageRepository/e11f2360-0b83-4047-b4df-958fa4375e4a.jpg","http://www.chinamesda.com/imageRepository/8fcbb9d3-b112-4947-ac57-e76fab22f3ec.jpg","http://www.chinamesda.com/imageRepository/ea0f9fe0-7e23-4cba-bd36-8ba9f63acc53.jpg","http://www.chinamesda.com/imageRepository/e33c47e9-dd68-414a-8760-0cfe97e79cc0.jpg"],"id":"525","product":{"name":"WS-S08T1 WS-S08T2","code":"WS-S08T1 WS-S08T2","brand":"7800*2200*1500mm"},"details":[{"name":"WS-S08T1 WS-S08T2","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Swim training system","value":"2.8kWx1pc"},{"name":"Water pump","value":"1.5kWx2pcs\n\n0.75kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"2pcs"},{"name":"LED light","value":"Small LED:28pcs LED:2pcs"},{"name":"UV light","value":"1pc"},{"name":"jet","value":"5\"rotating jet:2pcs\n\n3.5\"jet:4pcs\n\n2.5\"rotating jet:10pcs\n\n2.5\"jet:10pcs\n\n50mm Small jet:20pcs\n\nBlack jet:4pcs"},{"name":"Air adjuster","value":"2pcs"},{"name":"Pillow","value":"2pcs"},{"name":"Sand filter","value":"1pc"},{"name":"Seat","value":"5pcs"},{"name":"Total power","value":"9.55kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/3bc5f96d-9cb1-45d4-b221-8ac20ffe2e44.jpg",
+        "http://www.chinamesda.com/imageRepository/f6e2ad1c-a34c-40b7-8a44-ab732d7cf495.jpg",
+        "http://www.chinamesda.com/imageRepository/dd50ebc6-6d6a-490c-bfa4-2f5324a5a205.jpg",
+        "http://www.chinamesda.com/imageRepository/e11f2360-0b83-4047-b4df-958fa4375e4a.jpg",
+        "http://www.chinamesda.com/imageRepository/8fcbb9d3-b112-4947-ac57-e76fab22f3ec.jpg",
+        "http://www.chinamesda.com/imageRepository/ea0f9fe0-7e23-4cba-bd36-8ba9f63acc53.jpg",
+        "http://www.chinamesda.com/imageRepository/e33c47e9-dd68-414a-8760-0cfe97e79cc0.jpg"
+    ],
+    "id": "525",
+    "product": {
+        "name": "WS-S08T1 WS-S08T2",
+        "code": "WS-S08T1 WS-S08T2",
+        "brand": "7800*2200*1500mm"
+    },
+    "details": [
+        {
+            "name": "WS-S08T1 WS-S08T2",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Swim training system",
+            "value": "2.8kWx1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "1.5kWx2pcs\n\n0.75kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "2pcs"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:28pcs LED:2pcs"
+        },
+        {
+            "name": "UV light",
+            "value": "1pc"
+        },
+        {
+            "name": "jet",
+            "value": "5\"rotating jet:2pcs\n\n3.5\"jet:4pcs\n\n2.5\"rotating jet:10pcs\n\n2.5\"jet:10pcs\n\n50mm Small jet:20pcs\n\nBlack jet:4pcs"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "2pcs"
+        },
+        {
+            "name": "Pillow",
+            "value": "2pcs"
+        },
+        {
+            "name": "Sand filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Seat",
+            "value": "5pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "9.55kW"
+        }
+    ]
+}

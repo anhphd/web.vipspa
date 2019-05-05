@@ -1,0 +1,119 @@
+{
+    "name": "Steamtec",
+    "version": "1.0",
+    "copyright": "@ Copyright, 2019 Steamtec Hà Đông Hà Nội",
+    "banners": [
+        {
+            "thumb": "assets/images/3.jpg",
+            "url": "san-pham"
+        },
+        {
+            "thumb": "assets/images/4.jpg",
+            "url": "san-pham"
+        },
+        {
+            "thumb": "assets/images/6.jpg",
+            "url": "san-pham"
+        },
+        {
+            "thumb": "assets/images/10.jpg",
+            "url": "san-pham"
+        },
+        {
+            "thumb": "assets/images/11.jpg",
+            "url": "san-pham"
+        },
+        {
+            "thumb": "assets/images/2.jpg",
+            "url": "san-pham"
+        }
+    ],
+    "menus": [
+        {
+            "id": "trang-chu",
+            "name": "Trang chủ",
+            "url": "/trang-chu"
+        },
+        {
+            "id": "san-pham",
+            "name": "Sản phẩm",
+            "url": "/san-pham"
+        },
+        {
+            "id": "dich-vu",
+            "name": "Dịch vụ",
+            "url": "/dich-vu"
+        },
+        {
+            "id": "tin-tuc",
+            "name": "Tin tức",
+            "url": "/tin-tuc"
+        },
+        {
+            "id": "cong-ty",
+            "name": "Hỗ trợ",
+            "url": "/cong-ty"
+        }
+    ],
+    "categories": [
+        {
+            "id": "phong-xong-hoi-hon-hop",
+            "name": "Phòng xông hơi hỗn hợp",
+            "thumb": "",
+            "priority": 10,
+            "products": []
+        },
+        {
+            "id": "may-xong-hoi",
+            "name": "Máy xông hơi",
+            "thumb": "",
+            "priority": 9,
+            "products": []
+        },
+        {
+            "id": "phong-xong-hoi-kho",
+            "name": "Phòng xông hơi khô",
+            "thumb": "",
+            "priority": 10,
+            "products": []
+        },
+        {
+            "id": "may-va-phu-kien",
+            "name": "Máy và thiết bị",
+            "thumb": "",
+            "priority": 9,
+            "products": []
+        },
+        {
+            "id": "bon-tam-massage",
+            "name": "Bồn tắm massage",
+            "thumb": "",
+            "priority": 8,
+            "products": []
+        },
+        {
+            "id": "be-boi-massage",
+            "name": "Bể bơi massage",
+            "thumb": "",
+            "products": []
+        },
+        {
+            "id": "be-tam-massage",
+            "name": "Bể tắm massage",
+            "thumb": "",
+            "products": []
+        },
+        {
+            "id": "phong-xong-hoi-uot",
+            "name": "Phòng xông hơi ướt",
+            "thumb": "",
+            "products": []
+        },
+        {
+            "id": "vong-canh-spa",
+            "name": "Vọng cảnh spa",
+            "thumb": "",
+            "products": []
+        }
+    ]
+}

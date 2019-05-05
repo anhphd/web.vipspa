@@ -1,1 +1,46 @@
-{"images":["http://www.chinamesda.com/imageRepository/575868df-913c-49e0-80b7-85504ebb0637.jpg","http://www.chinamesda.com/imageRepository/4d568d4b-33dc-41f2-a0ce-bd05856f764a.jpg"],"id":"510","product":{"name":"WS-S029","code":"WS-S029","brand":"1800*800*650mm"},"details":[{"name":"WS-S029","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"0.75kWx1pc"},{"name":"LED light","value":"LED（white light）:1pc"},{"name":"Jet","value":"ultrathin small jet:8pcs"},{"name":"steel stent","value":"√"},{"name":"Water drainer","value":"√"},{"name":"Total power","value":"0.75kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/575868df-913c-49e0-80b7-85504ebb0637.jpg",
+        "http://www.chinamesda.com/imageRepository/4d568d4b-33dc-41f2-a0ce-bd05856f764a.jpg"
+    ],
+    "id": "510",
+    "product": {
+        "name": "WS-S029",
+        "code": "WS-S029",
+        "brand": "1800*800*650mm"
+    },
+    "details": [
+        {
+            "name": "WS-S029",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "0.75kWx1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED（white light）:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "ultrathin small jet:8pcs"
+        },
+        {
+            "name": "steel stent",
+            "value": "√"
+        },
+        {
+            "name": "Water drainer",
+            "value": "√"
+        },
+        {
+            "name": "Total power",
+            "value": "0.75kW"
+        }
+    ]
+}

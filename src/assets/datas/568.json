@@ -1,1 +1,41 @@
-{"images":["http://www.chinamesda.com/imageRepository/3d71a5c8-bb73-45a8-be4c-badf039fb2dd.jpg"],"id":"568","product":{"name":"WS-27SP","code":"WS-27SP","brand":"1635x1105x2008mm"},"details":[{"name":"WS-27SP","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White pine"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 6pcs  1.8kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/3d71a5c8-bb73-45a8-be4c-badf039fb2dd.jpg"
+    ],
+    "id": "568",
+    "product": {
+        "name": "WS-27SP",
+        "code": "WS-27SP",
+        "brand": "1635x1105x2008mm"
+    },
+    "details": [
+        {
+            "name": "WS-27SP",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White pine"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 6pcs  1.8kW"
+        }
+    ]
+}

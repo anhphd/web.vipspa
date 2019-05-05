@@ -1,1 +1,44 @@
-{"images":["http://www.chinamesda.com/imageRepository/706162d3-4928-4dfd-8a1a-6db275b95581.jpg","http://www.chinamesda.com/imageRepository/ecb3cc48-ff89-46ef-830c-7d6c172f7f07.jpg","http://www.chinamesda.com/imageRepository/be67aee8-1225-41ca-8623-87ff10f853d9.jpg","http://www.chinamesda.com/imageRepository/73169254-b88c-4b8b-883c-36b994b12f36.jpg"],"id":"493","product":{"name":"WS-1606SR","code":"WS-1606SR","brand":"1000x1000x1900mm"},"details":[{"name":"WS-1606SR","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 7pcs 2.1kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/706162d3-4928-4dfd-8a1a-6db275b95581.jpg",
+        "http://www.chinamesda.com/imageRepository/ecb3cc48-ff89-46ef-830c-7d6c172f7f07.jpg",
+        "http://www.chinamesda.com/imageRepository/be67aee8-1225-41ca-8623-87ff10f853d9.jpg",
+        "http://www.chinamesda.com/imageRepository/73169254-b88c-4b8b-883c-36b994b12f36.jpg"
+    ],
+    "id": "493",
+    "product": {
+        "name": "WS-1606SR",
+        "code": "WS-1606SR",
+        "brand": "1000x1000x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1606SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 7pcs 2.1kW"
+        }
+    ]
+}

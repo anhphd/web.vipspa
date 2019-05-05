@@ -1,1 +1,54 @@
-{"images":["http://www.chinamesda.com/imageRepository/ea9f926a-d72b-4393-8285-f94d7dfc4776.jpg","http://www.chinamesda.com/imageRepository/de948af5-ec40-4572-926a-39a89b548fd7.jpg"],"id":"365","product":{"name":"WS-PC07A","code":"WS-PC07A","brand":"7060*3060*1500mm"},"details":[{"name":"WS-PC07A","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx4pcs\n0.37kWx1pc"},{"name":"Filter","value":"2pcs"},{"name":"ozone","value":"1pc"},{"name":"LED light","value":"LED:1pc"},{"name":"U shape jet","value":"1pc"},{"name":"water column","value":"6pcs"},{"name":"jet","value":"5\"rotating jet:1pc\n4\"rotating jet:4pcs\n3\"rotating jet:9pcs\n2\"jet:22pcs\n3/4\"jet:20pcs"},{"name":"Total power","value":"12.17kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ea9f926a-d72b-4393-8285-f94d7dfc4776.jpg",
+        "http://www.chinamesda.com/imageRepository/de948af5-ec40-4572-926a-39a89b548fd7.jpg"
+    ],
+    "id": "365",
+    "product": {
+        "name": "WS-PC07A",
+        "code": "WS-PC07A",
+        "brand": "7060*3060*1500mm"
+    },
+    "details": [
+        {
+            "name": "WS-PC07A",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx4pcs\n0.37kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "2pcs"
+        },
+        {
+            "name": "ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED:1pc"
+        },
+        {
+            "name": "U shape jet",
+            "value": "1pc"
+        },
+        {
+            "name": "water column",
+            "value": "6pcs"
+        },
+        {
+            "name": "jet",
+            "value": "5\"rotating jet:1pc\n4\"rotating jet:4pcs\n3\"rotating jet:9pcs\n2\"jet:22pcs\n3/4\"jet:20pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "12.17kW"
+        }
+    ]
+}

@@ -1,1 +1,56 @@
-{"images":["http://www.chinamesda.com/imageRepository/a962249f-b813-428f-a81e-79ea675be7c3.jpg","http://www.chinamesda.com/imageRepository/7f7a4333-9486-44b0-806c-d98357c57b4f.jpg","http://www.chinamesda.com/imageRepository/fb76d9b1-70b1-42a9-b3a1-23e2055bc229.jpg","http://www.chinamesda.com/imageRepository/a4d2c195-9062-48c3-aecb-9f0fd1a986ff.jpg","http://www.chinamesda.com/imageRepository/1fd812f2-47b9-408e-a575-5bd0d034b22f.jpg","http://www.chinamesda.com/imageRepository/25aafc6c-089f-47f3-9310-41e443c33cd5.jpg","http://www.chinamesda.com/imageRepository/b531edda-7f5a-4024-a847-5890c98b0787.jpg","http://www.chinamesda.com/imageRepository/a294b2ff-d35e-42c1-83e9-b5890338bd16.jpg"],"id":"546","product":{"name":"WS-1815","code":"WS-1815","brand":"1280x1050x1900mm"},"details":[{"name":"WS-1815","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Control system","value":"1pc"},{"name":"Wooden material","value":"Hemlock: External, Internal: Aspen"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Harvia sauna stove Vega 3kW"},{"name":"Heating element","value":"Infrared carbon heating element 2pcs 0.6kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/a962249f-b813-428f-a81e-79ea675be7c3.jpg",
+        "http://www.chinamesda.com/imageRepository/7f7a4333-9486-44b0-806c-d98357c57b4f.jpg",
+        "http://www.chinamesda.com/imageRepository/fb76d9b1-70b1-42a9-b3a1-23e2055bc229.jpg",
+        "http://www.chinamesda.com/imageRepository/a4d2c195-9062-48c3-aecb-9f0fd1a986ff.jpg",
+        "http://www.chinamesda.com/imageRepository/1fd812f2-47b9-408e-a575-5bd0d034b22f.jpg",
+        "http://www.chinamesda.com/imageRepository/25aafc6c-089f-47f3-9310-41e443c33cd5.jpg",
+        "http://www.chinamesda.com/imageRepository/b531edda-7f5a-4024-a847-5890c98b0787.jpg",
+        "http://www.chinamesda.com/imageRepository/a294b2ff-d35e-42c1-83e9-b5890338bd16.jpg"
+    ],
+    "id": "546",
+    "product": {
+        "name": "WS-1815",
+        "code": "WS-1815",
+        "brand": "1280x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1815",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock: External, Internal: Aspen"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Harvia sauna stove Vega 3kW"
+        },
+        {
+            "name": "Heating element",
+            "value": "Infrared carbon heating element 2pcs 0.6kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

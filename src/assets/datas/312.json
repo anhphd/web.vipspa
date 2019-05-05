@@ -1,1 +1,41 @@
-{"images":["http://www.chinamesda.com/imageRepository/4036e058-0667-440b-9b42-717776315114.jpg"],"id":"312","product":{"name":"WS-120RJ，WS-150RJ","code":"WS-120RJ，WS-150RJ","brand":"1200x1200x2000mm  1500x1500x2000mm"},"details":[{"name":"WS-120RJ WS150RJ","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":" Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 8pcs  2.4kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/4036e058-0667-440b-9b42-717776315114.jpg"
+    ],
+    "id": "312",
+    "product": {
+        "name": "WS-120RJ，WS-150RJ",
+        "code": "WS-120RJ，WS-150RJ",
+        "brand": "1200x1200x2000mm  1500x1500x2000mm"
+    },
+    "details": [
+        {
+            "name": "WS-120RJ WS150RJ",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": " Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 8pcs  2.4kW"
+        }
+    ]
+}

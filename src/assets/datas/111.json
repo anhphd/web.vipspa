@@ -1,1 +1,70 @@
-{"images":["http://www.chinamesda.com/imageRepository/4ba1aa03-c5b0-4a9f-8967-00342dcddbf4.jpg","http://www.chinamesda.com/imageRepository/e5ce4ff5-8861-4837-956e-f82c0ff430ae.jpg"],"id":"111","product":{"name":"WS-595","code":"WS-595","brand":"2000x1500x800mm"},"details":[{"name":"WS-595","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n\n0.37kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"Small LED:8pcs  LED:1pc"},{"name":"Jet","value":"5\"rotating jet:2pcs\n\n5\"jet:2pcs\n\n3.5\"rotating jet:5pcs\n\n2.5\"rotating jet:4pcs\n\n2.5\"jet:4pcs\n\n3/4\"jet:30pcs"},{"name":"Water drainer","value":"1pc"},{"name":"Pillow","value":"2pcs"},{"name":"Water Diverter","value":"1pc"},{"name":"Air adjuster","value":"2pcs"},{"name":"Seat","value":"3pcs"},{"name":"Total power","value":"5.57kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/4ba1aa03-c5b0-4a9f-8967-00342dcddbf4.jpg",
+        "http://www.chinamesda.com/imageRepository/e5ce4ff5-8861-4837-956e-f82c0ff430ae.jpg"
+    ],
+    "id": "111",
+    "product": {
+        "name": "WS-595",
+        "code": "WS-595",
+        "brand": "2000x1500x800mm"
+    },
+    "details": [
+        {
+            "name": "WS-595",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n\n0.37kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:8pcs  LED:1pc"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"rotating jet:2pcs\n\n5\"jet:2pcs\n\n3.5\"rotating jet:5pcs\n\n2.5\"rotating jet:4pcs\n\n2.5\"jet:4pcs\n\n3/4\"jet:30pcs"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Pillow",
+            "value": "2pcs"
+        },
+        {
+            "name": "Water Diverter",
+            "value": "1pc"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "2pcs"
+        },
+        {
+            "name": "Seat",
+            "value": "3pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "5.57kW"
+        }
+    ]
+}

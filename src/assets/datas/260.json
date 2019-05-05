@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/8d500ae6-ccc8-4aa8-9be7-b3fc4e64194e.jpg"],"id":"260","product":{"name":"WS-1506","code":"WS-1506","brand":"1800x1050x1900mm  1500x1050x1900mm"},"details":[{"name":"WS-1506","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Harvia sauna stove 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/8d500ae6-ccc8-4aa8-9be7-b3fc4e64194e.jpg"
+    ],
+    "id": "260",
+    "product": {
+        "name": "WS-1506",
+        "code": "WS-1506",
+        "brand": "1800x1050x1900mm  1500x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1506",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Harvia sauna stove 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/1d88245e-3b1f-484a-9143-749c30d4e1c1.jpg","http://www.chinamesda.com/imageRepository/dca64519-4c22-402f-9791-881fdacbb0cb.jpg","http://www.chinamesda.com/imageRepository/dea33881-40b4-4e46-bc06-dca81460193f.jpg","http://www.chinamesda.com/imageRepository/c5961949-b56b-4b3e-8dd4-f651781f7ec1.jpg","http://www.chinamesda.com/imageRepository/401b95e9-379a-4da6-a22b-ea389b426686.jpg"],"id":"498","product":{"name":"WS-1703SR","code":"WS-1703SR","brand":"1500x1050x2000mm"},"details":[{"name":"WS-1703SR","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 7pcs, Ceramics Heating element 1pc 2.45kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/1d88245e-3b1f-484a-9143-749c30d4e1c1.jpg",
+        "http://www.chinamesda.com/imageRepository/dca64519-4c22-402f-9791-881fdacbb0cb.jpg",
+        "http://www.chinamesda.com/imageRepository/dea33881-40b4-4e46-bc06-dca81460193f.jpg",
+        "http://www.chinamesda.com/imageRepository/c5961949-b56b-4b3e-8dd4-f651781f7ec1.jpg",
+        "http://www.chinamesda.com/imageRepository/401b95e9-379a-4da6-a22b-ea389b426686.jpg"
+    ],
+    "id": "498",
+    "product": {
+        "name": "WS-1703SR",
+        "code": "WS-1703SR",
+        "brand": "1500x1050x2000mm"
+    },
+    "details": [
+        {
+            "name": "WS-1703SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 7pcs, Ceramics Heating element 1pc 2.45kW"
+        }
+    ]
+}

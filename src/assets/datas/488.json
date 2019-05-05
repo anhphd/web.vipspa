@@ -1,1 +1,43 @@
-{"images":["http://www.chinamesda.com/imageRepository/7c7f106b-3ddb-4874-aa71-7c7409b8e941.jpg","http://www.chinamesda.com/imageRepository/bf818300-62a8-4ec1-9dd4-6faaf0525978.jpg","http://www.chinamesda.com/imageRepository/0d511f1d-6bf3-440f-8541-0f32575cf8ec.jpg"],"id":"488","product":{"name":"WS-1601SR","code":"WS-1601SR","brand":"1200x1050x1900mm"},"details":[{"name":"WS-1601SR","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Hemlock"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating plate","value":"Mica fever plate 6pcs, glass heating board 1pc 1.95kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/7c7f106b-3ddb-4874-aa71-7c7409b8e941.jpg",
+        "http://www.chinamesda.com/imageRepository/bf818300-62a8-4ec1-9dd4-6faaf0525978.jpg",
+        "http://www.chinamesda.com/imageRepository/0d511f1d-6bf3-440f-8541-0f32575cf8ec.jpg"
+    ],
+    "id": "488",
+    "product": {
+        "name": "WS-1601SR",
+        "code": "WS-1601SR",
+        "brand": "1200x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1601SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Hemlock"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 6pcs, glass heating board 1pc 1.95kW"
+        }
+    ]
+}

@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/c60cc190-71b1-4d55-9f7b-d622c7981c9a.jpg"],"id":"332","product":{"name":"WS-120HZ, WS-135HZ, WS-150HZ","code":"WS-120HZ","brand":"1200x1200x1900mm  1350x1350x1900mm  1500x1500x1900mm"},"details":[{"name":"WS-120HZ WS-135HZ WS-150HZ","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Finland pine"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/c60cc190-71b1-4d55-9f7b-d622c7981c9a.jpg"
+    ],
+    "id": "332",
+    "product": {
+        "name": "WS-120HZ, WS-135HZ, WS-150HZ",
+        "code": "WS-120HZ",
+        "brand": "1200x1200x1900mm  1350x1350x1900mm  1500x1500x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-120HZ WS-135HZ WS-150HZ",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Finland pine"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

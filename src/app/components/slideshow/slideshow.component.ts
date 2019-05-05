@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-slideshow',
@@ -11,8 +12,17 @@ export class SlideshowComponent implements OnInit {
       delay: 2000,
     }
   };
-  constructor() { }
+  _Banners: Array<{ thumb: string, url: string }> = [];
+  constructor(public _DataService: DataService) {
+    this._DataService.LoadData().then(res => {
+      this.InitializeComponent();
+    });
+  }
 
-  ngOnInit() {}
+  public InitializeComponent() {
+    this._Banners = this._DataService._AppData['banners'];
+  }
+
+  ngOnInit() { }
 
 }

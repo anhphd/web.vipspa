@@ -1,1 +1,49 @@
-{"images":["http://www.chinamesda.com/imageRepository/9cde5ca6-e56d-4cde-9f5a-075fe1f2eeed.jpg"],"id":"565","product":{"name":"WS-1103S","code":"WS-1103S","brand":"1800x1050x1900mm 1500x1050x1900mm 1200x1050x1900mm"},"details":[{"name":"WS-1103S","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"Red cedar"},{"name":"Decoration","value":"Rome stone"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"LED color changing light, Head lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/9cde5ca6-e56d-4cde-9f5a-075fe1f2eeed.jpg"
+    ],
+    "id": "565",
+    "product": {
+        "name": "WS-1103S",
+        "code": "WS-1103S",
+        "brand": "1800x1050x1900mm 1500x1050x1900mm 1200x1050x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-1103S",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Red cedar"
+        },
+        {
+            "name": "Decoration",
+            "value": "Rome stone"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

@@ -1,1 +1,26 @@
-{"images":["http://www.chinamesda.com/imageRepository/ef6374cd-fe25-410d-827b-cae1198c8f95.jpg","http://www.chinamesda.com/imageRepository/33cdc2f8-259c-44e3-9f24-31879ec2b1b6.jpg"],"id":"224","product":{"name":"WS-807A","code":"WS-807A","brand":"1710x910x2250mm"},"details":[{"name":"Function","value":". BF330Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n\n. Water massage, Foot massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan 。\n\n. Voltage :210~240V, Total power: 3.75 KW"},{"name":"Packing & Weight","value":"carton with wooden cases packing\n\nG.W: KG N.W.: KG Package size: CM"},{"name":"Transportation","value":"20GP: pcs 40HQ: pcs"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/ef6374cd-fe25-410d-827b-cae1198c8f95.jpg",
+        "http://www.chinamesda.com/imageRepository/33cdc2f8-259c-44e3-9f24-31879ec2b1b6.jpg"
+    ],
+    "id": "224",
+    "product": {
+        "name": "WS-807A",
+        "code": "WS-807A",
+        "brand": "1710x910x2250mm"
+    },
+    "details": [
+        {
+            "name": "Function",
+            "value": ". BF330Control system, Adjustable temperature, FM radio, CD connection, Telephone receiver, Steam bath, Ozone, Top light, Wall lamp.\n\n. Water massage, Foot massage, Cold and Hot water inlet, Cold and Hot, Top shower, Acupuncture nozzles, Movable shower, Exhaust fan 。\n\n. Voltage :210~240V, Total power: 3.75 KW"
+        },
+        {
+            "name": "Packing & Weight",
+            "value": "carton with wooden cases packing\n\nG.W: KG N.W.: KG Package size: CM"
+        },
+        {
+            "name": "Transportation",
+            "value": "20GP: pcs 40HQ: pcs"
+        }
+    ]
+}

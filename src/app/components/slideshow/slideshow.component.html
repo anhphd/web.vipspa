@@ -3,35 +3,9 @@
     <app-header></app-header>
   </div>
   <ion-slides pager [options]="slideOptions" class="a1-container">
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link  a1-container">
-        <div [style.backgroundImage]="'url(assets/images/3.jpg)'" class="full-image"></div>
-      </a>
-    </ion-slide>
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link a1-container">
-        <div [style.backgroundImage]="'url(assets/images/4.jpg)'" class="full-image"></div>
-      </a>
-    </ion-slide>
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link  a1-container">
-        <div [style.backgroundImage]="'url(assets/images/6.jpg)'" class="full-image"></div>
-      </a>
-    </ion-slide>
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link a1-container">
-        <div [style.backgroundImage]="'url(assets/images/10.jpg)'" class="full-image"></div>
-      </a>
-    </ion-slide>
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link a1-container">
-        <div [style.backgroundImage]="'url(assets/images/11.jpg)'" class="full-image"></div>
-      </a>
-    </ion-slide>
-  
-    <ion-slide class="a1-container">
-      <a href="/san-pham/" class="a1-clear-link a1-container">
-        <div [style.backgroundImage]="'url(assets/images/2.jpg)'" class="full-image"></div>
+    <ion-slide class="a1-container" *ngFor="let banner of _Banners">
+      <a [href]="banner.url" class="a1-clear-link  a1-container">
+        <div [style.backgroundImage]='"url("+banner.thumb+")"' class="full-image"></div>
       </a>
     </ion-slide>
   </ion-slides>

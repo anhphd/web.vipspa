@@ -1,1 +1,54 @@
-{"images":["http://www.chinamesda.com/imageRepository/7c11e765-052a-4749-b377-c009454cb4e7.jpg","http://www.chinamesda.com/imageRepository/4c7888c0-c2ba-4e19-99e2-4ddf40649f41.jpg","http://www.chinamesda.com/imageRepository/1e788c94-a5a2-4034-9f39-ecf7302bc33c.jpg","http://www.chinamesda.com/imageRepository/c1eb645d-fa6c-4fa1-8dd4-9c523f32e0d4.jpg","http://www.chinamesda.com/imageRepository/a75c421d-fb92-427b-9df8-f282d195c2b8.jpg","http://www.chinamesda.com/imageRepository/dcd5a9a2-350c-45c5-8d20-549c9abf295a.jpg"],"id":"557","product":{"name":"WS-1600SR","code":"WS-1600SR","brand":"2000x1000x2100mm"},"details":[{"name":"WS-1600SR","value":"Configuration"},{"name":"Type","value":"Sauna, Steam, Shower"},{"name":"Wooden material","value":"Merbau wood frame for outside, Inside with Hemlock, Composite board"},{"name":"Control system","value":"2pcs"},{"name":"Lamp","value":"LED color changing light, LED Lamp 1pc"},{"name":"Music","value":"Bluetooth,FM,MP3"},{"name":"Steam engine","value":"Steam engine 4.5kW"},{"name":"Shower configuration","value":"Hand showers, Conversion"},{"name":"Heating plate","value":"Mica fever plate 6pcs 1.8kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/7c11e765-052a-4749-b377-c009454cb4e7.jpg",
+        "http://www.chinamesda.com/imageRepository/4c7888c0-c2ba-4e19-99e2-4ddf40649f41.jpg",
+        "http://www.chinamesda.com/imageRepository/1e788c94-a5a2-4034-9f39-ecf7302bc33c.jpg",
+        "http://www.chinamesda.com/imageRepository/c1eb645d-fa6c-4fa1-8dd4-9c523f32e0d4.jpg",
+        "http://www.chinamesda.com/imageRepository/a75c421d-fb92-427b-9df8-f282d195c2b8.jpg",
+        "http://www.chinamesda.com/imageRepository/dcd5a9a2-350c-45c5-8d20-549c9abf295a.jpg"
+    ],
+    "id": "557",
+    "product": {
+        "name": "WS-1600SR",
+        "code": "WS-1600SR",
+        "brand": "2000x1000x2100mm"
+    },
+    "details": [
+        {
+            "name": "WS-1600SR",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna, Steam, Shower"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Merbau wood frame for outside, Inside with Hemlock, Composite board"
+        },
+        {
+            "name": "Control system",
+            "value": "2pcs"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light, LED Lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Steam engine",
+            "value": "Steam engine 4.5kW"
+        },
+        {
+            "name": "Shower configuration",
+            "value": "Hand showers, Conversion"
+        },
+        {
+            "name": "Heating plate",
+            "value": "Mica fever plate 6pcs 1.8kW"
+        }
+    ]
+}

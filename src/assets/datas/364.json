@@ -1,1 +1,58 @@
-{"images":["http://www.chinamesda.com/imageRepository/9b5b0853-e3ec-43d5-9eb6-5ef9f45caf69.jpg","http://www.chinamesda.com/imageRepository/ab34e0e8-18ee-4009-9442-7da32190f60f.jpg"],"id":"364","product":{"name":"WS-PC05S","code":"WS-PC05S","brand":"5000X2400X1470mm"},"details":[{"name":"WS-PC05S","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx3pcs\n0.37kWx1pc"},{"name":"ozone","value":"1pc"},{"name":"UV light","value":"1pc"},{"name":"LED light","value":"LED:2pcs"},{"name":"jet","value":"U shape jet:1pc\nwater column:4pcs"},{"name":"Sand filter","value":"1pc"},{"name":"water drainer","value":"1pc"},{"name":"Seat","value":"2pcs"},{"name":"Total power","value":"6..97kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/9b5b0853-e3ec-43d5-9eb6-5ef9f45caf69.jpg",
+        "http://www.chinamesda.com/imageRepository/ab34e0e8-18ee-4009-9442-7da32190f60f.jpg"
+    ],
+    "id": "364",
+    "product": {
+        "name": "WS-PC05S",
+        "code": "WS-PC05S",
+        "brand": "5000X2400X1470mm"
+    },
+    "details": [
+        {
+            "name": "WS-PC05S",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx3pcs\n0.37kWx1pc"
+        },
+        {
+            "name": "ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "UV light",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "LED:2pcs"
+        },
+        {
+            "name": "jet",
+            "value": "U shape jet:1pc\nwater column:4pcs"
+        },
+        {
+            "name": "Sand filter",
+            "value": "1pc"
+        },
+        {
+            "name": "water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Seat",
+            "value": "2pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "6..97kW"
+        }
+    ]
+}

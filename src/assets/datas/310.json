@@ -1,1 +1,45 @@
-{"images":["http://www.chinamesda.com/imageRepository/dd882024-40cc-4202-aae4-442ee93790ae.jpg"],"id":"310","product":{"name":"WS-150CH","code":"WS-150CH","brand":"1500x1500x1900mm"},"details":[{"name":"WS-150CH","value":"Configuration"},{"name":"Type","value":"Sauna"},{"name":"Wooden material","value":"White pine"},{"name":"Control system","value":"1pc"},{"name":"Lamp","value":"Head lamp 1pc"},{"name":"Music","value":"FM,MP3"},{"name":"Heating device","value":"Sauna heater 3kW"},{"name":"Accessories","value":"Cask,Woodenspoon,Thermo-hygrometer,Sandglass"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/dd882024-40cc-4202-aae4-442ee93790ae.jpg"
+    ],
+    "id": "310",
+    "product": {
+        "name": "WS-150CH",
+        "code": "WS-150CH",
+        "brand": "1500x1500x1900mm"
+    },
+    "details": [
+        {
+            "name": "WS-150CH",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna"
+        },
+        {
+            "name": "Wooden material",
+            "value": "White pine"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Lamp",
+            "value": "Head lamp 1pc"
+        },
+        {
+            "name": "Music",
+            "value": "FM,MP3"
+        },
+        {
+            "name": "Heating device",
+            "value": "Sauna heater 3kW"
+        },
+        {
+            "name": "Accessories",
+            "value": "Cask,Woodenspoon,Thermo-hygrometer,Sandglass"
+        }
+    ]
+}

@@ -1,1 +1,58 @@
-{"images":["http://www.chinamesda.com/imageRepository/f4490db5-cefd-43d8-92d5-9daba5c06a8c.jpg","http://www.chinamesda.com/imageRepository/5cac1a1a-a35b-41a3-ab85-b69c4020bf62.jpg"],"id":"86","product":{"name":"WS-PC02","code":"WS-PC02","brand":"3000×3000×1100mm"},"details":[{"name":"WS-PC02","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n1.5kWx1pc\n0.75kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Air pump","value":"0.4kWx1pc"},{"name":"Filter","value":"1pc"},{"name":"LED light","value":"Small LED:5pcs  LED:1pc"},{"name":"jet","value":"2\"rotating jet:14pcs\n\n3\"rotating jet:9pcs\n\n3\"jet:12pcs\n\n5\"power LED jet:1pc\n\nair bubble Jet:8pcs\n\nsmall Jet:16pcs"},{"name":"ozone","value":"1pc"},{"name":"Seat","value":"9pcs"},{"name":"Total power","value":"7.85kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/f4490db5-cefd-43d8-92d5-9daba5c06a8c.jpg",
+        "http://www.chinamesda.com/imageRepository/5cac1a1a-a35b-41a3-ab85-b69c4020bf62.jpg"
+    ],
+    "id": "86",
+    "product": {
+        "name": "WS-PC02",
+        "code": "WS-PC02",
+        "brand": "3000×3000×1100mm"
+    },
+    "details": [
+        {
+            "name": "WS-PC02",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n1.5kWx1pc\n0.75kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.4kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:5pcs  LED:1pc"
+        },
+        {
+            "name": "jet",
+            "value": "2\"rotating jet:14pcs\n\n3\"rotating jet:9pcs\n\n3\"jet:12pcs\n\n5\"power LED jet:1pc\n\nair bubble Jet:8pcs\n\nsmall Jet:16pcs"
+        },
+        {
+            "name": "ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "Seat",
+            "value": "9pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "7.85kW"
+        }
+    ]
+}

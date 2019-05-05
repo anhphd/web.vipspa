@@ -1,1 +1,87 @@
-{"images":["http://www.chinamesda.com/imageRepository/864226d8-8bd6-4a14-b07f-69f84b082c34.jpg","http://www.chinamesda.com/imageRepository/23664d49-71b4-4cbe-9029-6d9fb03109b1.jpg","http://www.chinamesda.com/imageRepository/3ae688a5-a3e6-4054-9783-ed20acd449ee.jpg","http://www.chinamesda.com/imageRepository/421ba87d-e776-4e95-bfa9-281f322bb964.jpg","http://www.chinamesda.com/imageRepository/0cb893be-9878-49bd-a86d-c6b19cdfb4b5.jpg","http://www.chinamesda.com/imageRepository/6621ca6e-689f-49a9-b0a2-7dd342bd2764.jpg","http://www.chinamesda.com/imageRepository/2a66250d-38f6-4530-adac-3c4adb2c89c9.jpg"],"id":"108","product":{"name":"WS-592","code":"WS-592","brand":"2550x2310x900mm"},"details":[{"name":"WS-592","value":"QT"},{"name":"Control system","value":"1pc"},{"name":"Water pump","value":"2.2kWx1pc\n\n1.5kWx1pc\n\n0.75kWx1pc"},{"name":"Air pump","value":"0.4kWx1pc"},{"name":"Heater","value":"3kWx1pc"},{"name":"Filter","value":"2pcs"},{"name":"Ozone","value":"1pc"},{"name":"LED light","value":"Small LED:10pcs  LED:2pcs"},{"name":"Jet","value":"5\"rotating jet:2pcs\n\n5\"jet:2pcs\n\n3.5\"rotating jet:4pcs\n\n2.5\"rotating jet:16pcs\n\n2.5\"jet:14pcs\n\n3/4\"jet:12pcs\n\n2\"jet:24pcs\n\nAir bubble Jet:18pcs"},{"name":"Water column","value":"3pcs"},{"name":"Water column switch","value":"1pc"},{"name":"Water drainer","value":"1pc"},{"name":"Pillow","value":"3pcs"},{"name":"Water Diverter","value":"2pcs"},{"name":"Air adjuster","value":"5pcs"},{"name":"Seat","value":"5pcs"},{"name":"Total power","value":"7.47kW"}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/864226d8-8bd6-4a14-b07f-69f84b082c34.jpg",
+        "http://www.chinamesda.com/imageRepository/23664d49-71b4-4cbe-9029-6d9fb03109b1.jpg",
+        "http://www.chinamesda.com/imageRepository/3ae688a5-a3e6-4054-9783-ed20acd449ee.jpg",
+        "http://www.chinamesda.com/imageRepository/421ba87d-e776-4e95-bfa9-281f322bb964.jpg",
+        "http://www.chinamesda.com/imageRepository/0cb893be-9878-49bd-a86d-c6b19cdfb4b5.jpg",
+        "http://www.chinamesda.com/imageRepository/6621ca6e-689f-49a9-b0a2-7dd342bd2764.jpg",
+        "http://www.chinamesda.com/imageRepository/2a66250d-38f6-4530-adac-3c4adb2c89c9.jpg"
+    ],
+    "id": "108",
+    "product": {
+        "name": "WS-592",
+        "code": "WS-592",
+        "brand": "2550x2310x900mm"
+    },
+    "details": [
+        {
+            "name": "WS-592",
+            "value": "QT"
+        },
+        {
+            "name": "Control system",
+            "value": "1pc"
+        },
+        {
+            "name": "Water pump",
+            "value": "2.2kWx1pc\n\n1.5kWx1pc\n\n0.75kWx1pc"
+        },
+        {
+            "name": "Air pump",
+            "value": "0.4kWx1pc"
+        },
+        {
+            "name": "Heater",
+            "value": "3kWx1pc"
+        },
+        {
+            "name": "Filter",
+            "value": "2pcs"
+        },
+        {
+            "name": "Ozone",
+            "value": "1pc"
+        },
+        {
+            "name": "LED light",
+            "value": "Small LED:10pcs  LED:2pcs"
+        },
+        {
+            "name": "Jet",
+            "value": "5\"rotating jet:2pcs\n\n5\"jet:2pcs\n\n3.5\"rotating jet:4pcs\n\n2.5\"rotating jet:16pcs\n\n2.5\"jet:14pcs\n\n3/4\"jet:12pcs\n\n2\"jet:24pcs\n\nAir bubble Jet:18pcs"
+        },
+        {
+            "name": "Water column",
+            "value": "3pcs"
+        },
+        {
+            "name": "Water column switch",
+            "value": "1pc"
+        },
+        {
+            "name": "Water drainer",
+            "value": "1pc"
+        },
+        {
+            "name": "Pillow",
+            "value": "3pcs"
+        },
+        {
+            "name": "Water Diverter",
+            "value": "2pcs"
+        },
+        {
+            "name": "Air adjuster",
+            "value": "5pcs"
+        },
+        {
+            "name": "Seat",
+            "value": "5pcs"
+        },
+        {
+            "name": "Total power",
+            "value": "7.47kW"
+        }
+    ]
+}

@@ -1,1 +1,30 @@
-{"images":["http://www.chinamesda.com/imageRepository/b244664d-38c5-4c87-a88c-b907b6835991.jpg","http://www.chinamesda.com/imageRepository/b717664c-2c35-4e27-b738-b6b3401263a4.jpg"],"id":"192","product":{"name":"WS-206ST(R5)-W","code":"WS-206ST(R5)-W","brand":"2300x1295x2145mm"},"details":[{"name":"Material","value":"Red cedar wooden frame & floor, tempered glass, Imported acrylic."},{"name":"Computer system","value":"KL-821B computer system"},{"name":"Function","value":"Temperature/Time setting, Top color changing light,9-12KW steam generator.\n\nTop ceiling is in combined style"},{"name":"Others","value":"1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 10.8KW steam generator."}]}
+{
+    "images": [
+        "http://www.chinamesda.com/imageRepository/b244664d-38c5-4c87-a88c-b907b6835991.jpg",
+        "http://www.chinamesda.com/imageRepository/b717664c-2c35-4e27-b738-b6b3401263a4.jpg"
+    ],
+    "id": "192",
+    "product": {
+        "name": "WS-206ST(R5)-W",
+        "code": "WS-206ST(R5)-W",
+        "brand": "2300x1295x2145mm"
+    },
+    "details": [
+        {
+            "name": "Material",
+            "value": "Red cedar wooden frame & floor, tempered glass, Imported acrylic."
+        },
+        {
+            "name": "Computer system",
+            "value": "KL-821B computer system"
+        },
+        {
+            "name": "Function",
+            "value": "Temperature/Time setting, Top color changing light,9-12KW steam generator.\n\nTop ceiling is in combined style"
+        },
+        {
+            "name": "Others",
+            "value": "1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 10.8KW steam generator."
+        }
+    ]
+}
