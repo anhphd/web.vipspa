@@ -111,13 +111,9 @@
       <ion-row>
         <div class="other-product-container">
           <div><strong>Các sản phẩm bạn đã xem</strong></div>
-          <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
-            <div class="product-container" *ngFor="let product of _RecentProducts">
-              <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
-                routerDirection="backward" style="height:120px">
-              <div padding text-center class="product-name app-link" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
-                routerDirection="backward">
-                {{product.name}}</div>
+          <div class="product-containers">
+            <div *ngFor="let product of _RecentProducts" class="product-container">
+              <app-product [data]="product"></app-product>
             </div>
           </div>
         </div>
