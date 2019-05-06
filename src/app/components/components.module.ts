@@ -9,15 +9,32 @@ import { PipesModule } from '../pipes/pipes.module';
 import { OrderProductFormComponent } from './order-product-form/order-product-form.component';
 import { FormsModule } from '@angular/forms';
 import { LoadingComponent } from './loading/loading.component';
+import { RouterModule } from '@angular/router';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
-  declarations: [HeaderComponent,FooterComponent,SlideshowComponent,PaginationComponent,OrderProductFormComponent,LoadingComponent],
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    SlideshowComponent,
+    PaginationComponent,
+    OrderProductFormComponent,
+    LoadingComponent,
+    ProductComponent],
   imports: [
     CommonModule,
     IonicModule,
     FormsModule,
-    PipesModule
+    PipesModule,
+    RouterModule
   ],
-  exports: [HeaderComponent,FooterComponent,SlideshowComponent,PaginationComponent,OrderProductFormComponent,LoadingComponent]
+  exports: [
+    HeaderComponent,
+    FooterComponent,
+    SlideshowComponent,
+    PaginationComponent,
+    OrderProductFormComponent,
+    LoadingComponent,
+    ProductComponent]
 })
 export class ComponentsModule { }

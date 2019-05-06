@@ -1,5 +1,5 @@
-<div class="app-slideshow a1-relative">
-  <div class="a1-absolute a1-top a1-width-100 a1-z-10">
+<div class="app-slideshow a1-relative" [class.mobile-screen]="_IsLandscape">
+  <div class="header-container" >
     <app-header></app-header>
   </div>
   <ion-slides pager [options]="slideOptions" class="a1-container">

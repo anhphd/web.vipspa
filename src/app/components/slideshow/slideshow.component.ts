@@ -13,6 +13,9 @@ export class SlideshowComponent implements OnInit {
     }
   };
   _Banners: Array<{ thumb: string, url: string }> = [];
+
+  _IsLandscape: boolean = true;
+
   constructor(public _DataService: DataService) {
     this._DataService.LoadData().then(res => {
       this.InitializeComponent();
@@ -23,6 +26,14 @@ export class SlideshowComponent implements OnInit {
     this._Banners = this._DataService._AppData['banners'];
   }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.onWindowResize();
+    window.onresize = ()=>{
+      this.onWindowResize();
+    }
+  }
 
+  onWindowResize() {
+    this._IsLandscape = window.innerWidth < window.innerHeight;
+  }
 }

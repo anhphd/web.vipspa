@@ -5,11 +5,10 @@
     </div>
     <div class="a3-flex-1 a1-height-100">
       <div class="a3-container a1-fill-parent">
-        <div *ngFor="let menu of _DataService._MenuItems | activeItems" class=" header-menu-item dropdown">
-          <a class="a1-clear-link dropbtn a3-container-center a1-fill-parent" [href]="menu.url"
-            [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</a>
+        <div *ngFor="let menu of _DataService._MenuItems | activeItems" class="header-menu-item dropdown">
+          <div class="a1-clear-link dropbtn a3-container-center a1-fill-parent" [routerLink]="menu.url"
+            routerDirection="root" [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</div>
           <div class="dropdown-content">
-
           </div>
         </div>
       </div>

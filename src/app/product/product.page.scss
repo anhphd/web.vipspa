@@ -21,39 +21,6 @@
     display: inline-block;
     margin-right: 16px;
 }
-.product-image{
-    width: 100%;
-    height: 16vw;
-    position: relative;
-    overflow: hidden;
-    img{
-        position: absolute;
-        left: 50%;
-        top:50%;
-        transform: translate3d(-50%, -50%,0);
-        transition: all 300ms;
-        height:100%;
-        min-width: 100%;
-        transform-origin: 0% 0%;
-    }
-    img:hover{
-        cursor: pointer;
-        transform: scale(1.2) translate3d(-50%, -50%,0);
-        
-    }
-}
-
-
-.product-name{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.product-name:hover{
-    cursor: pointer;
-    color: var(--ion-color-success); 
-}
 
 .router-container{
     padding: 6px 10px;
@@ -64,26 +31,6 @@
     overflow: hidden;
 }
 
-@media only screen and (max-width: 800px) {
-    .product-image{
-        height: auto;
-        overflow: hidden;
-        img{   
-            position: relative;
-            width: 100%;
-            left: 0;
-            top: 0;
-            height:auto;
-            transform: translate3d(0%, 0%,0);
-            transform-origin: 50% 50%;
-            cursor: pointer;
-        }
-        img:hover{
-           
-            transform: scale(1.2) ;
-        }
-    }
-}
 @media only screen and (min-width: 800px) {
     .page-content{
         padding: 40px;

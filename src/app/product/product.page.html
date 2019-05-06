@@ -14,58 +14,32 @@
                         {{category.name}} <span *ngIf="category.totalProducts">({{category.totalProducts}})</span></div>
 
                 </div>
-                <div class="a3-flex-1">
+                <div class="a3-flex-1 a1-width-100">
 
                     <div class="router-container">
                         <div class="a3-container a3-items-center">
-                            <ion-button fill="clear" routerLink="/san-pham">
+                            <ion-button fill="clear" routerLink="/san-pham" routerDirection="root">
                                 <ion-icon name="home"></ion-icon>
                             </ion-button>
                             <span>/</span>
-                            <ion-button fill="clear" routerLink="/san-pham" style="text-transform: none">Sản phẩm
+                            <ion-button fill="clear" routerLink="/san-pham" routerDirection="root"
+                                style="text-transform: none">Sản phẩm
                             </ion-button>
                             <span *ngIf="_DataService._CategorySelected">/</span>
                             <ion-button fill="clear" style="text-transform: none" *ngIf="_DataService._CategorySelected"
-                                [routerLink]='"/san-pham/"+_DataService._CategorySelected.id'>
+                                [routerLink]='"/san-pham/"+_DataService._CategorySelected.id' routerDirection="root">
                                 {{_DataService._CategorySelected.name}}</ion-button>
-
                         </div>
                     </div>
 
-                    <div *ngIf="!_DataService._CategorySelected">
-                        <ion-grid>
-                            <ion-row *ngFor="let category of (_DataService._Categories | activeItems | sortPriority)" (click)="onClickSelectCategory(category)">
-                        
-                                <div class="other-product-container">
-                                    <div><strong>{{category.name}}</strong></div>
-                                    <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
-                                      <div class="product-container" *ngFor="let product of (category.products | previews)">
-                                        <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
-                                          routerDirection="backward" style="height:120px">
-                                        <div padding text-center class="product-name app-link" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
-                                          routerDirection="backward">
-                                          {{product.name}}</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </ion-row>
-                        </ion-grid>
-                    </div>
                     <div *ngIf="_DataService._CategorySelected">
                         <!--Show products-->
                         <div *ngIf="products.length>0" class="animated fadeIn" style="line-height:2em;"
                             id="_IDProductContainer">
                             <ion-grid>
                                 <ion-row style="flex-wrap:wrap">
-                                    <ion-col size="6" size-sm="6" size-md="3" *ngFor="let product of products"
-                                        class="product">
-                                        <div class="product-image">
-                                            <img [src]="sanitize(product.thumb)"
-                                                [routerLink]="['/san-pham/chi-tiet/'+product.id]">
-                                        </div>
-                                        <div padding text-center class="product-name app-link"
-                                            [routerLink]="['/san-pham/chi-tiet/'+product.id]">
-                                            {{product.name}}</div>
+                                    <ion-col size="6" size-sm="6" size-md="3" *ngFor="let product of products">
+                                        <app-product [data]="product"></app-product>
                                     </ion-col>
                                 </ion-row>
                             </ion-grid>
@@ -74,13 +48,8 @@
                         <div *ngIf="_Loading && products.length==0" class="animated fadeIn">
                             <div class="a3-container-center" [style.height]="_ProductContainerHeight"
                                 style="min-height:200px">
-                                <div padding text-center class="a1-width-100">
-                                    <ion-spinner name="dots"></ion-spinner>
-                                    <div padding text-center class="a1-width-100"> Đang tải dữ liệu!</div>
-                                </div>
-
+                                <app-loading></app-loading>
                             </div>
-
                         </div>
                         <!--No product message-->
                         <div *ngIf="!_Loading && products.length==0" class="animated fadeIn">
@@ -88,9 +57,7 @@
                                 <div padding text-center class="a1-width-100">
                                     Hiện chưa có sản phẩm nào!
                                 </div>
-
                             </div>
-
                         </div>
                         <!--Pagintaion-->
                         <div padding text-center class="animated fadeIn" *ngIf="products.length>0 || _Loading">

@@ -14,4 +14,36 @@
   </ion-menu>
 
   <ion-router-outlet main></ion-router-outlet>
+
+  <ion-fab vertical="bottom" horizontal="end">
+    <ion-fab-button>
+      <ion-icon src="assets/icon/fab.svg"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="top" *ngIf="_DataService._AppData.socials">
+      <ion-fab-button class="a1-relative">
+        <ion-icon src="assets/icon/zalo-1.svg"></ion-icon>
+        <a *ngIf="_DataService._AppData.socials.zalo_number"
+          [href]='"https://zalo.me/"+_DataService._AppData.socials.zalo_number' target="_blank" rel="nofollow"
+          class="a1-container-absolute"></a>
+      </ion-fab-button>
+      <ion-fab-button color="danger" class="a1-relative">
+        <ion-icon src="assets/icon/envelope.svg"></ion-icon>
+        <a *ngIf="_DataService._AppData.socials.email_support"
+          [href]='"mailto:"+_DataService._AppData.socials.email_support' target="_blank" rel="nofollow"
+          class="a1-container-absolute"></a>
+      </ion-fab-button>
+      <ion-fab-button color="primary" class="a1-relative">
+        <ion-icon src="assets/icon/messenger.svg"></ion-icon>
+        <a *ngIf="_DataService._AppData.socials.messenger_url" [href]="_DataService._AppData.socials.messenger_url"
+          target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+      </ion-fab-button>
+      <ion-fab-button color="success" class="a1-relative">
+        <ion-icon src="assets/icon/call.svg"></ion-icon>
+        <a *ngIf="_DataService._AppData.socials.hotlines&&_DataService._AppData.socials.hotlines.length>0"
+          [href]='"tel:"+_DataService._AppData.socials.hotlines[0]' target="_blank" rel="nofollow"
+          class="a1-container-absolute"></a>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-app>

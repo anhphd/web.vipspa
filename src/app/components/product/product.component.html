@@ -1,0 +1,12 @@
+<div class="product" [routerLink]="['/san-pham/chi-tiet/'+product.id]" routerDirection="root">
+  <div class="a1-relative" style="padding-top:75%">
+    <div class="a1-container-absolute">
+      <div class="product-image">
+        <img [src]="sanitize(product.thumb)">
+      </div>
+    </div>
+  </div>
+  <div padding text-center class="product-name app-link">
+    {{product.name}}
+  </div>
+</div>

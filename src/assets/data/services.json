@@ -3,30 +3,35 @@
         "url": "phong-xong-hoi",
         "name": "Phòng xông hơi",
         "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,..."
+        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
+        "content_file" : ""
     },
     {
         "url": "phong-xong-hoi",
         "name": "Dịch vụ sửa chữa máy xông hơi chuyên nghiệp",
         "img": "assets/images/noimage.png",
-        "description": "Chúng tôi cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và đảm bảo, bao giá toàn quốc. Dịch vụ cung cấp toàn quốc bởi đội ngũ nhân viên kỹ thuật lành nghề, giàu kinh nghiệm, trình độ kỹ thuật chuyên môn cao."
+        "description": "Chúng tôi cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và đảm bảo, bao giá toàn quốc. Dịch vụ cung cấp toàn quốc bởi đội ngũ nhân viên kỹ thuật lành nghề, giàu kinh nghiệm, trình độ kỹ thuật chuyên môn cao.",
+        "content_file" : ""
     },
     {
         "url": "phong-xong-hoi",
         "name": "Dịch vụ lắp đặt phòng xông hơi Gia đình - Spa",
         "img": "assets/images/noimage.png",
-        "description": "Với đội ngũ nhân viên thiết kế – thi công giàu kinh nghiệm, trình độ chuyên môn cao, làm việc tận tình, tận tâm, Hafuco luôn mong muốn mang đến cho quý khách hàng sản phẩm và dịch vụ uy tín, chất lượng, chuyên nghiệp hàng đầu cả nước."
+        "description": "Với đội ngũ nhân viên thiết kế – thi công giàu kinh nghiệm, trình độ chuyên môn cao, làm việc tận tình, tận tâm, Hafuco luôn mong muốn mang đến cho quý khách hàng sản phẩm và dịch vụ uy tín, chất lượng, chuyên nghiệp hàng đầu cả nước.",
+        "content_file" : ""
     },
     {
         "url": "phong-xong-hoi",
         "name": "Dịch vụ bảo trì",
         "img": "assets/images/noimage.png",
-        "description": "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..."
+        "description": "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và...",
+        "content_file" : ""
     },
     {
         "url": "phong-xong-hoi",
         "name": "Xử lý bể bơi",
         "img": "assets/images/noimage.png",
-        "description": "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và..."
+        "description": "Hafuco cung cấp dịch vụ sửa chữa, bảo dưỡng máy xông hơi khô và ướt tại nhà uy tín, nhanh chóng và...",
+        "content_file" : ""
     }
 ]

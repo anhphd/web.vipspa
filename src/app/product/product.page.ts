@@ -9,7 +9,7 @@ import { IPaginationItem } from 'src/classes/interface/IPaginationItem';
 
 
 @Component({
-  selector: 'app-product',
+  selector: 'product',
   templateUrl: './product.page.html',
   styleUrls: ['./product.page.scss'],
 })

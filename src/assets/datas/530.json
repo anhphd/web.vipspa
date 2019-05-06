@@ -11,13 +11,13 @@
     ],
     "id": "530",
     "product": {
-        "name": "WS-1805",
-        "code": "WS-1805",
+        "name": "XH-A1805",
+        "code": "XH-A1805",
         "brand": "2500x1800x2100mm"
     },
     "details": [
         {
-            "name": "WS-1805",
+            "name": "XH-A1805",
             "value": "Configuration"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "name": "Heating element",
-            "value": "Infrared carbon heating element 3pcs  0.9kW"
+            "value": "Infrared carbon heating element 3pcs 0.9kW"
         },
         {
             "name": "Accessories",

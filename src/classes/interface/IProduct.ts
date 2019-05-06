@@ -3,4 +3,6 @@ export interface IProduct {
   name: string;
   thumb: string;
   category?: string;
+  price?: number;
+  discount?: number;
 }

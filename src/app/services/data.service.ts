@@ -59,6 +59,13 @@ export class DataService {
           category.products = res;
           category.totalProducts = category.products.length;
           if (category.products.length > 0 && !category.thumb) category.thumb = category.products[0].thumb;
+          let pagi = this._PaginationMap.get(category.id);
+          if (pagi) {
+            pagi.initialize({
+              totalItems: category.products.length,
+              selectedPageIndex: pagi.selectedPageIndex
+            });
+          }
         }, errr => { });
       }
     }, error => {
@@ -104,7 +111,7 @@ export class DataService {
           totalItems: this._CategorySelected.products.length,
           selectedPageIndex: 0
         });
-        this._PaginationMap.set(this._CategorySelected.id, paginationData)
+        this._PaginationMap.set(this._CategorySelected.id, paginationData);
       }
       return this._PaginationMap.get(this._CategorySelected.id);
     }

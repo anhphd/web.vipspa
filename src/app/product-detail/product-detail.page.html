@@ -11,9 +11,11 @@
       <span>/</span>
       <ion-button fill="clear" routerLink="/san-pham" style="text-transform: none">Sản phẩm</ion-button>
       <span *ngIf="_DataService._CategorySelected">/</span>
-      <ion-button fill="clear" style="text-transform: none" *ngIf="_DataService._CategorySelected" [routerLink]='"/san-pham/"+_DataService._CategorySelected.id' >{{_DataService._CategorySelected.name}}</ion-button>
+      <ion-button fill="clear" style="text-transform: none" *ngIf="_DataService._CategorySelected"
+        [routerLink]='"/san-pham/"+_DataService._CategorySelected.id'>{{_DataService._CategorySelected.name}}
+      </ion-button>
       <span *ngIf="_Product">/</span>
-      <ion-button fill="clear" style="text-transform: none" *ngIf="_Product"  >{{_Product.name}}</ion-button>
+      <ion-button fill="clear" style="text-transform: none" *ngIf="_Product">{{_Product.name}}</ion-button>
     </div>
   </div>
 
@@ -98,12 +100,9 @@
       <ion-row>
         <div class="other-product-container">
           <div><strong>Xem thêm các sản phẩm khác</strong></div>
-          <div style="white-space: nowrap; overflow: auto; flex: 0" class="a3-container a3-items-center a1-padding-top">
-            <div class="product-container" *ngFor="let product of _SimilarProducts">
-              <img [src]="sanitize(product.thumb)" [routerLink]="['/san-pham/chi-tiet/'+product.id]"
-                routerDirection="backward" style="height:120px">
-              <div padding text-center class="product-name app-link" [routerLink]="['/san-pham/chi-tiet/'+product.id]">
-                {{product.name}}</div>
+          <div class="product-containers">
+            <div *ngFor="let product of _SimilarProducts" class="product-container">
+              <app-product [data]="product"></app-product>
             </div>
           </div>
         </div>

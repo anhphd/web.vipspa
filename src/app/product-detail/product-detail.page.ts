@@ -4,6 +4,7 @@ import { DataService } from '../services/data.service';
 import { ICategory } from 'src/classes/interface/ICategory';
 import { IProduct } from 'src/classes/interface/IProduct';
 import { DomSanitizer } from '@angular/platform-browser';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -20,24 +21,34 @@ export class ProductDetailPage implements OnInit {
   _SimilarProducts: Array<IProduct> = [];
   _RecentProducts: Array<IProduct> = [];
   _ProductID: string = '548';
-  _Product : IProduct = null;
-  constructor(public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _DataService: DataService, public router: Router) {
+  _Product: IProduct = null;
+  constructor(public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _ProductService: ProductService, public _DataService: DataService, public router: Router) {
 
     if (activeRoute.snapshot.paramMap.has('productID')) {
       this._ProductID = activeRoute.snapshot.paramMap.get('productID');
     }
 
+    this._DataService.setMenuSelected('san-pham');
+    this._Product = this._DataService.getProductByID(this._ProductID);
+
+
     this.requestProductDetail();
 
+    if (this._Product) {
+      let categoryID = this._Product.category;
+      if (categoryID) {
+        this._ProductService.getProducts(categoryID, -1).then(() => {
+          this._SimilarProducts = this._DataService.getSimilarProducts(this._ProductID);
+        });
+      }
+    }
 
-    this._SimilarProducts = this._DataService.getSimilarProducts(this._ProductID);
     this._DataService.addProductToRecent(this._DataService.getProductByID(this._ProductID));
     this._DataService.getRecentProducts().then(products => {
       this._RecentProducts = products;
     });
 
-    this._DataService.setMenuSelected('san-pham');
-    this._Product = this._DataService.getProductByID(this._ProductID);
+
 
   }
   requestProductDetail() {

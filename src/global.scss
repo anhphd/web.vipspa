@@ -9,8 +9,14 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
+:root,
+:root[mode="md"],
+:root[mode="ios"]{
+ --ion-font-family : 'Roboto', sans-serif;
+ font-family: var(--ion-font-family) !important;
+}
 
 
 $color-red: #FF0000;

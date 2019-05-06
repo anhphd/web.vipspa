@@ -2,30 +2,39 @@
     "name": "Steamtec",
     "version": "1.0",
     "copyright": "@ Copyright, 2019 Steamtec Hà Đông Hà Nội",
+    "socials" : {
+        "facebook_page_name" :"Steamtec.vn",
+        "facebook_page_url" : "https://www.facebook.com/thietbimayxonghoi",
+        "zalo_number" : "0901766313",
+        "hotlines" : ["0901766313","0901766313"],
+        "messenger_url" : "https://www.messenger.com/t/bontamchinhhang",
+        "email_support" : "hotro@steamtec.vn",
+        "googlemaps_location":"https://maps.google.com/maps?q=H%C3%A0%20%C4%91%C3%B4ng&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
     "banners": [
         {
             "thumb": "assets/images/3.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         },
         {
             "thumb": "assets/images/4.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         },
         {
             "thumb": "assets/images/6.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         },
         {
             "thumb": "assets/images/10.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         },
         {
             "thumb": "assets/images/11.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         },
         {
             "thumb": "assets/images/2.jpg",
-            "url": "san-pham"
+            "url": "/#/san-pham"
         }
     ],
     "menus": [
