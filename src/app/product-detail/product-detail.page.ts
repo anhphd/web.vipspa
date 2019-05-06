@@ -138,6 +138,7 @@ export class ProductDetailPage implements OnInit {
 
   }
   onClickSelectImage(image: string) {
+     
     this._CurrentImage = image;
   }
   ngOnInit() {
