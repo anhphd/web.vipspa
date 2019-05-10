@@ -5,13 +5,13 @@
     ],
     "id": "43",
     "product": {
-        "name": "WS-P12",
-        "code": "WS-P12",
+        "name": "BB-MP12",
+        "code": "BB-MP12",
         "brand": "12000x4200x1680mm"
     },
     "details": [
         {
-            "name": "WS-P12",
+            "name": "BB-MP12",
             "value": "Gemeral"
         },
         {
@@ -68,18 +68,18 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:100pcs + LED:9pcs"
+            "value": "Small LED:100pcs LED:9pcs"
         },
         {
-            "name": "Small LED:83pcs + LED:8pcs",
-            "value": "Small LED:17pcs + LED:1pc"
+            "name": "Small LED:83pcs LED:8pcs",
+            "value": "Small LED:17pcs LED:1pc"
         },
         {
             "name": "Large Colorful light",
             "value": "2 个"
         },
         {
-            "name": "2 个",
+            "name": "2pcs",
             "value": " "
         },
         {

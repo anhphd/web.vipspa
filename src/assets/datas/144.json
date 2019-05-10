@@ -5,14 +5,14 @@
     ],
     "id": "144",
     "product": {
-        "name": "WS-S034",
-        "code": "WS-S034",
+        "name": "BT-QS034",
+        "code": "BT-QS034",
         "brand": "2000x700mm"
     },
     "details": [
         {
             "name": "Spa color",
-            "value": "S Standard: White\nOptional Material : Imports: \nWhite/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture: \nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."
+            "value": "S Standard: White\nOptional Material : Imports: \nWhite/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture:\nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."
         },
         {
             "name": "Wooden panel",
@@ -59,7 +59,7 @@
             "value": "3person"
         },
         {
-            "name": "Cubage(m3 )",
+            "name": "Cubage(m3)",
             "value": "1.5m3"
         },
         {

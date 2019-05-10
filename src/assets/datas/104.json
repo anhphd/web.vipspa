@@ -7,13 +7,13 @@
     ],
     "id": "104",
     "product": {
-        "name": "WS-596E",
-        "code": "WS-596E",
+        "name": "BT-D596E",
+        "code": "BT-D596E",
         "brand": "2200x2200x900mm"
     },
     "details": [
         {
-            "name": "WS-596E",
+            "name": "BT-D596E",
             "value": "QT"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:12pcs  LED:2pcs"
+            "value": "Small LED:12pcs LED:2pcs"
         },
         {
             "name": "Jet",

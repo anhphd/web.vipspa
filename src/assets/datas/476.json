@@ -9,13 +9,13 @@
     ],
     "id": "476",
     "product": {
-        "name": "WS-S04B",
-        "code": "WS-S04B",
+        "name": "BB-US04B",
+        "code": "BB-US04B",
         "brand": "3900X2120X1450mm"
     },
     "details": [
         {
-            "name": "WS-S04B",
+            "name": "BB-US04B",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:33pcs  LED:2pcs"
+            "value": "Small LED:33pcs LED:2pcs"
         },
         {
             "name": "U shape jet",

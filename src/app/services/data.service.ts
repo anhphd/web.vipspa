@@ -249,6 +249,8 @@ export class DataService {
   public _AppData = {
     name: "Steamtec",
     version: "1.0.0",
-    copyright: "@ Copyright, 2019 Steamtec Hà Đông Hà Nội"
+    copyright: "@ Copyright, 2019 Steamtec Hà Đông Hà Nội",
+    socials : null
   };
+  
 }

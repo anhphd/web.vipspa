@@ -5,8 +5,8 @@
     ],
     "id": "135",
     "product": {
-        "name": "WS-296TV",
-        "code": "WS-296TV",
+        "name": "BT-L296TV",
+        "code": "BT-L296TV",
         "brand": "1960x1960x860mm"
     },
     "details": [
@@ -67,7 +67,7 @@
             "value": "5person"
         },
         {
-            "name": "Cubage(m3 )",
+            "name": "Cubage(m3)",
             "value": "1.5m3"
         },
         {

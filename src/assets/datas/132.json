@@ -5,13 +5,13 @@
     ],
     "id": "132",
     "product": {
-        "name": "WS-292TV",
-        "code": "WS-292TV",
+        "name": "BT-V292TV",
+        "code": "BT-V292TV",
         "brand": "2000x1500x860mm"
     },
     "details": [
         {
-            "name": "WS-292",
+            "name": "BT-V292",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:13pcs  LED:1pc"
+            "value": "Small LED:13pcs LED:1pc"
         },
         {
             "name": "Jet",

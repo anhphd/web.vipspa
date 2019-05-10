@@ -7,13 +7,13 @@
     ],
     "id": "99",
     "product": {
-        "name": "WS-591E",
-        "code": "WS-591E",
+        "name": "BT-H591E",
+        "code": "BT-H591E",
         "brand": "2200x1880x900mm"
     },
     "details": [
         {
-            "name": "WS-591E",
+            "name": "BT-H591E",
             "value": "QT"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:29pcs  LED:1pc"
+            "value": "Small LED:29pcs LED:1pc"
         },
         {
             "name": "Jet",

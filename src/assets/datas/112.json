@@ -8,13 +8,13 @@
     ],
     "id": "112",
     "product": {
-        "name": "WS-596",
-        "code": "WS-596",
+        "name": "BT-U596",
+        "code": "BT-U596",
         "brand": "2200x2200x900mm"
     },
     "details": [
         {
-            "name": "WS-596",
+            "name": "BT-U596",
             "value": "QT"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:8pcs  LED:2pcs"
+            "value": "Small LED:8pcs LED:2pcs"
         },
         {
             "name": "Jet",

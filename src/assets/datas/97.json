@@ -5,13 +5,13 @@
     ],
     "id": "97",
     "product": {
-        "name": "WS-S38",
-        "code": "WS-S38",
+        "name": "BB-ZS38",
+        "code": "BB-ZS38",
         "brand": "3800x2120x1110mm"
     },
     "details": [
         {
-            "name": "WS-S38",
+            "name": "BB-ZS38",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs LED:4pcs"
+            "value": "Small LED:10pcs LED:4pcs"
         },
         {
             "name": "Diverter",

@@ -5,18 +5,18 @@
     ],
     "id": "367",
     "product": {
-        "name": "WS-PC08A",
-        "code": "WS-PC08A",
+        "name": "BB-IPC08A",
+        "code": "BB-IPC08A",
         "brand": "8000X3000X1500mm"
     },
     "details": [
         {
-            "name": "WS-PC08A",
+            "name": "BB-IPC08A",
             "value": "QT"
         },
         {
             "name": "Control system",
-            "value": "1 个"
+            "value": "1pc"
         },
         {
             "name": "Water pump",
@@ -32,7 +32,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:22pcs  LED:2pcs"
+            "value": "Small LED:22pcs LED:2pcs"
         },
         {
             "name": "U shape jet",

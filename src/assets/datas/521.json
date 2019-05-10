@@ -10,13 +10,13 @@
     ],
     "id": "521",
     "product": {
-        "name": "WS-694",
-        "code": "WS-694",
+        "name": "BT-K694",
+        "code": "BT-K694",
         "brand": "2200*2200*900mm"
     },
     "details": [
         {
-            "name": "WS-694",
+            "name": "BT-K694",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:12pcs  LED:1pc"
+            "value": "Small LED:12pcs LED:1pc"
         },
         {
             "name": "water drainer",
@@ -53,7 +53,7 @@
         },
         {
             "name": "jet",
-            "value": "5.2\"Strong jet:1pc\n\n5\"jet:5pcs\n\n5\"rotating jet:8pcs\n4.5\"rotating jet:1pc\n3.5\"rotating jet:9pcs\n\n3.5\"jet:6pcs\n2.5\"rotating jet:4pcs\n\n2.5\"jet:4pcs"
+            "value": "5.2\"Strong jet:1pc\n\n5\"jet:5pcs\n\n5\"rotating jet:8pcs\n4.5\"rotating jet:1pc\n3.5\"rotating jet:9pcs\n\n3.5\"jet:6pcs\n2.5\"rotating jet:4pcs\n\n2.5\"jet:4pcs"
         },
         {
             "name": "Water Diverter",

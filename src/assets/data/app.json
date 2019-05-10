@@ -4,37 +4,37 @@
     "copyright": "@ Copyright, 2019 Steamtec Hà Đông Hà Nội",
     "socials" : {
         "facebook_page_name" :"Steamtec.vn",
-        "facebook_page_url" : "https://www.facebook.com/thietbimayxonghoi",
-        "zalo_number" : "0901766313",
-        "hotlines" : ["0901766313","0901766313"],
-        "messenger_url" : "https://www.messenger.com/t/bontamchinhhang",
+        "facebook_page_url" : "https://www.facebook.com/steamtec.vn",
+        "zalo_number" : "0978977864",
+        "hotlines" : ["0978977864","0833766866"],
+        "messenger_url" : "https://www.facebook.com/messages/t/dong.vu.77",
         "email_support" : "hotro@steamtec.vn",
-        "googlemaps_location":"https://maps.google.com/maps?q=H%C3%A0%20%C4%91%C3%B4ng&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        "googlemaps_location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.4138520834176!2d105.7897445642336!3d20.976041444953403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acd04e0819af%3A0xaf61e1f0442dd95!2zSOG7kyBWxINuIFF1w6Fu!5e0!3m2!1svi!2s!4v1557327760898!5m2!1svi!2s"
     },
     "banners": [
         {
             "thumb": "assets/images/3.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         },
         {
             "thumb": "assets/images/4.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         },
         {
             "thumb": "assets/images/6.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         },
         {
             "thumb": "assets/images/10.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         },
         {
             "thumb": "assets/images/11.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         },
         {
             "thumb": "assets/images/2.jpg",
-            "url": "/#/san-pham"
+            "url": "/san-pham"
         }
     ],
     "menus": [

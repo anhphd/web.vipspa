@@ -5,8 +5,8 @@
     ],
     "id": "143",
     "product": {
-        "name": "WS-S024",
-        "code": "WS-S024",
+        "name": "BT-FS024",
+        "code": "BT-FS024",
         "brand": "2360x1460x700mm"
     },
     "details": [
@@ -44,7 +44,7 @@
         },
         {
             "name": "Jet",
-            "value": "3\" Jet:8pcs\nSmall Jet:10pcs\nAir bubble Jet:16pcs\nsquare spare part:1pc"
+            "value": "3\" Jet:8pcs\nSmall Jet:10pcs\nAir bubble Jet:16pcs\nsquare spare part:1pc"
         },
         {
             "name": "Seating Capacity",
@@ -55,7 +55,7 @@
             "value": "1pc"
         },
         {
-            "name": "Cubage (m3 )",
+            "name": "Cubage (m3)",
             "value": "2 m3"
         },
         {

@@ -5,13 +5,13 @@
     ],
     "id": "88",
     "product": {
-        "name": "WS-S07M",
-        "code": "WS-S07M",
+        "name": "BB-HS07M",
+        "code": "BB-HS07M",
         "brand": "7000×2200×1480mm"
     },
     "details": [
         {
-            "name": "WS-S07M",
+            "name": "BB-HS07M",
             "value": "QT"
         },
         {
@@ -44,11 +44,11 @@
         },
         {
             "name": "LED light",
-            "value": " LED:1pc  big LED:1pc"
+            "value": "LED:1pc big LED:1pc"
         },
         {
             "name": "jet",
-            "value": "U shape jet:2pcs\n\n5\"rotating jet:5pcs\n\n3\"rotating jet:9pcs    \n\n2\"rotating jet:6pcs\n\nair bubble Jet:18pcs   "
+            "value": "U shape jet:2pcs\n\n5\"rotating jet:5pcs\n\n3\"rotating jet:9pcs \n\n2\"rotating jet:6pcs\n\nair bubble Jet:18pcs "
         },
         {
             "name": "Seat",

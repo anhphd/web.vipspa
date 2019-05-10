@@ -5,13 +5,13 @@
     ],
     "id": "90",
     "product": {
-        "name": "WS-S12",
-        "code": "WS-S12",
+        "name": "BB-GS12",
+        "code": "BB-GS12",
         "brand": "11780x2240x1600mm"
     },
     "details": [
         {
-            "name": "WS-S12",
+            "name": "BB-GS12",
             "value": "Gemeral"
         },
         {
@@ -68,10 +68,10 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:50pcs + LED:7pcs"
+            "value": "Small LED:50pcs LED:7pcs"
         },
         {
-            "name": "Small LED:50pcs + LED:5pcs",
+            "name": "Small LED:50pcs LED:5pcs",
             "value": "LED:2pcs"
         },
         {

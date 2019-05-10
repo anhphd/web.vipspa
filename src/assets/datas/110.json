@@ -9,13 +9,13 @@
     ],
     "id": "110",
     "product": {
-        "name": "WS-594",
-        "code": "WS-594",
+        "name": "BT-V594",
+        "code": "BT-V594",
         "brand": "2150x2150x950mm"
     },
     "details": [
         {
-            "name": "WS-594",
+            "name": "BT-V594",
             "value": "QT"
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "name": "LED light",
-            "value": "mall LED:10pcs  LED:2pcs"
+            "value": "mall LED:10pcs LED:2pcs"
         },
         {
             "name": "Jet",

@@ -5,13 +5,13 @@
     ],
     "id": "73",
     "product": {
-        "name": "WS-P001",
-        "code": "WS-P001",
+        "name": "BB-HP001",
+        "code": "BB-HP001",
         "brand": "3500×950mm"
     },
     "details": [
         {
-            "name": "WS-P001",
+            "name": "BB-HP001",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "jet",
-            "value": "5\"rotating LED jet:13pcs \n\n3\"rotating LED jet:7pcs\n\n5\"LED jet:1pc\n\nsmall Jet:20pcs\n\nair bubble Jet:20pcs\n\nLED air bubble Jet:8pcs"
+            "value": "5\"rotating LED jet:13pcs \n\n3\"rotating LED jet:7pcs\n\n5\"LED jet:1pc\n\nsmall Jet:20pcs\n\nair bubble Jet:20pcs\n\nLED air bubble Jet:8pcs"
         },
         {
             "name": "ozone",

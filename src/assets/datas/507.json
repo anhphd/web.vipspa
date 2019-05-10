@@ -6,13 +6,13 @@
     ],
     "id": "507",
     "product": {
-        "name": "WS-S026-W",
-        "code": "WS-S026-W",
+        "name": "BT-TS026-W",
+        "code": "BT-TS026-W",
         "brand": "2800*2350*900mm"
     },
     "details": [
         {
-            "name": "WS-S026-W",
+            "name": "BT-TS026-W",
             "value": "QT"
         },
         {
@@ -29,11 +29,11 @@
         },
         {
             "name": "LED light",
-            "value": "colorful led strip:1pc  LED（white light）:1pc"
+            "value": "colorful led strip:1pc LED（white light）:1pc"
         },
         {
             "name": "Air adjuster",
-            "value": "1个"
+            "value": "1pcs"
         },
         {
             "name": "Jet",

@@ -5,13 +5,13 @@
     ],
     "id": "133",
     "product": {
-        "name": "WS-294TV",
-        "code": "WS-294TV",
+        "name": "BT-F294TV",
+        "code": "BT-F294TV",
         "brand": "2060x1460x860mm"
     },
     "details": [
         {
-            "name": "WS-294",
+            "name": "BT-F294",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:19pcs  LED:1pc"
+            "value": "Small LED:19pcs LED:1pc"
         },
         {
             "name": "Jet",

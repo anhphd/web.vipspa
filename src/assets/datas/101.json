@@ -7,13 +7,13 @@
     ],
     "id": "101",
     "product": {
-        "name": "WS-593E",
-        "code": "WS-593E",
+        "name": "BT-X593E",
+        "code": "BT-X593E",
         "brand": "2370x2270x900mm"
     },
     "details": [
         {
-            "name": "WS-593E",
+            "name": "BT-X593E",
             "value": "QT"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:14pcs  LED:1pc"
+            "value": "Small LED:14pcs LED:1pc"
         },
         {
             "name": "Jet",

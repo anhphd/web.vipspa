@@ -5,13 +5,13 @@
     ],
     "id": "140",
     "product": {
-        "name": "WS-391TV",
-        "code": "WS-391TV",
+        "name": "BT-I391TV",
+        "code": "BT-I391TV",
         "brand": "2300x950mm"
     },
     "details": [
         {
-            "name": "WS-391",
+            "name": "BT-T391",
             "value": "QT"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs  LED:1pc"
+            "value": "Small LED:10pcs LED:1pc"
         },
         {
             "name": "Jet",

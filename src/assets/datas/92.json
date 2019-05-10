@@ -5,13 +5,13 @@
     ],
     "id": "92",
     "product": {
-        "name": "WS-S08B",
-        "code": "WS-S08B",
+        "name": "BB-FS08B",
+        "code": "BB-FS08B",
         "brand": "7800x2200x1500mm"
     },
     "details": [
         {
-            "name": "WS-S08B",
+            "name": "BB-FS08B",
             "value": "QT"
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:32pcs  LED:6pcs"
+            "value": "Small LED:32pcs LED:6pcs"
         },
         {
             "name": "jet",

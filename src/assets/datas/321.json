@@ -4,13 +4,13 @@
     ],
     "id": "321",
     "product": {
-        "name": "WS-22SN",
-        "code": "WS-22SN",
+        "name": "XH-A22SN",
+        "code": "XH-A22SN",
         "brand": "1835x1230x2040mm"
     },
     "details": [
         {
-            "name": "WS-22SN",
+            "name": "XH-A22SN",
             "value": "Configuration"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Lamp",
-            "value": " Head lamp 1pc"
+            "value": "Head lamp 1pc"
         },
         {
             "name": "Music",

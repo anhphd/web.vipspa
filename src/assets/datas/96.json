@@ -5,13 +5,13 @@
     ],
     "id": "96",
     "product": {
-        "name": "WS-S06B",
-        "code": "WS-S06B",
+        "name": "BB-SS06B",
+        "code": "BB-SS06B",
         "brand": "5800x2200x1250mm"
     },
     "details": [
         {
-            "name": "WS-S06B",
+            "name": "BB-SS06B",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:26pcs LED:3pcs"
+            "value": "Small LED:26pcs LED:3pcs"
         },
         {
             "name": "jet",

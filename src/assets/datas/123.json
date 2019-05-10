@@ -5,13 +5,13 @@
     ],
     "id": "123",
     "product": {
-        "name": "WS-098",
-        "code": "WS-098",
+        "name": "BT-W098",
+        "code": "BT-W098",
         "brand": "1860x1310x800mm"
     },
     "details": [
         {
-            "name": "WS-098",
+            "name": "BT-W098",
             "value": "QT"
         },
         {

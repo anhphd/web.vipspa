@@ -7,13 +7,13 @@
     ],
     "id": "511",
     "product": {
-        "name": "WS-S029-W",
-        "code": "WS-S029-W",
+        "name": "BT-TS029-W",
+        "code": "BT-TS029-W",
         "brand": "2200*1200*650mm"
     },
     "details": [
         {
-            "name": "WS-S029-W",
+            "name": "BT-TS029-W",
             "value": "QT"
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "name": "LED light",
-            "value": "colorful led strip:1pc  LED（white light）:1pc"
+            "value": "colorful led strip:1pc LED（white light）:1pc"
         },
         {
             "name": "Jet",

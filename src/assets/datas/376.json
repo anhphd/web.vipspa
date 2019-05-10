@@ -4,13 +4,13 @@
     ],
     "id": "376",
     "product": {
-        "name": "WS-150FX,WS-160FX",
-        "code": "WS-150FX,WS-160FX",
+        "name": "XH-J150FX,XH-J160FX",
+        "code": "XH-J150FX,XH-J160FX",
         "brand": "1500x1050x1900mm  1600x1050x1900mm"
     },
     "details": [
         {
-            "name": "WS-150FX WS-160FX",
+            "name": "XH-J150FX XH-J160FX",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating element",
-            "value": "Ceramics Heating element 5pcs  1.75kW"
+            "value": "Ceramics Heating element 5pcs 1.75kW"
         }
     ]
 }

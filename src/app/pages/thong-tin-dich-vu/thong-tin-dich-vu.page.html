@@ -19,6 +19,20 @@
       </div>
     </div>
 
+    <div class="other-services">
+      <ion-list>
+        <ion-item *ngFor="let service of _OtherServices">
+          <ion-thumbnail slot="start">
+            <ion-img [src]="service.img"></ion-img>
+          </ion-thumbnail>
+          <ion-label>{{service.name}}</ion-label>
+        </ion-item>
+      
+      </ion-list>
+
+    </div>
+
+
   </div>
   <app-footer></app-footer>
 </ion-content>

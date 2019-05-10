@@ -10,13 +10,13 @@
     ],
     "id": "483",
     "product": {
-        "name": "WS-696",
-        "code": "WS-696",
+        "name": "BT-V696",
+        "code": "BT-V696",
         "brand": "2150*1600*900mm"
     },
     "details": [
         {
-            "name": "WS-696",
+            "name": "BT-V696",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:30pcs  LED:1pc"
+            "value": "Small LED:30pcs LED:1pc"
         },
         {
             "name": "Water drainer",

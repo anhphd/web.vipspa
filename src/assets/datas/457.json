@@ -10,13 +10,13 @@
     ],
     "id": "457",
     "product": {
-        "name": "WS-690",
-        "code": "WS-690",
+        "name": "BT-H690",
+        "code": "BT-H690",
         "brand": "2540X2310X900mm"
     },
     "details": [
         {
-            "name": "WS-690",
+            "name": "BT-H690",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:26pcs  LED:2pcs"
+            "value": "Small LED:26pcs LED:2pcs"
         },
         {
             "name": "Waterfall",

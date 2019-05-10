@@ -5,13 +5,13 @@
     ],
     "id": "81",
     "product": {
-        "name": "WS-PC05",
-        "code": "WS-PC05",
+        "name": "BB-SPC05",
+        "code": "BB-SPC05",
         "brand": "5000*3000*1100mm"
     },
     "details": [
         {
-            "name": "WS-PC05",
+            "name": "BB-SPC05",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "jet",
-            "value": "3\"jet:14pcs    \n\nsmall Jet:4pcs\n\nwater column:4pcs"
+            "value": "3\"jet:14pcs\n\nsmall Jet:4pcs\n\nwater column:4pcs"
         },
         {
             "name": "water drainer",

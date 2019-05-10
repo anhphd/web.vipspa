@@ -5,14 +5,14 @@
     ],
     "id": "142",
     "product": {
-        "name": "WS-S020L",
-        "code": "WS-S020L",
+        "name": "BT-JS020L",
+        "code": "BT-JS020L",
         "brand": "2080x1500x650mm"
     },
     "details": [
         {
             "name": "Spa color",
-            "value": "Standard: White\nOptional Material :\nImports: White/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture: \nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."
+            "value": "Standard: White\nOptional Material :\nImports: White/Cloud Grey/Plaster White/Pearl White/Ocean Blue/Cloud Green.\nJoint venture:\nWhite/Cloud grey/Flash white/Flash cloud green/Cloud black/ cloud blue/Cloud blue/Cloud green/Golden/Flash Silver."
         },
         {
             "name": "Wood panel",
@@ -71,7 +71,7 @@
             "value": "3pcs"
         },
         {
-            "name": "Cubage( m3 )",
+            "name": "Cubage( m3)",
             "value": "1.8 m3"
         },
         {

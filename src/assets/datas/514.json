@@ -7,13 +7,13 @@
     ],
     "id": "514",
     "product": {
-        "name": "WS-S036-W",
-        "code": "WS-S036-W",
+        "name": "BT-DS036-W",
+        "code": "BT-DS036-W",
         "brand": "φ2000*650mm"
     },
     "details": [
         {
-            "name": "WS-S036-W",
+            "name": "BT-DS036-W",
             "value": "QT"
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "name": "LED light",
-            "value": "colorful led strip:1pc  LED（white light）:1pc"
+            "value": "colorful led strip:1pc LED（white light）:1pc"
         },
         {
             "name": "Jet",

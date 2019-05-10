@@ -5,13 +5,13 @@
     ],
     "id": "138",
     "product": {
-        "name": "WS-299TV",
-        "code": "WS-299TV",
+        "name": "BT-R299TV",
+        "code": "BT-R299TV",
         "brand": "2160x2160x860mm"
     },
     "details": [
         {
-            "name": "WS-299",
+            "name": "BT-R299",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:16pcs  LED:1pc"
+            "value": "Small LED:16pcs LED:1pc"
         },
         {
             "name": "Jet",

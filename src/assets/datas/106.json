@@ -9,13 +9,13 @@
     ],
     "id": "106",
     "product": {
-        "name": "WS-590",
-        "code": "WS-590",
+        "name": "BT-P590",
+        "code": "BT-P590",
         "brand": "2540x2310x980mm"
     },
     "details": [
         {
-            "name": "WS-590",
+            "name": "BT-P590",
             "value": "QT"
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:12pcs  LED:2pcs"
+            "value": "Small LED:12pcs LED:2pcs"
         },
         {
             "name": "Jet",

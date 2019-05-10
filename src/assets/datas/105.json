@@ -7,13 +7,13 @@
     ],
     "id": "105",
     "product": {
-        "name": "WS-597E",
-        "code": "WS-597E",
+        "name": "BT-G597E",
+        "code": "BT-G597E",
         "brand": "2130x1660x800mm"
     },
     "details": [
         {
-            "name": "WS-597E",
+            "name": "BT-G597E",
             "value": "QT"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:14pcs  LED:1pc"
+            "value": "Small LED:14pcs LED:1pc"
         },
         {
             "name": "Jet",

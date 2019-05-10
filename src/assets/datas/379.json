@@ -5,13 +5,13 @@
     ],
     "id": "379",
     "product": {
-        "name": "WS-293",
-        "code": "WS-293",
+        "name": "BT-V293",
+        "code": "BT-V293",
         "brand": "1800x1800x860mm"
     },
     "details": [
         {
-            "name": "WS-293",
+            "name": "BT-V293",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:16pcs  LED:1pc"
+            "value": "Small LED:16pcs LED:1pc"
         },
         {
             "name": "Jet",

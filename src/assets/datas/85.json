@@ -5,13 +5,13 @@
     ],
     "id": "85",
     "product": {
-        "name": "WS-PC01",
-        "code": "WS-PC01",
+        "name": "BB-MPC01",
+        "code": "BB-MPC01",
         "brand": "3000X1050mm"
     },
     "details": [
         {
-            "name": "WS-PC01",
+            "name": "BB-MPC01",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "jet",
-            "value": "2\"rotating jet:8pcs\n\n3\"rotating jet:10pcs\n\n3\"jet:8pcs\n\n5\"power LED jet:1pc\n\nair bubble Jet:12pcs\n\nsmall Jet:14pcs"
+            "value": "2\"rotating jet:8pcs\n\n3\"rotating jet:10pcs\n\n3\"jet:8pcs\n\n5\"power LED jet:1pc\n\nair bubble Jet:12pcs\n\nsmall Jet:14pcs"
         },
         {
             "name": "ozone",

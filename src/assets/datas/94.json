@@ -5,13 +5,13 @@
     ],
     "id": "94",
     "product": {
-        "name": "WS-S04X",
-        "code": "WS-S04X",
+        "name": "BB-DS04X",
+        "code": "BB-DS04X",
         "brand": "4030x2300x950mm"
     },
     "details": [
         {
-            "name": "WS-S04X",
+            "name": "BB-DS04X",
             "value": "QT"
         },
         {
@@ -24,7 +24,7 @@
         },
         {
             "name": "Air pump",
-            "value": "0.7kWx1pc  0.4kWx1pc"
+            "value": "0.7kWx1pc 0.4kWx1pc"
         },
         {
             "name": "Heater",
@@ -48,7 +48,7 @@
         },
         {
             "name": "jet",
-            "value": "5\"multi LED jet :1pc\n5\"rotating jet:3pcs\n3\"rotating jet:15pcs\n2\"rotating jet:26pcs\nsmall Jet:20pcs\nair bubble LED Jet:12pcs\nair bubble Jet:8pcs"
+            "value": "5\"multiLED jet :1pc\n5\"rotating jet:3pcs\n3\"rotating jet:15pcs\n2\"rotating jet:26pcs\nsmall Jet:20pcs\nair bubble LED Jet:12pcs\nair bubble Jet:8pcs"
         },
         {
             "name": "Diverter",

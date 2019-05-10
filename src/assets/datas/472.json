@@ -9,13 +9,13 @@
     ],
     "id": "472",
     "product": {
-        "name": "WS-691",
-        "code": "WS-691",
+        "name": "BT-L691",
+        "code": "BT-L691",
         "brand": "2350x2350x900mm"
     },
     "details": [
         {
-            "name": "WS-691",
+            "name": "BT-L691",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:22pcs  LED:1pc"
+            "value": "Small LED:22pcs LED:1pc"
         },
         {
             "name": "Pop-up Water column",

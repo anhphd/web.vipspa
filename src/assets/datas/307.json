@@ -4,13 +4,13 @@
     ],
     "id": "307",
     "product": {
-        "name": "WS-120CJ,WS-150CJ",
-        "code": "WS-120CJ,WS-150CJ",
+        "name": "XH-N120CJ,XH-N150CJ",
+        "code": "XH-N120CJ,XH-N150CJ",
         "brand": "1200x1200x1900mm  1500x1500x1900mm"
     },
     "details": [
         {
-            "name": "WS-120CJ WS-150CJ",
+            "name": "XH-N120CJ XH-N150CJ",
             "value": "Configuration"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Lamp",
-            "value": " Head lamp 1pc"
+            "value": "Head lamp 1pc"
         },
         {
             "name": "Music",

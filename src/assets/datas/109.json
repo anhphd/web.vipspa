@@ -8,13 +8,13 @@
     ],
     "id": "109",
     "product": {
-        "name": "WS-593",
-        "code": "WS-593",
+        "name": "BT-N593",
+        "code": "BT-N593",
         "brand": "2360x2260x900mm"
     },
     "details": [
         {
-            "name": "WS-593",
+            "name": "BT-N593",
             "value": "QT"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs  LED:1pc"
+            "value": "Small LED:10pcs LED:1pc"
         },
         {
             "name": "Jet",

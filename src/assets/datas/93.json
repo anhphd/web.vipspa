@@ -5,13 +5,13 @@
     ],
     "id": "93",
     "product": {
-        "name": "WS-S08M",
-        "code": "WS-S08M",
+        "name": "BB-CS08M",
+        "code": "BB-CS08M",
         "brand": "8020x2260x1280mm"
     },
     "details": [
         {
-            "name": "WS-S08M",
+            "name": "BB-CS08M",
             "value": "Gemeral"
         },
         {
@@ -68,10 +68,10 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:26pcs + LED:4pcs"
+            "value": "Small LED:26pcs LED:4pcs"
         },
         {
-            "name": "Small LED:26pcs + LED:3pcs",
+            "name": "Small LED:26pcs LED:3pcs",
             "value": "LED:1pc"
         },
         {

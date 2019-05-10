@@ -10,29 +10,29 @@
     ],
     "id": "482",
     "product": {
-        "name": "WS-695",
-        "code": "WS-695",
+        "name": "BT-T695",
+        "code": "BT-T695",
         "brand": "2150*1550*900"
     },
     "details": [
         {
             "name": "Shell",
-            "value": "Acrylic "
+            "value": "Acrylic"
         },
         {
-            "name": "Control system ",
+            "name": "Control system",
             "value": "1SET(P25B37+PB554)"
         },
         {
             "name": "Water pump",
-            "value": "1pc*1.5KW(LP200) "
+            "value": "1pc*1.5KW(LP200)"
         },
         {
             "name": "Circulation pump",
             "value": "0.37KW (JA50) x 1pc"
         },
         {
-            "name": "Filter ",
+            "name": "Filter",
             "value": "Strip Skim with 2 filter cores"
         },
         {

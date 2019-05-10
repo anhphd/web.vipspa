@@ -5,13 +5,13 @@
     ],
     "id": "134",
     "product": {
-        "name": "WS-295TV",
-        "code": "WS-295TV",
+        "name": "BT-K295TV",
+        "code": "BT-K295TV",
         "brand": "2160x1760x860mm"
     },
     "details": [
         {
-            "name": "WS-295",
+            "name": "BT-K295",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:23pcs  LED:1pc"
+            "value": "Small LED:23pcs LED:1pc"
         },
         {
             "name": "Jet",

@@ -5,13 +5,13 @@
     ],
     "id": "137",
     "product": {
-        "name": "WS-298TV",
-        "code": "WS-298TV",
+        "name": "BT-G298TV",
+        "code": "BT-G298TV",
         "brand": "2160x2160x860mm"
     },
     "details": [
         {
-            "name": "WS-298",
+            "name": "BT-G298",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:25pcs  LED:1pc"
+            "value": "Small LED:25pcs LED:1pc"
         },
         {
             "name": "Jet",

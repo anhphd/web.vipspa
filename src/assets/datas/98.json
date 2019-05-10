@@ -5,13 +5,13 @@
     ],
     "id": "98",
     "product": {
-        "name": "WS-S04",
-        "code": "WS-S04",
+        "name": "BB-AS04",
+        "code": "BB-AS04",
         "brand": "4120x2200x1110mm"
     },
     "details": [
         {
-            "name": "WS-S04",
+            "name": "BB-AS04",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:18pcs LED:3pcs"
+            "value": "Small LED:18pcs LED:3pcs"
         },
         {
             "name": "Speaker",

@@ -10,13 +10,13 @@
     ],
     "id": "553",
     "product": {
-        "name": "WS-692E",
-        "code": "WS-692E",
+        "name": "BT-A692E",
+        "code": "BT-A692E",
         "brand": "2150*2150*900mm"
     },
     "details": [
         {
-            "name": "WS-692E",
+            "name": "BT-A692E",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs  LED:1pc"
+            "value": "Small LED:10pcs LED:1pc"
         },
         {
             "name": "Jet",

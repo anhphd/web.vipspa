@@ -6,13 +6,13 @@
     ],
     "id": "102",
     "product": {
-        "name": "WS-594E",
-        "code": "WS-594E",
+        "name": "BT-R594E",
+        "code": "BT-R594E",
         "brand": "2150x2150x950mm"
     },
     "details": [
         {
-            "name": "WS-594E",
+            "name": "BT-R594E",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:14pcs  LED:2pcs"
+            "value": "Small LED:14pcs LED:2pcs"
         },
         {
             "name": "Jet",

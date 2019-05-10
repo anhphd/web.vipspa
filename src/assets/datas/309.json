@@ -4,13 +4,13 @@
     ],
     "id": "309",
     "product": {
-        "name": "WS-120CH",
-        "code": "WS-120CH",
+        "name": "XH-V120CH",
+        "code": "XH-V120CH",
         "brand": "1200x1200x1900mm"
     },
     "details": [
         {
-            "name": "WS-120CH",
+            "name": "XH-V120CH",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating plate",
-            "value": "Mica fever plate 8pcs  2.4kW"
+            "value": "Mica fever plate 8pcs 2.4kW"
         }
     ]
 }

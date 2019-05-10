@@ -5,13 +5,13 @@
     ],
     "id": "83",
     "product": {
-        "name": "WS-PC01A",
-        "code": "WS-PC01A",
+        "name": "BB-LPC01A",
+        "code": "BB-LPC01A",
         "brand": "3000X1100mm"
     },
     "details": [
         {
-            "name": "WS-PC01A",
+            "name": "BB-LPC01A",
             "value": "QT"
         },
         {
@@ -36,11 +36,11 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:9pcs  LED:1pc"
+            "value": "Small LED:9pcs LED:1pc"
         },
         {
             "name": "jet",
-            "value": "3\"rotating jet:8pcs\n\n3\"Double rotating jet:8pcs\n\n5\"rotating jet:8pcs\n\n5\"power jet:1pc\n\nsmall Jet:3pcs"
+            "value": "3\"rotating jet:8pcs\n\n3\"Double rotating jet:8pcs\n\n5\"rotating jet:8pcs\n\n5\"power jet:1pc\n\nsmall Jet:3pcs"
         },
         {
             "name": "ozone",

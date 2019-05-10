@@ -4,13 +4,13 @@
     ],
     "id": "334",
     "product": {
-        "name": "WS-180FX, WS-200FX",
-        "code": "WS-180FX, WS-200FX",
+        "name": "XH-Q180FX, XH-Q200FX",
+        "code": "XH-Q180FX, XH-Q200FX",
         "brand": "1800x1050x1900mm  2000x1200x1900mm"
     },
     "details": [
         {
-            "name": "WS-180FX WS-200FX",
+            "name": "XH-Q180FX XH-200FX",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating element",
-            "value": "Ceramics Heating element 7pcs  2.45kW"
+            "value": "Ceramics Heating element 7pcs 2.45kW"
         }
     ]
 }

@@ -8,13 +8,13 @@
     ],
     "id": "474",
     "product": {
-        "name": "WS-599",
-        "code": "WS-599",
+        "name": "BT-K599",
+        "code": "BT-K599",
         "brand": "1800X1050X800mm"
     },
     "details": [
         {
-            "name": "WS-599",
+            "name": "BT-K599",
             "value": "QT"
         },
         {
@@ -39,7 +39,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:2pcs  LED:1pc"
+            "value": "Small LED:2pcs LED:1pc"
         },
         {
             "name": "Jet",

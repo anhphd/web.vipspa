@@ -9,13 +9,13 @@
     ],
     "id": "475",
     "product": {
-        "name": "WS-692",
-        "code": "WS-692",
+        "name": "BT-V692",
+        "code": "BT-V692",
         "brand": "2150X2150X900mm"
     },
     "details": [
         {
-            "name": "WS-692",
+            "name": "BT-V692",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:22pcs  LED:1pc"
+            "value": "Small LED:22pcs LED:1pc"
         },
         {
             "name": "Jet",

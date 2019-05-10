@@ -5,13 +5,13 @@
     ],
     "id": "127",
     "product": {
-        "name": "WS-192",
-        "code": "WS-192",
+        "name": "BT-J192",
+        "code": "BT-J192",
         "brand": "2080x2080x900mm"
     },
     "details": [
         {
-            "name": "WS-192",
+            "name": "BT-J192",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:16pcs  LED:2pcs"
+            "value": "Small LED:16pcs LED:2pcs"
         },
         {
             "name": "Jet",

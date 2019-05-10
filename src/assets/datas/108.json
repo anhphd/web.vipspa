@@ -10,13 +10,13 @@
     ],
     "id": "108",
     "product": {
-        "name": "WS-592",
-        "code": "WS-592",
+        "name": "BT-M592",
+        "code": "BT-M592",
         "brand": "2550x2310x900mm"
     },
     "details": [
         {
-            "name": "WS-592",
+            "name": "BT-M592",
             "value": "QT"
         },
         {
@@ -45,7 +45,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs  LED:2pcs"
+            "value": "Small LED:10pcs LED:2pcs"
         },
         {
             "name": "Jet",

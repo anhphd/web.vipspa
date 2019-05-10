@@ -4,13 +4,13 @@
     ],
     "id": "315",
     "product": {
-        "name": "WS-90105SN, WS-100105SN",
-        "code": "WS-90105SN, WS-100105SN",
+        "name": "XH-J90105SN, XH-J100105SN",
+        "code": "XH-J90105SN, XH-J100105SN",
         "brand": "900x1050x1900mm  1000x1050x1900mm"
     },
     "details": [
         {
-            "name": "WS-90105SN\n\nWS-100105SN",
+            "name": "XH-J90105SN XH-J100105SN",
             "value": "Configuration"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Lamp",
-            "value": "  Head lamp 1pc"
+            "value": " Head lamp 1pc"
         },
         {
             "name": "Music",

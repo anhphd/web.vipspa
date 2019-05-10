@@ -9,13 +9,13 @@
     ],
     "id": "556",
     "product": {
-        "name": "WS-696E",
-        "code": "WS-696E",
+        "name": "BT-S696E",
+        "code": "BT-S696E",
         "brand": "2150*1600*900mm"
     },
     "details": [
         {
-            "name": "WS-696E",
+            "name": "BT-S696E",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:18pcs  LED:1pc"
+            "value": "Small LED:18pcs LED:1pc"
         },
         {
             "name": "Jet",

@@ -10,13 +10,13 @@
     ],
     "id": "107",
     "product": {
-        "name": "WS-591",
-        "code": "WS-591",
+        "name": "BT-Z591",
+        "code": "BT-Z591",
         "brand": "2200x1880x900mm"
     },
     "details": [
         {
-            "name": "WS-591",
+            "name": "BT-Z591",
             "value": "QT"
         },
         {
@@ -45,7 +45,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:10pcs  LED:1pc"
+            "value": "Small LED:10pcs LED:1pc"
         },
         {
             "name": "Jet",

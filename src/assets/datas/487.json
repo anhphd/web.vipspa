@@ -10,13 +10,13 @@
     ],
     "id": "487",
     "product": {
-        "name": "WS-C05",
-        "code": "WS-C05",
+        "name": "BB-TC05",
+        "code": "BB-TC05",
         "brand": "3760*2080*1100mm"
     },
     "details": [
         {
-            "name": "WS-C05",
+            "name": "BB-TC05",
             "value": "QT"
         },
         {
@@ -40,8 +40,8 @@
             "value": "4pcs"
         },
         {
-            "name": "LED light",
-            "value": " LED:4pcs"
+            "name": "LEDlight",
+            "value": "LED:4pcs"
         },
         {
             "name": "ozone",
@@ -53,7 +53,7 @@
         },
         {
             "name": "jet",
-            "value": "5\"rotating jet:8pcs\n3.5\"jet:25pcs\n\n2.5\"jet:4pcs"
+            "value": "5\"rotating jet:8pcs\n3.5\"jet:25pcs\n\n2.5\"jet:4pcs"
         },
         {
             "name": "water drainer",

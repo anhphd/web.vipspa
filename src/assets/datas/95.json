@@ -5,13 +5,13 @@
     ],
     "id": "95",
     "product": {
-        "name": "WS-S06",
-        "code": "WS-S06",
+        "name": "BB-XS06",
+        "code": "BB-XS06",
         "brand": "5890x2260x1110mm"
     },
     "details": [
         {
-            "name": "WS-S06",
+            "name": "BB-XS06",
             "value": "Gemeral"
         },
         {
@@ -68,10 +68,10 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:18pcs + LED:5pcs"
+            "value": "Small LED:18pcs LED:5pcs"
         },
         {
-            "name": "Small LED:18pcs + LED:3pcs",
+            "name": "Small LED:18pcs LED:3pcs",
             "value": "LED:2pcs"
         },
         {
@@ -87,7 +87,7 @@
             "value": "5\"multi jet:6pcs\n5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\n3\"rotating jet:3pcs\nsmall Jet:40pcs\nair bubble Jet:18pcs\nwater column:4pcs"
         },
         {
-            "name": "5\"multi jet:6pcs\n5\"rotating jet:1pc \n3\"rotating jet:3pcs\nsmall Jet:9pcs\nwater column:4pcs",
+            "name": "5\"multi jet:6pcs\n5\"rotating jet:1pc\n3\"rotating jet:3pcs\nsmall Jet:9pcs\nwater column:4pcs",
             "value": "5\"rotating jet:4pcs\n3.5\"rotating jet:1pc\nsmall Jet:31pcs\nair bubble Jet:18pcs"
         },
         {

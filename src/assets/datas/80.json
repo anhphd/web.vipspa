@@ -5,13 +5,13 @@
     ],
     "id": "80",
     "product": {
-        "name": "WS-PC04CH",
-        "code": "WS-PC04CH",
+        "name": "BB-DPC04CH",
+        "code": "BB-DPC04CH",
         "brand": "4500X3000X900mm"
     },
     "details": [
         {
-            "name": "WS-PC04CH",
+            "name": "BB-DPC04CH",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "jet",
-            "value": "5\"jet:4pcs \n\n3\"jet:33pcs\n\n3\"rotating jet:12pcs"
+            "value": "5\"jet:4pcs\n\n3\"jet:33pcs\n\n3\"rotating jet:12pcs"
         },
         {
             "name": "Air adjuster",

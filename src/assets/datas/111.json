@@ -5,13 +5,13 @@
     ],
     "id": "111",
     "product": {
-        "name": "WS-595",
-        "code": "WS-595",
+        "name": "BT-C595",
+        "code": "BT-C595",
         "brand": "2000x1500x800mm"
     },
     "details": [
         {
-            "name": "WS-595",
+            "name": "BT-C595",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:8pcs  LED:1pc"
+            "value": "Small LED:8pcs LED:1pc"
         },
         {
             "name": "Jet",

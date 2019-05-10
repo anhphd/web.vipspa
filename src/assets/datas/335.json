@@ -4,13 +4,13 @@
     ],
     "id": "335",
     "product": {
-        "name": "WS-120JX, WS-135JX",
-        "code": "WS-120JX, WS-135JX",
+        "name": "XH-B120JX, XH-B135JX",
+        "code": "XH-B120JX, XH-B135JX",
         "brand": "1200x1200x1900mm  1350x1350x1900mm"
     },
     "details": [
         {
-            "name": "WS-120JX WS-135JX",
+            "name": "XH-B120JX XH-B135JX",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating element",
-            "value": "Ceramics Heating element 5/7pcs  1.75kW/2.45kW"
+            "value": "Ceramics Heating element 5/7pcs 1.75kW/2.45kW"
         }
     ]
 }

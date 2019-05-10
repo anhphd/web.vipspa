@@ -5,13 +5,13 @@
     ],
     "id": "87",
     "product": {
-        "name": "WS-PC08",
-        "code": "WS-PC08",
+        "name": "BB-NPC08",
+        "code": "BB-NPC08",
         "brand": "8000×3000×1500mm"
     },
     "details": [
         {
-            "name": "WS-PC08",
+            "name": "BB-NPC08",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": " LED:1pc  big LED:1pc"
+            "value": "LED:1pc big LED:1pc"
         },
         {
             "name": "UV light",
@@ -48,7 +48,7 @@
         },
         {
             "name": "jet",
-            "value": "U shape jet:2pcs  "
+            "value": "U shape jet:2pcs "
         },
         {
             "name": "Total power",

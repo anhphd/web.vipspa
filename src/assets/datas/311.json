@@ -4,13 +4,13 @@
     ],
     "id": "311",
     "product": {
-        "name": "WS-90RF，WS-100RF",
-        "code": "WS-90RF，WS-100RF",
+        "name": "XH-X90RF，XH-X100RF",
+        "code": "XH-X90RF，XH-X100RF",
         "brand": "900x900x2000mm  1000x1000x2000mm"
     },
     "details": [
         {
-            "name": "WS-90RF WS-100RF",
+            "name": "XH-X90RF XH-X100RF",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating plate",
-            "value": "Mica fever plate 5pcs  1.5kW"
+            "value": "Mica fever plate 5pcs 1.5kW"
         }
     ]
 }

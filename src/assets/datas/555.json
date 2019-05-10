@@ -10,13 +10,13 @@
     ],
     "id": "555",
     "product": {
-        "name": "WS-695E",
-        "code": "WS-695E",
+        "name": "BT-D695E",
+        "code": "BT-D695E",
         "brand": "2150*1550*900mm"
     },
     "details": [
         {
-            "name": "WS-695E",
+            "name": "BT-D695E",
             "value": "QT"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:16pcs  LED:1pc"
+            "value": "Small LED:16pcs LED:1pc"
         },
         {
             "name": "Jet",

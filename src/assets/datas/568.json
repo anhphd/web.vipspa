@@ -4,13 +4,13 @@
     ],
     "id": "568",
     "product": {
-        "name": "WS-27SP",
-        "code": "WS-27SP",
+        "name": "XH-Z27SP",
+        "code": "XH-Z27SP",
         "brand": "1635x1105x2008mm"
     },
     "details": [
         {
-            "name": "WS-27SP",
+            "name": "XH-Z27SP",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating plate",
-            "value": "Mica fever plate 6pcs  1.8kW"
+            "value": "Mica fever plate 6pcs 1.8kW"
         }
     ]
 }

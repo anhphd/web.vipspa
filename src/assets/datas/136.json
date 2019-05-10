@@ -5,13 +5,13 @@
     ],
     "id": "136",
     "product": {
-        "name": "WS-297TV",
-        "code": "WS-297TV",
+        "name": "BT-A297TV",
+        "code": "BT-A297TV",
         "brand": "2060x2060x860mm"
     },
     "details": [
         {
-            "name": "WS-297",
+            "name": "BT-A297",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:29pcs  LED:1pc"
+            "value": "Small LED:29pcs LED:1pc"
         },
         {
             "name": "Jet",

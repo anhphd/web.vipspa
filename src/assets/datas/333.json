@@ -4,13 +4,13 @@
     ],
     "id": "333",
     "product": {
-        "name": "WS-90FX, WS-100FX, WS-120FX",
-        "code": "WS-90FX, WS-100FX, WS-120FX",
+        "name": "XH-N90FX, XH-N100FX, XH-N120FX",
+        "code": "XH-N90FX, XH-N100FX, XH-N120FX",
         "brand": "900x1050x1900mm  1000x1050x1900mm   1200x1050x1900mm"
     },
     "details": [
         {
-            "name": "WS-90FX WS-100FX WS-120FX",
+            "name": "XH-N90FX XH-N100FX XH-N120FX",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating element",
-            "value": "Ceramics Heating element 3/3/4pcs          1.05kW/1.05 kW /1.4 kW"
+            "value": "Ceramics Heating element 3/3/4pcs 1.05kW/1.05 kW /1.4 kW"
         }
     ]
 }

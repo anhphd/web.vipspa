@@ -4,13 +4,13 @@
     ],
     "id": "314",
     "product": {
-        "name": "WS-150RH",
-        "code": "WS-150RH",
+        "name": "XH-K150RH",
+        "code": "XH-K150RH",
         "brand": "1500x1500x2000mm"
     },
     "details": [
         {
-            "name": "WS-150RH",
+            "name": "XH-K150RH",
             "value": "Configuration"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating plate",
-            "value": "Mica fever plate 10pcs  3kW"
+            "value": "Mica fever plate 10pcs 3kW"
         }
     ]
 }

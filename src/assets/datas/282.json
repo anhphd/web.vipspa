@@ -5,13 +5,13 @@
     ],
     "id": "282",
     "product": {
-        "name": "WS-1240",
-        "code": "WS-1240",
+        "name": "XH-E1240",
+        "code": "XH-E1240",
         "brand": "3000x2000x2100mm  2800x2000x2100mm  2500x1800x2100mm  2200x1800x2100mm  2000x1800x2100mm"
     },
     "details": [
         {
-            "name": "WS-1240",
+            "name": "XH-E1240",
             "value": "Configuration"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "name": "Lamp",
-            "value": "Color lamp  LED color, changing light,  Head lamp 1pc"
+            "value": "Color lamp LED color, changing light, Head lamp 1pc"
         },
         {
             "name": "Music",

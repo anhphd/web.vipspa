@@ -5,13 +5,13 @@
     ],
     "id": "139",
     "product": {
-        "name": "WS-390TV",
-        "code": "WS-390TV",
+        "name": "BT-H390TV",
+        "code": "BT-H390TV",
         "brand": "3100x2260x950mm"
     },
     "details": [
         {
-            "name": "WS-390",
+            "name": "BT-H390",
             "value": "QT"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:20pcs  LED:1pc"
+            "value": "Small LED:20pcs LED:1pc"
         },
         {
             "name": "Jet",

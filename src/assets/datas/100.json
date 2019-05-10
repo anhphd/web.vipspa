@@ -9,13 +9,13 @@
     ],
     "id": "100",
     "product": {
-        "name": "WS-592E",
-        "code": "WS-592E",
+        "name": "BT-G592E",
+        "code": "BT-G592E",
         "brand": "2550x2310x900mm"
     },
     "details": [
         {
-            "name": "WS-592E",
+            "name": "BT-G592E",
             "value": "QT"
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:14pcs  LED:2pcs"
+            "value": "Small LED:14pcs LED:2pcs"
         },
         {
             "name": "Jet",

@@ -9,6 +9,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class ThongTinDichVuPage implements OnInit {
   _Link : string = '';
+  _OtherServices  = [];
   constructor(public activeRoute: ActivatedRoute, public _DataService: DataService) {
     
     if (this.activeRoute.snapshot.paramMap.has('link')) {

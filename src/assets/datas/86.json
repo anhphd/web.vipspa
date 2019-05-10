@@ -5,13 +5,13 @@
     ],
     "id": "86",
     "product": {
-        "name": "WS-PC02",
-        "code": "WS-PC02",
+        "name": "BB-JPC02",
+        "code": "BB-JPC02",
         "brand": "3000×3000×1100mm"
     },
     "details": [
         {
-            "name": "WS-PC02",
+            "name": "BB-JPC02",
             "value": "QT"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:5pcs  LED:1pc"
+            "value": "Small LED:5pcs LED:1pc"
         },
         {
             "name": "jet",

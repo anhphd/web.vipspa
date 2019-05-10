@@ -4,13 +4,13 @@
     ],
     "id": "312",
     "product": {
-        "name": "WS-120RJ，WS-150RJ",
-        "code": "WS-120RJ，WS-150RJ",
+        "name": "XH-Z120RJ，XH-Z150RJ",
+        "code": "XH-Z120RJ，XH-Z150RJ",
         "brand": "1200x1200x2000mm  1500x1500x2000mm"
     },
     "details": [
         {
-            "name": "WS-120RJ WS150RJ",
+            "name": "XH-Z120RJ XH-Z150RJ",
             "value": "Configuration"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Lamp",
-            "value": " Head lamp 1pc"
+            "value": "Head lamp 1pc"
         },
         {
             "name": "Music",
@@ -35,7 +35,7 @@
         },
         {
             "name": "Heating plate",
-            "value": "Mica fever plate 8pcs  2.4kW"
+            "value": "Mica fever plate 8pcs 2.4kW"
         }
     ]
 }

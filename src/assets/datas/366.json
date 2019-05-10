@@ -4,13 +4,13 @@
     ],
     "id": "366",
     "product": {
-        "name": "WS-392",
-        "code": "WS-392",
+        "name": "BT-O392",
+        "code": "BT-O392",
         "brand": "2400X950mm"
     },
     "details": [
         {
-            "name": "WS-392",
+            "name": "BT-O392",
             "value": "QT"
         },
         {
@@ -35,11 +35,11 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:28pcs   LED:2pcs"
+            "value": "Small LED:28pcs LED:2pcs"
         },
         {
             "name": "Jet",
-            "value": "5\"power jet:1pc\n\n5\"jet:2pcs\n\n5\"rotating jet:2pcs\n\n3.5\"rotating jet:12pcs\n\n2.5\"rotating jet:9pcs\n\n2.5\"jet:16pcs\n\n3/4\"jet:8pcs"
+            "value": "5\"power jet:1pc\n\n5\"jet:2pcs\n\n5\"rotating jet:2pcs\n\n3.5\"rotating jet:12pcs\n\n2.5\"rotating jet:9pcs\n\n2.5\"jet:16pcs\n\n3/4\"jet:8pcs"
         },
         {
             "name": "Air adjuster",

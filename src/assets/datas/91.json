@@ -5,13 +5,13 @@
     ],
     "id": "91",
     "product": {
-        "name": "WS-S10",
-        "code": "WS-S10",
+        "name": "BB-VS10",
+        "code": "BB-VS10",
         "brand": "10000x2240x1420mm"
     },
     "details": [
         {
-            "name": "WS-S10",
+            "name": "BB-VS10",
             "value": "Gemeral"
         },
         {
@@ -68,10 +68,10 @@
         },
         {
             "name": "LED light",
-            "value": "Small LED:40pcs + LED:5pcs"
+            "value": "Small LED:40pcs LED:5pcs"
         },
         {
-            "name": "Small LED:40pcs + LED:4pcs",
+            "name": "Small LED:40pcs LED:4pcs",
             "value": "LED:1pc"
         },
         {
@@ -80,7 +80,7 @@
         },
         {
             "name": " ",
-            "value": "2 个"
+            "value": "2pcs"
         },
         {
             "name": "jet",
