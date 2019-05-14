@@ -1,8 +1,15 @@
 <ion-content>
     <app-slideshow></app-slideshow>
     <div class="page-content">
+        <div class="a1-padding product-container" *ngIf="!_DataService._CategorySelected">
+            <div class="list-category-preview">
+                <app-category-preview class="category-preview"
+                    *ngFor="let category of (_DataService._Categories | activeItems | sortPriority)" [data]="category">
+                </app-category-preview>
+            </div>
+        </div>
 
-        <div class="a1-padding product-container">
+        <div class="a1-padding product-container" *ngIf="_DataService._CategorySelected">
 
             <div class="a3-container a1-width-100">
                 <div class="categories ion-hide-sm-down">
@@ -15,14 +22,14 @@
 
                 </div>
                 <div class="a3-flex-1 a1-width-100">
-
+                    <!-- Router -->
                     <div class="router-container">
                         <div class="a3-container a3-items-center">
-                            <ion-button fill="clear" routerLink="/san-pham" routerDirection="root">
+                            <ion-button fill="clear" routerLink="/" routerDirection="root">
                                 <ion-icon name="home"></ion-icon>
                             </ion-button>
                             <span>/</span>
-                            <ion-button fill="clear" routerLink="/san-pham" routerDirection="root"
+                            <ion-button fill="clear" routerLink="/san-pham/" routerDirection="root"
                                 style="text-transform: none">Sản phẩm
                             </ion-button>
                             <span *ngIf="_DataService._CategorySelected">/</span>
@@ -31,6 +38,7 @@
                                 {{_DataService._CategorySelected.name}}</ion-button>
                         </div>
                     </div>
+
 
                     <div *ngIf="_DataService._CategorySelected">
                         <!--Show products-->

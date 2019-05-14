@@ -22,18 +22,17 @@ export class ProductPage implements OnInit {
   constructor(private activeRoute: ActivatedRoute, private sanitizer: DomSanitizer, public route: Router, public _DataService: DataService) {
 
     this._DataService.LoadData().then(() => {
-      let categoryID: string = "phong-xong-hoi-kho";
+      let categoryID: string = "";
       if (this.activeRoute.snapshot.paramMap.has('categoryID')) {
         categoryID = this.activeRoute.snapshot.paramMap.get('categoryID');
+      }else{
+        console.log("No ID");
       }
 
       let category = this._DataService._Categories.find(ele => {
         return ele.id == categoryID;
       });
-      if (category) {
-        this._DataService.setSelectedCategory(category);
-        return;
-      }
+      this._DataService.setSelectedCategory(category);
     }, err => { });
     this._DataService.setMenuSelected('san-pham');
   }

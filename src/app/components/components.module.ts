@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { LoadingComponent } from './loading/loading.component';
 import { RouterModule } from '@angular/router';
 import { ProductComponent } from './product/product.component';
+import { CategoryPreviewComponent } from './category-preview/category-preview.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { ProductComponent } from './product/product.component';
     PaginationComponent,
     OrderProductFormComponent,
     LoadingComponent,
-    ProductComponent],
+    ProductComponent,
+    CategoryPreviewComponent
+  ],
   imports: [
     CommonModule,
     IonicModule,
@@ -35,6 +38,8 @@ import { ProductComponent } from './product/product.component';
     PaginationComponent,
     OrderProductFormComponent,
     LoadingComponent,
-    ProductComponent]
+    ProductComponent,
+    CategoryPreviewComponent
+  ]
 })
 export class ComponentsModule { }
