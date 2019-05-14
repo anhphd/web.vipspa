@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductService {
   private _DefaultProductPerPage: number = 12;
-  _Products: Array<IProduct> = [];
+  public _Products: Array<IProduct> = [];
 
   constructor(public httpClient: HttpClient) {
     this.getDataFromJson('assets/data/app.json').then(res => { this._OnResponseAppData(res); }, error => { });
@@ -40,7 +40,24 @@ export class ProductService {
       });
     });
   }
-
+  _GetProductByID(productID: string) {
+    return this._Products.find(ele => {
+      return ele.id == productID;
+    });
+  }
+  GetProductByID(productID: string) : Promise<IProduct>{
+    return new Promise((resolve, reject) => {
+      if (this._Products.length == 0) {
+        this.LoadData().then(data => {
+          return resolve(this._GetProductByID(productID));
+        }, err => {
+          return reject();
+        });
+      } else {
+        return resolve(this._GetProductByID(productID));
+      }
+    });
+  }
   _GetProducts(category: string, page: number, itemPerPage?: number): Array<IProduct> {
     if (page == -1) {
       return this._Products.filter(item => {
@@ -70,10 +87,13 @@ export class ProductService {
         }, error => {
           return reject();
         });
-      }else{
+      } else {
         return resolve(this._GetProducts(category, page, itemPerPage));
       }
     });
 
+  }
+  public Products(){
+    return this._Products;
   }
 }

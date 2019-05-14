@@ -2,11 +2,24 @@
   <div class="a1-relative" style="padding-top:75%">
     <div class="a1-container-absolute">
       <div class="product-image">
-        <img [src]="sanitize(product.thumb)">
+        <img [src]="product.thumb">
       </div>
     </div>
   </div>
-  <div padding text-center class="product-name app-link">
-    {{product.name}}
+  <div class="product-name app-link">
+    <div text-center *ngIf="!product.price"> {{product.name}}</div>
+    <div *ngIf="product.price" style="padding-left: 4px">
+      <strong>{{product.name}}</strong>
+      <br>
+      <span>{{product.price*(100-product.discount)/100 | number}}</span> vnd
+      <span *ngIf="product.discount">
+        <br>
+        <span style="color:gray; text-decoration: line-through; padding-right: 4px">{{product.price | number}}
+          vnd</span>
+
+        <span style="color:red; font-size: 1.2em">-{{product.discount | number}}%</span>
+      </span>
+
+    </div>
   </div>
 </div>

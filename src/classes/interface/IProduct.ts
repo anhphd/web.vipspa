@@ -5,4 +5,5 @@ export interface IProduct {
   category?: string;
   price?: number;
   discount?: number;
+  url : string;
 }

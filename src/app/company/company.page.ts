@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-company',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompanyPage implements OnInit {
   view: string = "profile";
-  constructor() { }
+  constructor(public _DataService : DataService) {
+    this._DataService.setMenuSelected('san-pham');
+   }
 
   ngOnInit() {
   }

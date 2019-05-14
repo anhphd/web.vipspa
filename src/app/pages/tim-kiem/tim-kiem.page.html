@@ -1,0 +1,55 @@
+<ion-content>
+  <app-slideshow></app-slideshow>
+  <div class="page-content">
+
+    <div class="a1-padding product-container">
+
+      <div class="a3-container a1-width-100">
+        <div class="categories ion-hide-sm-down">
+          <div class="a1-padding-bottom"><strong>Danh mục</strong></div>
+          <div class="sub-menu-item a1-link"
+            *ngFor="let category of (_DataService._Categories | activeItems | sortPriority)"
+            [routerLink]='"/san-pham/"+category.id' routerDirection="root"
+            [class.selected]="_DataService._CategorySelected && _DataService._CategorySelected.id==category.id">
+            {{category.name}} <span *ngIf="category.totalProducts">({{category.totalProducts}})</span></div>
+
+        </div>
+        <div class="a3-flex-1 a1-width-100">
+          <div class="a1-padding-left">Kết quả tìm kiếm cho <strong>{{mQuery}}</strong> ({{_Products.length}} kết quả)</div>
+          <!--Show products-->
+          <div *ngIf="products.length>0" class="animated fadeIn" style="line-height:2em;" id="_IDProductContainer">
+            <ion-grid>
+              <ion-row style="flex-wrap:wrap">
+                <ion-col size="6" size-sm="6" size-md="3" *ngFor="let product of products">
+                  <app-product [data]="product" class="animated fadeIn"></app-product>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+
+            <div padding text-center>
+              <ion-button (click)="onClickLoadMore()" fill="outline" *ngIf="currentIndex*8<_Products.length">Xem thêm</ion-button>
+            </div>
+          </div>
+          <!--Loading data-->
+          <div *ngIf="_Loading && products.length==0" class="animated fadeIn">
+            <div class="a3-container-center" style="min-height:200px">
+              <app-loading></app-loading>
+            </div>
+          </div>
+          <!--No product message-->
+          <div *ngIf="!_Loading && products.length==0" class="animated fadeIn">
+            <div class="a3-container-center" style="height:400px">
+              <div padding text-center class="a1-width-100">
+                Không tìm thấy sản phẩm nào phù hợp!
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <app-footer></app-footer>
+</ion-content>

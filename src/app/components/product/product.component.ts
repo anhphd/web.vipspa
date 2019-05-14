@@ -11,10 +11,14 @@ export class ProductComponent implements OnInit {
 
   @Input('data') product: IProduct;
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor(private sanitizer: DomSanitizer) {
+   
+   }
 
   ngOnInit() {
-   
+    if(this.product && this.product.thumb.indexOf('http') == -1){
+      this.product.thumb = "http://www.chinamesda.com/imageRepository/"+this.product.thumb;
+    }
   }
 
   sanitize(url: string) {

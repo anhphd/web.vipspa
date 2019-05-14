@@ -59,9 +59,9 @@
             "url": "/tin-tuc"
         },
         {
-            "id": "cong-ty",
+            "id": "ho-tro",
             "name": "Hỗ trợ",
-            "url": "/cong-ty"
+            "url": "/ho-tro"
         }
     ],
     "categories": [

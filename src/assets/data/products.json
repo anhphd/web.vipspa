@@ -3,7 +3,10 @@
         "category": "be-boi-massage",
         "id": "561",
         "name": "BB-MS06B-T",
-        "thumb": "48ced072-a541-4026-bfc4-03b8165105b5.jpg"
+        "thumb": "48ced072-a541-4026-bfc4-03b8165105b5.jpg",
+        "price": 120000,
+        "discount" : 10,
+        "url" : "product-561"
     },
     {
         "category": "be-boi-massage",

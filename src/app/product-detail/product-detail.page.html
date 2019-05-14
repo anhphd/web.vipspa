@@ -75,7 +75,7 @@
               {{_Data.product.code}}</div>
             <div class="a1-padding-top"> <span style="color:gray; min-width: 100px">Kích thước</span> :
               {{_Data.product.brand}}</div>
-            <app-order-product-form></app-order-product-form>
+            <app-order-product-form [data]="_Product"></app-order-product-form>
           </div>
 
         </ion-col>
@@ -96,6 +96,10 @@
             <span><strong>{{item.value}}</strong></span>
           </div>
         </div>
+        <div class="a1-padding-top">
+          <div id="_ID_Product_DETAIL_CONTNENT" class="html-content"></div>
+        </div>
+
       </ion-row>
       <ion-row>
         <div class="other-product-container">

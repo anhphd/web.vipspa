@@ -13,16 +13,26 @@
         </div>
       </div>
     </div>
-    <div class="a3-container a1-height-100" style="width:20vw"> </div>
+    <div class="a3-container a1-height-100" style="width:20vw">
+      <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)" ></ion-searchbar>
+    </div>
   </div>
-  <div class="a3-container a3-items-center a1-fill-parent ion-hide-md-up">
-    <ion-menu-button class="a1-padding-left">
-      <ion-icon name="menu" style="font-size:2em; color: white">
-      </ion-icon>
-    </ion-menu-button>
-    <ion-searchbar animated></ion-searchbar>
-    <!-- <div *ngIf="_DataService._MenuItemSelected"
-      style="font-size:1.4em; color: white; line-height: 1.4em; padding-left: 6px">
-      {{_DataService._MenuItemSelected.name}}</div> -->
-  </div>
+  <ion-toolbar color="primary" class="a1-fill-parent ion-hide-md-up">
+    <ion-buttons slot="start">
+      <ion-menu-button *ngIf="!searchQuery">
+        <ion-icon name="md-menu">
+        </ion-icon>
+      </ion-menu-button>
+      <ion-button *ngIf="searchQuery" (click)="onClickClearSearch()" routerLink="" routerDirection="root">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+
+    </ion-buttons>
+    <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)" ></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-button [disabled]="!searchQuery" (click)="onClickSearch()">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
 </div>

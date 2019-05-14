@@ -1,12 +1,15 @@
-<div class="container">
-  <div class="a3-container a3-items-center">
-    <div>Giá bán:</div>
-    <div padding style="font-size:1.2em">
-      <ion-text color="danger">Liên hệ</ion-text>
+<div class="container" *ngIf="product">
+  <div class="a1-padding-top a1-padding-bottom">
+    <div>Giá bán: <span style="font-size: 1.2em; color: red;" *ngIf="!product.price">Liên hệ</span>  <span *ngIf="product.price" style="font-size:1.2em;">{{product.price*(100-product.discount)/100 | number}} vnd</span> </div>
+
+    <div *ngIf="product.price" class="a1-padding-top">
+      <span *ngIf="product.discount">
+        <span style="color:gray; text-decoration: line-through; padding-right: 4px">{{product.price | number}}
+          vnd</span>
+        <span style="color:red; font-size: 1.1em">-{{product.discount | number}}%</span>
+      </span>
     </div>
   </div>
-
-
 
   <ion-card color="success">
     <ion-card-title padding>Gọi lại cho tôi</ion-card-title>
@@ -18,16 +21,25 @@
     </ion-card-content>
   </ion-card>
 
-  <div padding text-center> --  Hoặc liên hệ qua hotlines --</div>
-  <div class="a3-container-center">
+  <div padding text-center> -- Hoặc liên hệ qua hotlines --</div>
+  <div class="a3-container-center" *ngIf="_DataService._AppData.socials && _DataService._AppData.socials.hotlines">
     <div style="padding: 8px 16px; background:rgb(247, 247, 247); border-radius: 4px">
-      <div text-center >Giờ hành chính</div>
-      <a class="a1-clear-link" href="tel:+840901766313"><div padding text-center style="font-size: 1.4em;font-weight: bold"><ion-text color="dark">090.1766.313</ion-text></div></a>
+     
+      <div text-center>Tổng đài 24/7</div>
+      <a class="a1-clear-link" [href]='"tel:" + _DataService._AppData.socials.hotlines[0]'>
+        <div text-center style="font-size: 1.4em;font-weight: bold; padding : 6px">
+          <ion-text color="dark" *ngIf="_DataService._AppData.socials.hotlines[0]">{{_DataService._AppData.socials.hotlines[0]}}</ion-text>
+        </div>
+      </a>
     </div>
     <div style="width:20px"></div>
     <div style="padding: 8px 16px; background:rgb(247, 247, 247);border-radius: 4px">
-      <div text-center>Tổng đài 24/7</div>
-      <a class="a1-clear-link" href="tel:+840901766313"><div padding text-center style="font-size: 1.4em;font-weight: bold"><ion-text color="success">090.1766.313</ion-text></div></a>
+      <div text-center>Giờ hành chính</div>
+      <a class="a1-clear-link" [href]='"tel:" + _DataService._AppData.socials.hotlines[1]'>
+        <div text-center style="font-size: 1.4em;font-weight: bold; padding:6px">
+          <ion-text color="dark" *ngIf="_DataService._AppData.socials.hotlines[1]">{{_DataService._AppData.socials.hotlines[1]}}</ion-text>
+        </div>
+      </a>
     </div>
   </div>
 </div>

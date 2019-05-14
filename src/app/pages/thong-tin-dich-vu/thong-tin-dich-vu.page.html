@@ -12,22 +12,23 @@
         <ion-button fill="clear" style="text-transform: none" *ngIf="_Link">{{_Link}}</ion-button>
       </div>
     </div>
-    <div id="_ID_Content">
-      <div padding text-center class="a1-width-100" style="margin-top:10vh">
-        <ion-spinner name="dots"></ion-spinner>
-        <div padding text-center class="a1-width-100"> Đang tải dữ liệu!</div>
-      </div>
+
+    <div *ngIf="_Loading" style="padding-top:100px">
+      <app-loading></app-loading>
+    </div>
+    <div padding id="_ID_Content" class="html-content">
+
     </div>
 
     <div class="other-services">
       <ion-list>
-        <ion-item *ngFor="let service of _OtherServices">
+        <ion-item *ngFor="let service of _OtherServices" [routerLink]='"/dich-vu/"+service.url'>
           <ion-thumbnail slot="start">
             <ion-img [src]="service.img"></ion-img>
           </ion-thumbnail>
           <ion-label>{{service.name}}</ion-label>
         </ion-item>
-      
+
       </ion-list>
 
     </div>

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
+import { IHTMLContent } from 'src/classes/interface/IHTMLContent';
+import { DichVuService } from 'src/app/services/dich-vu.service';
 
 @Component({
   selector: 'app-dich-vu',
@@ -7,20 +9,38 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./dich-vu.page.scss'],
 })
 export class DichVuPage implements OnInit {
-  _Services: Array<{ url: string, name: string; img: string; description: string }> = [];
-  _Loading: boolean = false;
-  constructor(public _DataService: DataService) {
-    this.loadData();
+  _CanLoadMore: boolean = true;
+  _CurrentPage: number = 0;
+  _ITemPerPage = 6;
+  _Services: Array<IHTMLContent> = [];
+  _Loading = true;
+  constructor(public _DataService: DataService, public _DichVuService: DichVuService) {
+    this._DataService.setMenuSelected('dich-vu');
   }
-
   ngOnInit() {
+    this.LoadData();
   }
 
-  loadData() {
+  LoadData() {
+    this._CanLoadMore = true;
     this._Loading = true;
-    this._DataService.getDataFromJson('assets/data/services.json').then(res => { this.onLoadedData(res); this._Loading = false; }, err => { this._Loading = false; });
+    this._CurrentPage = 0;
+    this._DichVuService.LoadData().then(res => {
+      this._Services = this._DichVuService.getServices(this._CurrentPage, this._ITemPerPage);
+      this._CanLoadMore = this._Services.length == this._ITemPerPage;
+      this._Loading = false;
+    }, err => {
+
+    });
   }
-  onLoadedData(res) {
-    this._Services = res;
+
+
+  onClickLoadMore() {
+    this._CurrentPage++;
+    let items = this._DichVuService.getServices(this._CurrentPage, this._ITemPerPage);
+    this._CanLoadMore = this._Services.length == this._ITemPerPage;
+    for (let item of items) {
+      this._Services.push(item);
+    }
   }
 }

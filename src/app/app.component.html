@@ -7,8 +7,12 @@
         </div>
       </div>
       <ion-list>
-        <ion-item class="menu-item" *ngFor="let menu of _DataService._MenuItems | activeItems" [href]="menu.url"
-          [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</ion-item>
+        <ion-menu-toggle>
+          <ion-item class="menu-item" *ngFor="let menu of _DataService._MenuItems | activeItems" [routerLink]="menu.url"
+            routerDirection="root" [class.menu-active]="menu==_DataService._MenuItemSelected">
+            {{menu.name}}
+          </ion-item>
+        </ion-menu-toggle>
       </ion-list>
     </ion-content>
   </ion-menu>

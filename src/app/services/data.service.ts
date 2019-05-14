@@ -15,8 +15,17 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-
-
+  searchProductByQuery(mQuery: string): Promise<Array<IProduct>> {
+    return new Promise((resolve, reject) => {
+        this.LoadProductDatas().then(res => {
+          return resolve(this._ProductService._Products.filter(ele => {
+            return ele.name.toLowerCase().indexOf(mQuery.toLowerCase()) != -1;
+          }));
+        }, err => {
+          return reject();
+        });
+    });
+  }
   _Categories: Array<ICategory> = [];
   _CategorySelected: ICategory = null;
   _MenuItems: Array<IMenuItem> = [];
@@ -53,33 +62,39 @@ export class DataService {
     this._AppData = res;
     this._Categories = res.categories;
     this._MenuItems = res.menus;
-    this._ProductService.LoadData().then(success => {
-      for (let category of this._Categories) {
-        this._ProductService.getProducts(category.id, -1).then(res => {
-          category.products = res;
-          category.totalProducts = category.products.length;
-          if (category.products.length > 0 && !category.thumb) category.thumb = category.products[0].thumb;
-          let pagi = this._PaginationMap.get(category.id);
-          if (pagi) {
-            pagi.initialize({
-              totalItems: category.products.length,
-              selectedPageIndex: pagi.selectedPageIndex
-            });
-          }
-        }, errr => { });
-      }
-    }, error => {
 
-    });
+    this.LoadProductDatas();
 
     this._Categories = this._Categories.sort((a, b) => {
       var aP: number = a.priority ? a.priority : 0;
       var bP: number = b.priority ? b.priority : 0;
       return bP - aP;
     });
-    // this.setSelectedCategory(this._Categories[0]);
 
-
+  }
+  public LoadProductDatas() {
+    return new Promise((resolve, reject) => {
+      this._ProductService.LoadData().then(success => {
+        for (let category of this._Categories) {
+          this._ProductService.getProducts(category.id, -1).then(res => {
+            category.products = res;
+            category.totalProducts = category.products.length;
+            if (category.products.length > 0 && !category.thumb) category.thumb = category.products[0].thumb;
+            let pagi = this._PaginationMap.get(category.id);
+            if (pagi) {
+              pagi.initialize({
+                totalItems: category.products.length,
+                selectedPageIndex: pagi.selectedPageIndex
+              });
+            }
+          }, errr => {
+          });
+        }
+        return resolve();
+      }, error => {
+        return reject();
+      });
+    });
   }
 
   setMenuSelected(id: string) {
@@ -119,6 +134,15 @@ export class DataService {
   }
 
   setSelectedCategory(category: ICategory) {
+    this._CategorySelected = category;
+    if (category) {
+      this._PaginationSelected = this._GetSelectedPagination();
+    }
+  }
+  setSelectedCategoryByID(categoryID: string) {
+    let category = this._Categories.find(ele => {
+      return ele.id == categoryID;
+    });
     this._CategorySelected = category;
     if (category) {
       this._PaginationSelected = this._GetSelectedPagination();
@@ -236,13 +260,8 @@ export class DataService {
     });
   }
 
-  getProductByID(productID): IProduct {
-    if (this._CategorySelected) {
-      return this._CategorySelected.products.find(ele => {
-        return ele.id == productID;
-      });
-    }
-    return null;
+  getProductByID(productID): Promise<IProduct> {
+    return this._ProductService.GetProductByID(productID);
   }
 
 
@@ -250,7 +269,7 @@ export class DataService {
     name: "Steamtec",
     version: "1.0.0",
     copyright: "@ Copyright, 2019 Steamtec Hà Đông Hà Nội",
-    socials : null
+    socials: null
   };
-  
+
 }
