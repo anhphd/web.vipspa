@@ -1,38 +1,38 @@
 <div class="app-header">
-  <div class="a3-container a1-fill-parent ion-hide-sm-down">
-    <div class="a3-container-center a1-height-100 a1-padding app-brand">
-      <a href="/" class="a1-clear-link a1-link">{{_DataService._AppData.name}}</a>
-    </div>
-    <div class="a3-flex-1 a1-height-100">
-      <div class="a3-container a1-fill-parent">
-        <div *ngFor="let menu of _DataService._MenuItems | activeItems" class="header-menu-item dropdown">
-          <div class="a1-clear-link dropbtn a3-container-center a1-fill-parent" [routerLink]="menu.url"
-            routerDirection="root" [class.menu-active]="menu==_DataService._MenuItemSelected">{{menu.name}}</div>
-          <div class="dropdown-content">
-          </div>
+    <div class="a3-container a1-fill-parent ion-hide-sm-down">
+        <div class="a3-container-center a1-height-100 a1-padding app-brand">
+            <a href="/" routerDirection="root" class="a1-clear-link a1-link">{{_DataService._AppData.name}}</a>
         </div>
-      </div>
+        <div class="a3-flex-1 a1-height-100">
+            <div class="a3-container a1-fill-parent">
+                <div *ngFor="let menu of _MenuService._MenuItems | activeItems" class="header-menu-item dropdown">
+                    <div class="a3-container-center a1-fill-parent a1-link" [routerLink]="menu.url" routerDirection="root" [class.menu-active]="menu==_MenuService._MenuItemSelected">{{menu.name}}</div>
+                    <div class="dropdown-content animated-short fadeIn" *ngIf="menu.children">
+                        <div class="sub-menu-item a1-link" *ngFor="let submenu of menu.children" [routerLink]="submenu.url" routerDirection="root">{{submenu.name}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="a3-container a1-height-100" style="width:20vw">
+            <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)"></ion-searchbar>
+        </div>
     </div>
-    <div class="a3-container a1-height-100" style="width:20vw">
-      <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)" ></ion-searchbar>
-    </div>
-  </div>
-  <ion-toolbar color="primary" class="a1-fill-parent ion-hide-md-up">
-    <ion-buttons slot="start">
-      <ion-menu-button *ngIf="!searchQuery">
-        <ion-icon name="md-menu">
-        </ion-icon>
-      </ion-menu-button>
-      <ion-button *ngIf="searchQuery" (click)="onClickClearSearch()" routerLink="" routerDirection="root">
-        <ion-icon name="arrow-back"></ion-icon>
-      </ion-button>
+    <ion-toolbar color="primary" class="a1-fill-parent ion-hide-md-up">
+        <ion-buttons slot="start">
+            <ion-menu-button *ngIf="!searchQuery">
+                <ion-icon name="md-menu">
+                </ion-icon>
+            </ion-menu-button>
+            <ion-button *ngIf="searchQuery" (click)="onClickClearSearch()" routerLink="" routerDirection="root">
+                <ion-icon name="arrow-back"></ion-icon>
+            </ion-button>
 
-    </ion-buttons>
-    <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)" ></ion-searchbar>
-    <ion-buttons slot="end">
-      <ion-button [disabled]="!searchQuery" (click)="onClickSearch()">
-        <ion-icon name="search"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
+        </ion-buttons>
+        <ion-searchbar animated [(ngModel)]="searchQuery" (keypress)="onKeypress($event)"></ion-searchbar>
+        <ion-buttons slot="end">
+            <ion-button [disabled]="!searchQuery" (click)="onClickSearch()">
+                <ion-icon name="search"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
 </div>

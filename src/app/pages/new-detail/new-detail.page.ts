@@ -4,6 +4,7 @@ import { DataService } from 'src/app/services/data.service';
 import { NewsService } from 'src/app/services/news.service';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-new-detail',
@@ -17,8 +18,8 @@ export class NewDetailPage implements OnInit {
   _News: Array<IHTMLContent> = [];
   _Loading = true;
   _Link: string = '';
-  constructor(public _API: ApiService, public activeRoute: ActivatedRoute, public _DataService: DataService, public _NewService: NewsService) {
-    this._DataService.setMenuSelected('tin-tuc');
+  constructor(public _MenuService : MenuService,public _API: ApiService, public activeRoute: ActivatedRoute, public _DataService: DataService, public _NewService: NewsService) {
+    this._MenuService.setMenuSelected('tin-tuc');
 
     if (activeRoute.snapshot.paramMap.has('link')) {
       this._Link = activeRoute.snapshot.paramMap.get('link');

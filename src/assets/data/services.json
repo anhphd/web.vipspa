@@ -1,52 +1,25 @@
-[
-    {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
+[{
+        "id": "thiet-ke-thi-cong-phong-xong-hoi",
+        "url": "thiet-ke-thi-cong-phong-xong-hoi",
+        "name": "Thiết kế, thi công phòng xông hơi",
         "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
+        "description": "Chúng tôi đang cung cấp cho khách hàng từ những sản phẩm phổ thông như: Phòng xông hơi khô được làm bằng gỗ thông nhập khẩu từ Phần Lan. Phòng xông hơi ướt lắp đặt bằng vách nhôm kính, gạch cách nhiệt như các mẫu XH-L90FZ, XH-W120FZ,…; Đến những sản phẩm sử dụng những vật liệu cao cấp và mức độ hoàn thiện hơn như các mẫu HX-Y1812, XH-A203ST-W,…Đi kèm máy xông hơi với các hãng nổi tiếng như Narvi, Sawo, Harvia, Amazon…",
+        "content_file": "assets/html/services/dich-vu-1.html"
     },
     {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
+        "id": "phan-phoi-lap-dat",
+        "url": "phan-phoi-lap-dat",
+        "name": "Phân phối, lắp đặt bể sục và bể bơi massage",
         "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
+        "description": "Với kính thước và hình dạng khác nhau phù hợp với từng nhu cầu sử dụng. Bể được trang bị đầy đủ các phụ kiện như máy bơm nước, đèn led trang trí, máy tạo bọt khí, máy cấp nhiệt, máy tạo ozone, các jet massage, hệ thống lọc nước, hệ thống ống dẫn,…",
+        "content_file": "assets/html/services/dich-vu-1.html"
     },
     {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
+        "id": "bao-duong-bao-tri",
+        "url": "bao-duong-bao-tri",
+        "name": "Bảo dưỡng, bảo trì",
         "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
-    },
-    {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
-        "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
-    },
-    {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
-        "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
-    },
-    {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
-        "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
-    },
-    {
-        "url": "phong-xong-hoi",
-        "name": "Phòng xông hơi",
-        "img": "assets/images/noimage.png",
-        "description": "Mong muốn mang đến cho quý khách hàng các công trình phòng xông giá rẻ, đạt chất lượng tốt nhất,...",
-        "content_file" : "assets/html/services/dich-vu-1.html"
+        "description": "Các sản phẩm của STEAMTEC đến tay khach hàng đều kèm hợp đồng lắp đặt và bảo hành rõ ràng. Hỗ trợ kiểm tra, sửa chữa, bảo trì tận nơi",
+        "content_file": "assets/html/services/dich-vu-1.html"
     }
-   
 ]

@@ -8,4 +8,5 @@ export interface ICategory extends IActiveItem, IPriorityItem {
     thumb: string;
     products: Array<IProduct>;
     totalProducts?: number;
+    children?: Array<ICategory>;
 }

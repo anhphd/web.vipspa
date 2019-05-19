@@ -1,0 +1,71 @@
+[{
+        "id": "phong-xong-hoi-kho",
+        "name": "Phòng xông hơi khô",
+        "thumb": "",
+        "priority": 11,
+        "products": []
+    },
+    {
+        "id": "phong-xong-hoi-hon-hop",
+        "name": "Phòng xông hơi hỗn hợp",
+        "thumb": "",
+        "priority": 9,
+        "products": []
+    },
+    {
+        "id": "thao-duoc-xong-hoi",
+        "name": "Thảo dược xông hơi",
+        "thumb": "",
+        "priority": 7,
+        "products": []
+    },
+    {
+        "id": "may-va-thiet-bị-xong-hoi",
+        "name": "Máy và thiết bị xông hơi",
+        "thumb": "",
+        "priority": 8,
+        "products": []
+    },
+    {
+        "id": "bon-tam-massage",
+        "name": "Bồn tắm massage",
+        "thumb": "",
+        "priority": 6,
+        "products": []
+    },
+    {
+        "id": "be-boi-massage",
+        "name": "Bể bơi massage",
+        "thumb": "",
+        "priority": 4,
+        "products": []
+    },
+    {
+        "id": "be-tam-massage",
+        "name": "Bể tắm massage",
+        "thumb": "",
+        "priority": 5,
+        "products": []
+    },
+    {
+        "id": "phong-xong-hoi-uot",
+        "name": "Phòng xông hơi ướt",
+        "thumb": "",
+        "priority": 10,
+        "products": []
+    },
+    {
+        "id": "may-va-thiet-bi-be-suc",
+        "name": "Máy và thiết bị bể sục",
+        "thumb": "",
+        "priority": 3,
+        "products": []
+    },
+    {
+        "id": "vong-canh-spa",
+        "name": "Vọng cảnh spa",
+        "thumb": "",
+        "priority": 2,
+        "products": []
+    }
+]

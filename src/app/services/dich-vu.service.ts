@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
-import { IHTMLContent } from 'src/classes/interface/IHTMLContent';
 import { ApiService } from './api.service';
+import { IService } from 'src/classes/interface/IService';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DichVuService {
-  _Items: Array<IHTMLContent> = [];
+
+  _Items: Array<IService> = [];
+
   constructor(public _API: ApiService) {
 
   }
@@ -25,30 +27,32 @@ export class DichVuService {
       }
     });
   }
-
-  getServices(page : number, itemPerPage : number){
+  Items() : Array<IService>{
+    return this._Items;
+  }
+  getServices(page: number, itemPerPage: number) {
     let items = [];
-    for(let i = 0; i< itemPerPage; i++){
-      let index = page*itemPerPage + i;
-      if(index< this._Items.length){
+    for (let i = 0; i < itemPerPage; i++) {
+      let index = page * itemPerPage + i;
+      if (index < this._Items.length) {
         items.push(this._Items[index]);
       }
     }
     return items;
   }
 
-  getServiceByID(id : string): Promise<IHTMLContent>{
-    return new Promise((resolve, reject)=>{
-      if(this._Items.length == 0){
-        this.LoadData().then(res =>{
-          return resolve(this._Items.find(ele =>{
+  getServiceByID(id: string): Promise<IService> {
+    return new Promise((resolve, reject) => {
+      if (this._Items.length == 0) {
+        this.LoadData().then(res => {
+          return resolve(this._Items.find(ele => {
             return ele.url == id;
           }));
-        }, err =>{
+        }, err => {
           return reject();
         });
-      }else{
-        return resolve(this._Items.find(ele =>{
+      } else {
+        return resolve(this._Items.find(ele => {
           return ele.url == id;
         }));
       }

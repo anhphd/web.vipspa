@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { DataService } from 'src/app/services/data.service';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-ho-tro',
@@ -14,8 +15,8 @@ export class HoTroPage implements OnInit {
   }
   _Loading: boolean = true;
   _PageContent: string = "";
-  constructor(public _API: ApiService, public _DataService: DataService) {
-    this._DataService.setMenuSelected('ho-tro');
+  constructor(public _MenuService : MenuService,public _API: ApiService, public _DataService: DataService) {
+    this._MenuService.setMenuSelected('ho-tro');
     this._LoadData();
   }
 

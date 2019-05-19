@@ -4,6 +4,7 @@ import { DataService } from '../services/data.service';
 import { ICategory } from 'src/classes/interface/ICategory';
 import { IProduct } from 'src/classes/interface/IProduct';
 import { DomSanitizer } from '@angular/platform-browser';
+import { MenuService } from '../services/menu.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -21,7 +22,7 @@ export class ProductDetailPage implements OnInit {
   _RecentProducts: Array<IProduct> = [];
   _ProductID: string = '548';
   _Product: IProduct = null;
-  constructor(public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _DataService: DataService, public router: Router) {
+  constructor(public _MenuService : MenuService,public sanitizer: DomSanitizer, private activeRoute: ActivatedRoute, public _DataService: DataService, public router: Router) {
 
     this._DataService.LoadData().then(res => {
       if (activeRoute.snapshot.paramMap.has('productID')) {
@@ -31,7 +32,7 @@ export class ProductDetailPage implements OnInit {
     }, err => {
 
     });
-    this._DataService.setMenuSelected('san-pham');
+    this._MenuService.setMenuSelected('san-pham');
 
   }
   InitComponent() {

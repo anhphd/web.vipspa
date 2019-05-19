@@ -5,6 +5,8 @@ import { IProduct } from 'src/classes/interface/IProduct';
 import { DataService } from '../services/data.service';
 import { ICategory } from 'src/classes/interface/ICategory';
 import { IPaginationItem } from 'src/classes/interface/IPaginationItem';
+import { MenuService } from '../services/menu.service';
+import { ProductService } from '../services/product.service';
 
 
 
@@ -19,22 +21,21 @@ export class ProductPage implements OnInit {
   _Loading: boolean = false;
   _ProductContainerHeight: string = '400px';
 
-  constructor(private activeRoute: ActivatedRoute, private sanitizer: DomSanitizer, public route: Router, public _DataService: DataService) {
+  constructor(private activeRoute: ActivatedRoute, public _ProductService: ProductService, public _MenuService: MenuService, private sanitizer: DomSanitizer, public route: Router, public _DataService: DataService) {
 
     this._DataService.LoadData().then(() => {
       let categoryID: string = "";
       if (this.activeRoute.snapshot.paramMap.has('categoryID')) {
         categoryID = this.activeRoute.snapshot.paramMap.get('categoryID');
-      }else{
-        console.log("No ID");
       }
-
       let category = this._DataService._Categories.find(ele => {
         return ele.id == categoryID;
       });
       this._DataService.setSelectedCategory(category);
+
+
     }, err => { });
-    this._DataService.setMenuSelected('san-pham');
+    this._MenuService.setMenuSelected('san-pham');
   }
   ngOnInit() {
 

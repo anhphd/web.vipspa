@@ -915,7 +915,7 @@
         "thumb": "3a39ed23-f0dd-4185-896e-d5ce8f065ff0.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "547",
         "name": "XH-E1816",
         "thumb": "5e13a115-1c0c-483a-8992-cca0b15151c7.jpg"
@@ -939,25 +939,25 @@
         "thumb": "d2619497-8f4a-4726-9090-baff7ebf852d.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "534",
         "name": "XH-U1803",
         "thumb": "787e0f37-5e80-4cad-aec4-97e421f19b58.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "533",
         "name": "XH-I1804",
         "thumb": "039e0b30-7846-4f46-a75f-9fa5b766085a.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "532",
         "name": "XH-O1811",
         "thumb": "880f04cf-cfa4-41a7-b15e-b8421f35dc5f.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "531",
         "name": "XH-P1810",
         "thumb": "61448aa7-ccd9-4f97-8cb2-1a08961343f4.jpg"
@@ -1095,13 +1095,13 @@
         "thumb": "26d23d8b-2142-496c-a24d-8c1599bc806c.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "557",
         "name": "XH-V1600SR",
         "thumb": "11036d86-e3f5-4af9-8033-eec5b2fd9182.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "293",
         "name": "XH-B1388",
         "thumb": "91099603-0bb4-48c8-8e6d-fe04241d9d4c.jpg"
@@ -1233,7 +1233,7 @@
         "thumb": "049b039d-c7db-453a-b0b3-ade5686f83ac.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "269",
         "name": "XH-K1404",
         "thumb": "6529a908-b679-4441-bf7d-c8c26019cf3b.jpg"
@@ -1257,7 +1257,7 @@
         "thumb": "21a5fbb8-3e5f-49d6-9de8-a1e4fcf74fcf.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "phong-xong-hoi-hon-hop",
         "id": "294",
         "name": "XH-J1389",
         "thumb": "cb20fc49-c4fc-42bf-afba-8357e14f1cec.jpg"
@@ -1671,181 +1671,182 @@
         "thumb": "9ce57694-075e-4f3e-be89-208434e10b14.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "407",
         "name": "Beech-wood-board",
         "thumb": "0b3ce3a5-fd57-44bc-9a1e-07a9b7d17f9d.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "406",
         "name": "5-13-_MG_0058",
         "thumb": "99b28855-9819-4134-b993-67e994d640d9.jpg"
+        
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "405",
         "name": "5-13-_MG_0025",
         "thumb": "cb0fb834-8b19-40b0-8181-ca98ab930f94.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "412",
         "name": "Melamine-plate-B",
         "thumb": "7c3334fc-f6e9-4ae7-aa5d-937b3e83a2f1.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "411",
         "name": "Melamine-plate-A",
         "thumb": "816b4ffb-bd85-476d-bc0d-34847173ef18.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "410",
         "name": "Hemlock",
         "thumb": "ff40859e-8827-4320-9208-ee458e8e85e1.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "409",
         "name": "Finland-pine",
         "thumb": "385b8654-3f7c-4a3c-a48f-2ae585172d98.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "408",
         "name": "cedar",
         "thumb": "9bde0d2a-51f4-4a74-b826-728e0498c6c7.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "417",
         "name": "White pine",
         "thumb": "8a35d7f4-ae9b-4c35-ad3c-44651e8e89c2.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "416",
         "name": "African ayous",
         "thumb": "f9a63b41-c29f-41e8-ba95-56eb3cb6f0f4.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "415",
         "name": "Red-cedar",
         "thumb": "299a5009-e14e-4068-8ad3-ac258528133e.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "414",
         "name": "Melamine-plate-D",
         "thumb": "2277bf14-f48e-40ac-a3b5-f5c167675f83.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "413",
         "name": "Melamine-plate-C",
         "thumb": "489ae54b-57fd-42e8-bcd2-534c2653a565.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "420",
         "name": "Dragon bone stone",
         "thumb": "753320a2-c3a2-4b06-a5a1-443336d33afd.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "419",
         "name": "Red cedar",
         "thumb": "b338cf83-5fc2-4371-bfc9-3679a6d0f02a.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "418",
         "name": "Black rock stone",
         "thumb": "474f8ba1-31ee-4138-9d2c-5cc8b309b043.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "391",
         "name": "6KW-Sauna-heater",
         "thumb": "d72770b4-09c1-4f25-a4b8-bc1b0192e73f.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "395",
         "name": "IMG_2396",
         "thumb": "67995e3a-fdd1-4701-b9c3-b8d271385cf6.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "394",
         "name": "DVD",
         "thumb": "c5c8dd7a-a7a6-49cd-a173-6ca6d7892ef9.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "393",
         "name": "Control-system-2",
         "thumb": "75220253-c832-4e1d-bdc1-510f8eeeb6f8.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "392",
         "name": "Control-system-1",
         "thumb": "926ea164-001c-409e-8f54-a75d5a6ddd76.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "400",
         "name": "Sauna-heater",
         "thumb": "22ccf495-3c34-429d-aa7d-82722f85acc3.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "399",
         "name": "Bucket-with-scoop",
         "thumb": "80fced8c-2190-4cb0-9f20-ea6c6b002bd8.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "398",
         "name": "Infrared-heati",
         "thumb": "56863efd-83f9-4bd8-b9d2-5f1dda87cbb6.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "397",
         "name": "IMG_9264",
         "thumb": "c3197867-69d5-4231-b9ef-e432e215242d.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "396",
         "name": "IMG_2405",
         "thumb": "9d1df9b6-3a5f-496f-92df-89915937bb6a.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "403",
         "name": "Mica-heating-B",
         "thumb": "9c0f91f8-6392-43f2-8ca4-6ce71f0df71b.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "402",
         "name": "Sandglass",
         "thumb": "c83e419e-0d0a-498d-aa89-92e61f20881a.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "401",
         "name": "Sauna-heater—01",
         "thumb": "23323adb-14b6-4bb9-a033-70ee1659a110.jpg"
     },
     {
-        "category": "phong-xong-hoi-kho",
+        "category": "may-va-thiet-bị-xong-hoi",
         "id": "404",
         "name": "Thermometer",
         "thumb": "f9a7dedc-a233-495b-a934-3bee4eb73758.jpg"

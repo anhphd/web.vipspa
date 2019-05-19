@@ -1,22 +1,22 @@
 <div class="a3-container a3-items-center a3-justify-content">
-  <div class="a3-flex-1 category-name">{{category.name}}</div>
-  <ion-button class="btn-seemore" fill="clear" [routerLink]='"/san-pham/"+category.id' routerDirection="root">xem thêm
-  </ion-button>
+    <div class="a3-flex-1 category-name">{{category.name}}</div>
+    <ion-button class="btn-seemore" fill="clear" [routerLink]='"/san-pham/"+category.id' routerDirection="root">xem thêm
+    </ion-button>
 </div>
 <div padding *ngIf="category.products.length==0">
-  <div padding text-center>Hiện chưa có sản phẩm nào!</div>
+    <div padding text-center>Hiện chưa có sản phẩm nào!</div>
 </div>
 <ion-row>
-  <ion-col size-sm="3" *ngIf="category.products[0]">
-    <app-product [data]="category.products[0]" padding></app-product>
-  </ion-col>
-  <ion-col size-sm="3" *ngIf="category.products[1]">
-    <app-product [data]="category.products[1]" padding></app-product>
-  </ion-col>
-  <ion-col size-sm="3" *ngIf="category.products[2]">
-    <app-product [data]="category.products[2]" padding></app-product>
-  </ion-col>
-  <ion-col size-sm="3" *ngIf="category.products[3]">
-    <app-product [data]="category.products[3]" padding></app-product>
-  </ion-col>
+    <ion-col size-md="3" size="6" size- *ngIf="category.products[0]">
+        <app-product [data]="category.products[0]" padding></app-product>
+    </ion-col>
+    <ion-col size-md="3" size="6" *ngIf="category.products[1]">
+        <app-product [data]="category.products[1]" padding></app-product>
+    </ion-col>
+    <ion-col size-md="3" size="6" *ngIf="category.products[2]">
+        <app-product [data]="category.products[2]" padding></app-product>
+    </ion-col>
+    <ion-col size-md="3" size="6" *ngIf="category.products[3]">
+        <app-product [data]="category.products[3]" padding></app-product>
+    </ion-col>
 </ion-row>

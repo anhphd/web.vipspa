@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { NewsService } from '../services/news.service';
 import { IHTMLContent } from 'src/classes/interface/IHTMLContent';
+import { MenuService } from '../services/menu.service';
 
 @Component({
   selector: 'app-news',
@@ -14,8 +15,8 @@ export class NewsPage implements OnInit {
   _ITemPerPage = 6;
   _News: Array<IHTMLContent> = [];
   _Loading = true;
-  constructor(public _DataService: DataService, public _NewService: NewsService) {
-    this._DataService.setMenuSelected('tin-tuc');
+  constructor(public _MenuService : MenuService,public _DataService: DataService, public _NewService: NewsService) {
+    this._MenuService.setMenuSelected('tin-tuc');
   }
   ngOnInit() {
     this.LoadData();

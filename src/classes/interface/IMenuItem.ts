@@ -5,4 +5,5 @@ export interface IMenuItem extends IActiveItem,IPriorityItem{
     id: string;
     name: string;
     url: string;
+    children?: Array<IMenuItem>;
 }

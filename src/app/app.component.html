@@ -1,53 +1,52 @@
 <ion-app>
-  <ion-menu side="start" menuId="first" type="overlay">
-    <ion-content class="menu-content">
-      <div padding text-center>
-        <div style="padding:40px 0" text-center>
-          Steamtec
-        </div>
-      </div>
-      <ion-list>
-        <ion-menu-toggle>
-          <ion-item class="menu-item" *ngFor="let menu of _DataService._MenuItems | activeItems" [routerLink]="menu.url"
-            routerDirection="root" [class.menu-active]="menu==_DataService._MenuItemSelected">
-            {{menu.name}}
-          </ion-item>
-        </ion-menu-toggle>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
+    <ion-menu side="start" menuId="first" type="overlay">
+        <ion-content class="menu-content">
+            <div padding text-center>
+                <div style="padding:20px 0" text-center>
+                    Steamtec
+                </div>
+            </div>
+            <ion-list>
+                <ion-menu-toggle>
+                    <ion-item class="menu-item" *ngFor="let menu of _MenuService._MenuItems | activeItems" detail="false">
+                        <div class="a1-width-100">
+                            <div class="a1-padding-top a1-padding-bottom a1-link" [routerLink]="menu.url" routerDirection="root" [class.menu-active]="menu==_MenuService._MenuItemselected">{{menu.name}}</div>
+                            <div *ngIf="menu.children">
+                                <div class="a1-padding a1-link" *ngFor="let child of menu.children" [class.child-active]="child==_CategoryService._CategorySelected" [routerLink]="child.url" routerDirection="root">
+                                    {{child.name}}
+                                </div>
+                            </div>
+                        </div>
+                    </ion-item>
+                </ion-menu-toggle>
+            </ion-list>
+        </ion-content>
+    </ion-menu>
 
-  <ion-router-outlet main></ion-router-outlet>
+    <ion-router-outlet main></ion-router-outlet>
 
-  <ion-fab vertical="bottom" horizontal="end">
-    <ion-fab-button>
-      <ion-icon src="assets/icon/fab.svg"></ion-icon>
-    </ion-fab-button>
+    <ion-fab vertical="bottom" horizontal="end">
+        <ion-fab-button>
+            <ion-icon src="assets/icon/fab.svg"></ion-icon>
+        </ion-fab-button>
 
-    <ion-fab-list side="top" *ngIf="_DataService._AppData.socials">
-      <ion-fab-button class="a1-relative">
-        <ion-icon src="assets/icon/zalo-1.svg"></ion-icon>
-        <a *ngIf="_DataService._AppData.socials.zalo_number"
-          [href]='"https://zalo.me/"+_DataService._AppData.socials.zalo_number' target="_blank" rel="nofollow"
-          class="a1-container-absolute"></a>
-      </ion-fab-button>
-      <ion-fab-button color="danger" class="a1-relative">
-        <ion-icon src="assets/icon/envelope.svg"></ion-icon>
-        <a *ngIf="_DataService._AppData.socials.email_support"
-          [href]='"mailto:"+_DataService._AppData.socials.email_support' target="_blank" rel="nofollow"
-          class="a1-container-absolute"></a>
-      </ion-fab-button>
-      <ion-fab-button color="primary" class="a1-relative">
-        <ion-icon src="assets/icon/messenger.svg"></ion-icon>
-        <a *ngIf="_DataService._AppData.socials.messenger_url" [href]="_DataService._AppData.socials.messenger_url"
-          target="_blank" rel="nofollow" class="a1-container-absolute"></a>
-      </ion-fab-button>
-      <ion-fab-button color="success" class="a1-relative">
-        <ion-icon src="assets/icon/call.svg"></ion-icon>
-        <a *ngIf="_DataService._AppData.socials.hotlines&&_DataService._AppData.socials.hotlines.length>0"
-          [href]='"tel:"+_DataService._AppData.socials.hotlines[0]' target="_blank" rel="nofollow"
-          class="a1-container-absolute"></a>
-      </ion-fab-button>
-    </ion-fab-list>
-  </ion-fab>
+        <ion-fab-list side="top" *ngIf="_DataService._AppData.socials">
+            <ion-fab-button class="a1-relative">
+                <ion-icon src="assets/icon/zalo-1.svg"></ion-icon>
+                <a *ngIf="_DataService._AppData.socials.zalo_number" [href]='"https://zalo.me/"+_DataService._AppData.socials.zalo_number' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+            </ion-fab-button>
+            <ion-fab-button color="danger" class="a1-relative">
+                <ion-icon src="assets/icon/envelope.svg"></ion-icon>
+                <a *ngIf="_DataService._AppData.socials.email_support" [href]='"mailto:"+_DataService._AppData.socials.email_support' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+            </ion-fab-button>
+            <ion-fab-button color="primary" class="a1-relative">
+                <ion-icon src="assets/icon/messenger.svg"></ion-icon>
+                <a *ngIf="_DataService._AppData.socials.messenger_url" [href]="_DataService._AppData.socials.messenger_url" target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+            </ion-fab-button>
+            <ion-fab-button color="success" class="a1-relative">
+                <ion-icon src="assets/icon/call.svg"></ion-icon>
+                <a *ngIf="_DataService._AppData.socials.hotlines&&_DataService._AppData.socials.hotlines.length>0" [href]='"tel:"+_DataService._AppData.socials.hotlines[0]' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+            </ion-fab-button>
+        </ion-fab-list>
+    </ion-fab>
 </ion-app>

@@ -1,85 +1,73 @@
 <div class="app-footer" id="_ID_FooterContainer">
-  <div class="footer-content">
-    <div class="a3-container a1-fill-parent">
+    <div class="footer-content">
+        <div class="a3-container a1-fill-parent">
 
-      <div class="a3-flex-1">
-        <ion-grid>
-          <ion-row>
-            <ion-col size="12" size-sm="6" size-md="4" class="ion-hide-md-down">
-              <div>
-                <div padding id="_ID_FacebookFanPage"></div>
-              </div>
-            </ion-col>
+            <div class="a3-flex-1">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size="12" size-sm="6" size-md="4" class="ion-hide-md-down">
+                            <div>
+                                <div padding id="_ID_FacebookFanPage"></div>
+                            </div>
+                        </ion-col>
 
-            <ion-col size="12" size-sm="6" size-md="2">
-              <ion-row>
-                <ion-col size="12" class="content-header">Danh mục</ion-col>
-                <ion-col class="content-item a1-link" size="6" size-sm="12"
-                  *ngFor="let menu of _DataService._MenuItems | activeItems" [routerLink]="menu.url"
-                  routerDirection="root">
-                  <a class="a1-clear-link a1-link"> {{menu.name}}</a>
-                </ion-col>
-              </ion-row>
-            </ion-col>
-            <ion-col size="12" size-sm="6" size-md="2">
-              <ion-row>
-                <ion-col size="12" class="content-header">Sản phẩm</ion-col>
-                <ion-col class="content-item a1-clear-link a1-link" size="6" size-sm="12"
-                  *ngFor="let category of _DataService._Categories" [routerLink]='"/san-pham/"+category.id'
-                  routerDirection="root">
-                  {{category.name}}</ion-col>
-              </ion-row>
-            </ion-col>
+                        <ion-col size="12" size-sm="6" size-md="2">
+                            <ion-row>
+                                <ion-col size="12" class="content-header">Danh mục</ion-col>
+                                <ion-col class="content-item a1-link" size="6" size-sm="12" *ngFor="let menu of _MenuService._MenuItems | activeItems" [routerLink]="menu.url" routerDirection="root">
+                                    <a class="a1-clear-link a1-link"> {{menu.name}}</a>
+                                </ion-col>
+                            </ion-row>
+                        </ion-col>
+                        <ion-col size="12" size-sm="6" size-md="2">
+                            <ion-row>
+                                <ion-col size="12" class="content-header">Sản phẩm</ion-col>
+                                <ion-col class="content-item a1-clear-link a1-link" size="6" size-sm="12" *ngFor="let category of _DataService._Categories" [routerLink]='"/san-pham/"+category.id' routerDirection="root">
+                                    {{category.name}}</ion-col>
+                            </ion-row>
+                        </ion-col>
 
-            <ion-col size="12" size-sm="12" size-md="4">
-              <div class="list-content">
-                <div class="content-header">Liên hệ với chúng tôi</div>
-                <div class="a3-container a3-items-center" *ngIf="_DataService._AppData.socials">
-                  <ion-fab-button size="small" color="light" class="a1-relative">
-                    <ion-icon src="assets/icon/zalo-1.svg" style="font-size:1.5em"></ion-icon>
-                    <a *ngIf="_DataService._AppData.socials.zalo_number"
-                      [href]='"https://zalo.me/"+_DataService._AppData.socials.zalo_number' target="_blank"
-                      rel="nofollow" class="a1-container-absolute"></a>
-                  </ion-fab-button>
+                        <ion-col size="12" size-sm="12" size-md="4">
+                            <div class="list-content">
+                                <div class="content-header">Liên hệ với chúng tôi</div>
+                                <div class="a3-container a3-items-center" *ngIf="_DataService._AppData.socials">
+                                    <ion-fab-button size="small" color="light" class="a1-relative">
+                                        <ion-icon src="assets/icon/zalo-1.svg" style="font-size:1.5em"></ion-icon>
+                                        <a *ngIf="_DataService._AppData.socials.zalo_number" [href]='"https://zalo.me/"+_DataService._AppData.socials.zalo_number' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+                                    </ion-fab-button>
 
-                  <ion-fab-button size="small" color="danger" class="a1-relative" shape="round">
-                    <ion-icon src="assets/icon/envelope.svg" style="font-size:1.5em"></ion-icon>
-                    <a *ngIf="_DataService._AppData.socials.email_support"
-                      [href]='"mailto:"+_DataService._AppData.socials.email_support' target="_blank" rel="nofollow"
-                      class="a1-container-absolute"></a>
-                  </ion-fab-button>
+                                    <ion-fab-button size="small" color="danger" class="a1-relative" shape="round">
+                                        <ion-icon src="assets/icon/envelope.svg" style="font-size:1.5em"></ion-icon>
+                                        <a *ngIf="_DataService._AppData.socials.email_support" [href]='"mailto:"+_DataService._AppData.socials.email_support' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+                                    </ion-fab-button>
 
-                  <ion-fab-button size="small" color="primary" class="a1-relative" shape="round">
-                    <ion-icon src="assets/icon/messenger.svg" style="font-size:1.5em"></ion-icon>
-                    <a *ngIf="_DataService._AppData.socials.messenger_url"
-                      [href]="_DataService._AppData.socials.messenger_url" target="_blank" rel="nofollow"
-                      class="a1-container-absolute"></a>
-                  </ion-fab-button>
+                                    <ion-fab-button size="small" color="primary" class="a1-relative" shape="round">
+                                        <ion-icon src="assets/icon/messenger.svg" style="font-size:1.5em"></ion-icon>
+                                        <a *ngIf="_DataService._AppData.socials.messenger_url" [href]="_DataService._AppData.socials.messenger_url" target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+                                    </ion-fab-button>
 
-                  <ion-fab-button size="small" color="success" class="a1-relative" shape="round">
-                    <ion-icon src="assets/icon/call.svg" style="font-size:1.5em"></ion-icon>
-                    <a *ngIf="_DataService._AppData.socials.hotlines&&_DataService._AppData.socials.hotlines.length>0"
-                      [href]='"tel:"+_DataService._AppData.socials.hotlines[0]' target="_blank" rel="nofollow"
-                      class="a1-container-absolute"></a>
-                  </ion-fab-button>
-                </div>
-                <div class="a1-padding-top"></div>
-                <div class="mapouter" id="_ID_GoogleMapLocation"> </div>
-              </div>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
+                                    <ion-fab-button size="small" color="success" class="a1-relative" shape="round">
+                                        <ion-icon src="assets/icon/call.svg" style="font-size:1.5em"></ion-icon>
+                                        <a *ngIf="_DataService._AppData.socials.hotlines&&_DataService._AppData.socials.hotlines.length>0" [href]='"tel:"+_DataService._AppData.socials.hotlines[0]' target="_blank" rel="nofollow" class="a1-container-absolute"></a>
+                                    </ion-fab-button>
+                                </div>
+                                <div class="a1-padding-top"></div>
+                                <div class="mapouter" id="_ID_GoogleMapLocation"> </div>
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
 
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="app-copyright a1-padding">
-    <div class="a3-container a3-items-center a3-justify-between a1-padding-right">
-      <div>{{_DataService._AppData.copyright}}</div>
-      <div class="a3-container-center">
-        <div class="a1-padding-right a1-link">Việt Nam (English)</div><img src="assets/icon/vn.svg" style="width:2em">
-      </div>
+    <div class="app-copyright a1-padding">
+        <div class="a3-container a3-items-center a3-justify-between a1-padding-right">
+            <div>{{_DataService._AppData.copyright}}</div>
+            <div class="a3-container-center">
+                <div class="a1-padding-right a1-link">Việt Nam (English)</div><img src="assets/icon/vn.svg" style="width:2em">
+            </div>
+        </div>
     </div>
-  </div>
 </div>

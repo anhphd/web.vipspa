@@ -17,19 +17,17 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
   searchProductByQuery(mQuery: string): Promise<Array<IProduct>> {
     return new Promise((resolve, reject) => {
-        this.LoadProductDatas().then(res => {
-          return resolve(this._ProductService._Products.filter(ele => {
-            return ele.name.toLowerCase().indexOf(mQuery.toLowerCase()) != -1;
-          }));
-        }, err => {
-          return reject();
-        });
+      this.LoadProductDatas().then(res => {
+        return resolve(this._ProductService._Products.filter(ele => {
+          return ele.name.toLowerCase().indexOf(mQuery.toLowerCase()) != -1;
+        }));
+      }, err => {
+        return reject();
+      });
     });
   }
   _Categories: Array<ICategory> = [];
   _CategorySelected: ICategory = null;
-  _MenuItems: Array<IMenuItem> = [];
-  _MenuItemSelected: IMenuItem;
   _DefaultProductPerPage: number = 12;
   _PaginationSelected: IPaginationData;
   private _PaginationMap: Map<string, IPaginationData> = new Map<string, IPaginationData>();
@@ -61,7 +59,6 @@ export class DataService {
   private _OnResponseAppData(res) {
     this._AppData = res;
     this._Categories = res.categories;
-    this._MenuItems = res.menus;
 
     this.LoadProductDatas();
 
@@ -70,7 +67,6 @@ export class DataService {
       var bP: number = b.priority ? b.priority : 0;
       return bP - aP;
     });
-
   }
   public LoadProductDatas() {
     return new Promise((resolve, reject) => {
@@ -96,10 +92,7 @@ export class DataService {
       });
     });
   }
-
-  setMenuSelected(id: string) {
-    this._MenuItemSelected = this._MenuItems.find(ele => { return ele.id == id; });
-  }
+ 
   getProducts(cateogryID: string, page: number, itemsPerPage?: number): Array<IProduct> {
     let category: ICategory = this._Categories.find(ele => { return ele.id == cateogryID; });
     if (category) {

@@ -16,12 +16,8 @@ export class ProductComponent implements OnInit {
    }
 
   ngOnInit() {
-    if(this.product && this.product.thumb.indexOf('http') == -1){
-      this.product.thumb = "http://www.chinamesda.com/imageRepository/"+this.product.thumb;
+    if(this.product && this.product.thumb.indexOf('http') == -1 && this.product.thumb.indexOf('assets') == -1){
+      this.product.thumb = "assets/images/products/"+this.product.thumb;
     }
-  }
-
-  sanitize(url: string) {
-    return this.sanitizer.bypassSecurityTrustUrl(url.startsWith('http') ? url : ('http://www.chinamesda.com/imageRepository/' + url));
   }
 }

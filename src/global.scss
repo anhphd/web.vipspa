@@ -10,18 +10,18 @@
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 :root,
 :root[mode="md"],
-:root[mode="ios"]{
- --ion-font-family : 'Roboto', sans-serif;
- font-family: var(--ion-font-family) !important;
+:root[mode="ios"] {
+    --ion-font-family: 'Roboto', sans-serif;
+    font-family: var(--ion-font-family) !important;
 }
 
-html{
+html {
     font-size: 16px;
 }
-.html-content{
+
+.html-content {
     font-size: 16px;
     line-height: 1.4em;
 }
@@ -29,22 +29,25 @@ html{
 $color-red: #FF0000;
 $color-green: #00FF00;
 $color-blue: #0000FF;
-
-.page-content{
+.page-content {
     min-height: calc(100vh - 260px);
 }
 
-.a1-pointer{
+.a1-pointer {
     cursor: pointer;
     color: var(--ion-color-success);
 }
 
-.a1-clear-link{
+.a1-clear-link {
     color: white;
     text-decoration: none;
 }
 
-.a1-link:hover{
+.a1-link:focus {
+    outline: 0;
+}
+
+.a1-link:hover {
     cursor: pointer;
-    color: var(--ion-color-success);
+    color: var(--ion-color-success) !important;
 }

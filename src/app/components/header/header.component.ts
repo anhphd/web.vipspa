@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-header',
@@ -9,12 +10,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   searchQuery: string = '';
-  constructor(public _DataService: DataService, public activeRoute: ActivatedRoute, public router: Router) {
+  constructor(public _MenuService: MenuService, public _DataService: DataService, public activeRoute: ActivatedRoute, public router: Router) {
+    this.searchQuery = "";
     if (activeRoute.snapshot.paramMap.has('query')) {
       this.searchQuery = activeRoute.snapshot.paramMap.get('query');
-    } else {
-      this.searchQuery = "";
     }
+    this._MenuService.LoadData();
   }
 
   ngOnInit() { }
@@ -26,8 +27,8 @@ export class HeaderComponent implements OnInit {
     if (this.searchQuery) this.router.navigateByUrl("/tim-kiem/" + this.searchQuery);
     this.searchQuery = '';
   }
-  onKeypress(event){
-    if(event.keyCode == 13){
+  onKeypress(event) {
+    if (event.keyCode == 13) {
       this.onClickSearch();
     }
   }

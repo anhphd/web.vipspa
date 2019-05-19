@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,7 +9,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(public _DataService: DataService) { }
+  constructor(public _MenuService : MenuService,public _DataService: DataService) { }
 
   ngOnInit() {
     setTimeout(() => {
