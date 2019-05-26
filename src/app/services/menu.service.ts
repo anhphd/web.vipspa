@@ -50,8 +50,15 @@ export class MenuService {
     });
   }
   public setMenuSelected(id: string) {
-    this.getItemByID(id).then(item => {
-      this._MenuItemSelected = item;
+    this.LoadData().then(()=>{
+      this._MenuItems.forEach(item =>{
+        if(item && item.id == id){
+          item.selected = true;
+          this._MenuItemSelected = item;
+        }else if(item){
+          item.selected = false;
+        }
+      });
     });
   }
 

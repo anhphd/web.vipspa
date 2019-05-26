@@ -2,10 +2,31 @@
     cursor: pointer;
 }
 
+.menu-app-name {
+    padding: 20px 16px;
+    font-size: 16px;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,120,1) 100%, rgba(194,0,255,1) 100%);
+}
+
 .menu-active {
-    color: var(--ion-color-success);
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,120,1) 100%, rgba(194,0,255,1) 100%);
+    ion-button{
+        color: white;
+    }
+    border-radius: 6px;
 }
 
 .child-active {
     color: var(--ion-color-success);
+}
+.menu-content{
+    ion-list{
+        ion-item{
+            --padding-start:8px;
+        }
+    }
 }
