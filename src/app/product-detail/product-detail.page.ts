@@ -155,10 +155,11 @@ export class ProductDetailPage implements OnInit {
     }
 
   }
-  onClickSelectImage(image: string) {
 
-    this._CurrentImage = image;
+  onClickSelectImage(image: string) {
+    this._CurrentImage = image.replace("/small/","/").replace("/small/","/").replace("/medium/","/").replace("/large/","/");
   }
+  
   ngOnInit() {
 
   }

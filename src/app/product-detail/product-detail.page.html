@@ -2,17 +2,17 @@
 
 
   <app-slideshow></app-slideshow>
-
+ 
   <div class="router-container">
     <div class="a3-container a3-items-center">
       <ion-button fill="clear" routerLink="/san-pham">
         <ion-icon name="home"></ion-icon>
       </ion-button>
       <span>/</span>
-      <ion-button fill="clear" routerLink="/san-pham" style="text-transform: none">Sản phẩm</ion-button>
+      <ion-button fill="clear" routerLink="/san-pham"   routerDirection="root" style="text-transform: none">Sản phẩm</ion-button>
       <span *ngIf="_DataService._CategorySelected">/</span>
       <ion-button fill="clear" style="text-transform: none" *ngIf="_DataService._CategorySelected"
-        [routerLink]='"/san-pham/"+_DataService._CategorySelected.id'>{{_DataService._CategorySelected.name}}
+        [routerLink]='"/san-pham/"+_DataService._CategorySelected.id' routerDirection="root">{{_DataService._CategorySelected.name}}
       </ion-button>
       <span *ngIf="_Product">/</span>
       <ion-button fill="clear" style="text-transform: none" *ngIf="_Product">{{_Product.name}}</ion-button>

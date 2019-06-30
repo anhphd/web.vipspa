@@ -1,0 +1,37 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/da sauna.jpg "
+    ],
+    "id": "20161",
+    "product": {
+        "name": "Đá xông hơi",
+        "code": "Đá xông hơi sawo",
+        "brand": ""
+    },
+    "details": [
+        {
+            "name": "1 : ",
+            "value": "Đá sauna chuyên dụng cho phòng xông hơi khô"
+        },
+        {
+            "name": "2 : ",
+            "value": "Có nguồn gốc từ núi lửa"
+        },
+        {
+            "name": "3 : ",
+            "value": "Đá sauna với bề mặt lỗ li ti giữ được nước khi người sử dụng tưới nước lên máy xông hơi khô"
+        },
+        {
+            "name": "4 : ",
+            "value": "Hơi nóng thoát ra từ đá nóng không gây mùi, nóng gắt mà hơi dịu mát."
+        },
+        {
+            "name": "5 : ",
+            "value": "Qui cách đóng gói: Thùng Carton 16 - 18kg dễ dàng vận chuyển"
+        },
+        {
+            "name": "6 : ",
+            "value": "Đá sauna chuyên dụng phòng xông sử dụng an toàn phù hợp với tất cả các loại máy xông  như Amazon, Coast, Hariva, Sawo, Tylo."
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/imgs/e8a5502a-2526-4471-9c9e-65e345e8982a.jpg",
+        "http://steamtec.vn/assets/imgs/cf766b75-227a-471a-94c8-e2220231fbc0.jpg",
+        "http://steamtec.vn/assets/imgs/cdb4dfd4-9f95-49d1-8cd8-1228f148ea3b.jpg",
+        "http://steamtec.vn/assets/imgs/d13af5eb-84fc-4fde-bb79-fae94f4f91fc.jpg"
+    ],
+    "id": "503",
+    "product": {
+        "name": "WS-073",
+        "code": "WS-073",
+        "brand": "1770*1300*600mm"
+    },
+    "details": [
+        {
+            "name": "A",
+            "value": "1.Tub;                                                                                                                              "
+        },
+        {
+            "name": "2.Drainer; ",
+            "value": "3.Stainless steel supporter"
+        },
+        {
+            "name": "4.PU Insulation;",
+            "value": "B"
+        },
+        {
+            "name": "1.Tub;",
+            "value": "2.Drainer;     "
+        },
+        {
+            "name": "3.Stainless steel supporter; ",
+            "value": "4. PU Insulation;"
+        },
+        {
+            "name": "5.Functions switch ，Showerhead，Tap; ",
+            "value": "C"
+        },
+        {
+            "name": "1.Tub;",
+            "value": "8.Water pump:1.1KW "
+        },
+        {
+            "name": "2.Drainer;     ",
+            "value": "9. Heater: 1.5KW"
+        },
+        {
+            "name": "3.Stainless steel supporter; ",
+            "value": "10.Air blower:200W"
+        },
+        {
+            "name": "4. PU Insulation;",
+            "value": "11.ozone"
+        },
+        {
+            "name": "5.Functions switch, Showerhead，Tap; ",
+            "value": "12. speaker"
+        },
+        {
+            "name": "6.jets: 28pcs",
+            "value": "6.jets: 28pcs"
+        },
+        {
+            "name": "Big jets:4pcs",
+            "value": "13.Air adjustor"
+        },
+        {
+            "name": "small jets: 14pcs",
+            "value": "　"
+        },
+        {
+            "name": "air jets: 10pcs",
+            "value": "　"
+        }
+    ],
+    "specification": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" x:str=\"\">\n\t<colgroup>\n\t\t<col>\n\t\t<col>\n\t\t<col>\n\t\t<col>\n\t</colgroup>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"4\">\n\t\t\t\tA</td>\n\t\t\t<td colspan=\"3\" x:str=\"1.Tub;                                                                                                                              \">\n\t\t\t\t1.Tub;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\" x:str=\"2.Drainer; \">\n\t\t\t\t2.Drainer;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t\t3.Stainless steel supporter</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t\t4.PU Insulation;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"5\">\n\t\t\t\tB</td>\n\t\t\t<td colspan=\"3\">\n\t\t\t\t1.Tub;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\" x:str=\"2.Drainer;     \">\n\t\t\t\t2.Drainer;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\" x:str=\"3.Stainless steel supporter; \">\n\t\t\t\t3.Stainless steel supporter;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t\t4. PU Insulation;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t\t5.Functions switch ，Showerhead，Tap;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"8\">\n\t\t\t\tC</td>\n\t\t\t<td colspan=\"2\">\n\t\t\t\t1.Tub;</td>\n\t\t\t<td x:str=\"8.Water pump:1.1KW \">\n\t\t\t\t8.Water pump:1.1KW&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" x:str=\"2.Drainer;     \">\n\t\t\t\t2.Drainer;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>\n\t\t\t\t9. Heater: 1.5KW</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" x:str=\"3.Stainless steel supporter; \">\n\t\t\t\t3.Stainless steel supporter;&nbsp;</td>\n\t\t\t<td>\n\t\t\t\t10.Air blower:200W</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\">\n\t\t\t\t4. PU Insulation;</td>\n\t\t\t<td>\n\t\t\t\t11.ozone</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\">\n\t\t\t\t5.Functions switch, Showerhead，Tap;&nbsp;</td>\n\t\t\t<td>\n\t\t\t\t12. speaker</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"left\" rowspan=\"3\">\n\t\t\t\t<span><img src=\"file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtml1/01/clip_image001.gif\"></span>\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t<tbody>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td rowspan=\"3\">\n\t\t\t\t\t\t\t\t6.jets: 28pcs</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tBig jets:4pcs</td>\n\t\t\t<td>\n\t\t\t\t13.Air adjustor</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tsmall jets: 14pcs</td>\n\t\t\t<td>\n\t\t\t\t　</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tair jets: 10pcs</td>\n\t\t\t<td>\n\t\t\t\t　</td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
+}

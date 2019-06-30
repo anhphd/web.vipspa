@@ -1,0 +1,41 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/ket hop vn.jpg"
+    ],
+    "id": "20171",
+    "product": {
+        "name": "XH-20171",
+        "code": "XH-20171",
+        "brand": "2400x1200x2100mm"
+    },
+    "details": [
+        {
+            "name": "XH-20171",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Sauna, Shower"
+        },
+        {
+            "name": "Control system",
+            "value": "2pc"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Finland-pine wood frame for outside, Inside with Finland-pine"
+        },
+        {
+            "name": "Lamp",
+            "value": "LED color changing light"
+        },
+        {
+            "name": "Music",
+            "value": "Bluetooth,FM,MP3"
+        },
+        {
+            "name": "Heating element",
+            "value": "Infrared carbon heating element 3pcs 0.9kW"
+        }
+    ]
+}

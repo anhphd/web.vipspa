@@ -1,31 +1,26 @@
 [{
         "id": "trang-chu",
         "name": "Trang chủ",
-        "url": "/trang-chu",
-        "icon" : "assets/icon/home.svg"
+        "url": "/trang-chu"
     },
     {
         "id": "san-pham",
         "name": "Sản phẩm",
-        "url": "/san-pham",
-        "icon" : "assets/icon/products.svg"
+        "url": "/san-pham"
     },
     {
         "id": "dich-vu",
         "name": "Dịch vụ",
-        "url": "/dich-vu",
-        "icon" : "assets/icon/services.svg"
+        "url": "/dich-vu"
     },
     {
         "id": "tin-tuc",
         "name": "Tin tức",
-        "url": "/tin-tuc",
-        "icon" : "assets/icon/news.svg"
+        "url": "/tin-tuc"
     },
     {
         "id": "ho-tro",
         "name": "Hỗ trợ",
-        "url": "/ho-tro",
-        "icon" : "assets/icon/support.svg"
+        "url": "/ho-tro"
     }
 ]

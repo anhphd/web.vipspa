@@ -1,170 +1,26 @@
 [
     {
         "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
+        "name": "Quy trình thiết kế, thi công phòng xông hơi",
+        "img": "assets/images/products/news1.jpg",
+        "description": "Để lắp đặt được phòng xông hơi phải đảm bảo đủ các yếu tố điện, nước, khoảng không gian. Vì vậy, sau khi nhận được đơn hàng, chúng tôi đến tận nơi để khảo sát, đo đạt kích thước...",
         "content_file" : "assets/html/news/tin-tuc-1.html",
         "keywords" :[]
     },
     {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "Thực tế, ngày càng nhiều người dân Hà Nội muốn có nơi nghỉ dưỡng ở ngoại ô vào các dịp cuối tuần. Ngôi nhà mang hình dáng bậc thang này được xem là không gian lý tưởng thoả mãn nhu cầu đó.",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
+        "url": "tin-tuc-2",
+        "name": "Cấu tạo và nguyên lý hoạt động của phòng xông hơi khô",
+        "img": "assets/images/products/news2.jpg",
+        "description": "Là liệu pháp nung nóng sỏi hoặc đá để tăng nhiệt độ trong phòng lên khoảng 60oC. Mục đích làm cho cơ thể vã ra mồ hôi, khi đó cơ thể sẽ đào thải các độc tố ra ngoài qua mồ hôi, kết hợp với hương liệu giúp thư giãn tinh thần, bài trừ độc tố, nâng cao...",
+        "content_file" : "assets/html/news/tin-tuc-2.html",
         "keywords" :[]
     },
     {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
-        "keywords" :[]
-    },
-    {
-        "url": "tin-tuc-1",
-        "name": "Tin Tuc 1",
-        "img": "assets/images/noimage.png",
-        "description": "this is sample....",
-        "content_file" : "assets/html/news/tin-tuc-1.html",
+        "url": "tin-tuc-3",
+        "name": "Tác dụng của bồn tắm massage",
+        "img": "assets/images/products/tin tuc 3.jpg ",
+        "description": "Bồn tắm massage là sản phẩm độc đáo và hiện đại, kết hợp rất nhiều tính năng. Không chỉ có tác dụng làm sạch cơ thể như bồn tắm thông thường. Mà nó còn có tác dụng như là một liệu pháp massage, giúp cơ thể thư giãn, giảm stress sau một ngày làm việc mệt mỏi, tăng cường sức đề kháng của cơ thể, phục hồi chức năng khớp xương, tăng cường khả năng tuần hoàn máu. Ngoài ra, độ ẩm của nước làm lỗ chân lông giãn nở ra, giúp bài trừ độc tố làm trẻ hóa làn da...",
+        "content_file" : "assets/html/news/tin-tuc-3.html",
         "keywords" :[]
     }
 ]

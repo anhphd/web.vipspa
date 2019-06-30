@@ -18,22 +18,27 @@ export class NewDetailPage implements OnInit {
   _News: Array<IHTMLContent> = [];
   _Loading = true;
   _Link: string = '';
+  _Content : string = "";
   constructor(public _MenuService : MenuService,public _API: ApiService, public activeRoute: ActivatedRoute, public _DataService: DataService, public _NewService: NewsService) {
     this._MenuService.setMenuSelected('tin-tuc');
 
     if (activeRoute.snapshot.paramMap.has('link')) {
       this._Link = activeRoute.snapshot.paramMap.get('link');
     }
+  }
+  ngOnInit(){
 
   }
-  ngOnInit() {
+  ionViewWillEnter() {
     this._NewService.getNewByID(this._Link).then(item => {
       if (item) {
         this._API.getHtmlContent(item.content_file).then(res => {
-          let ele = document.getElementById("_IDNewContent");
-          if (ele) {
-            ele.innerHTML = res;
-          }
+          this._Content = res;
+          // let ele = document.getElementById("_IDNewContent");
+          // if (ele) {
+          //   console.log("Binding result");
+          //   ele.innerHTML = res;
+          // }
         });
       }
     }, err => {

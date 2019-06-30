@@ -1,0 +1,29 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/uot vn.jpg"
+    ],
+    "id": "20181",
+    "product": {
+        "name": "XH-Y20181",
+        "code": "XH-Y20181",
+        "brand": "2150x1295x2145mm"
+    },
+    "details": [
+        {
+            "name": "Material",
+            "value": "Merbau wooden frame & floor, tempered glass, Imported acrylic"
+        },
+        {
+            "name": "Control system",
+            "value": "1PC"
+        },
+        {
+            "name": "Function",
+            "value": "Temperature/Time setting, Top color changing light, 4.5KW steam generator,\n\nTop part is one whole unite ceiling"
+        },
+        {
+            "name": "Others",
+            "value": "1.The material of wooden frame & floor is optional.\n2.The acrylic can be Chinese acrylic or ABS.\n3.Domestic steam generator can upgrade to Imported Harvia 10.8KW steam generator."
+        }
+    ]
+}

@@ -1,12 +1,12 @@
-ion-thumbnail{
-    width:20vw;
-    height:20vw;
-    max-width: 200px;
-    max-height: 200px;
-}
-ion-item{
-    font-size: 16px;
-}
+// ion-thumbnail{
+//     width:20vw;
+//     height:20vw;
+//     max-width: 200px;
+//     max-height: 200px;
+// }
+// ion-item{
+//     font-size: 14px;
+// }
 
 /* styles for '...' */ 
 .new-description {
@@ -20,5 +20,6 @@ ion-item{
     max-height: 3.6em; 
     /* fix problem when last visible word doesn't adjoin right side  */
     /* place for '...' */
+    font-size: .9em;
   }
   

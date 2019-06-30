@@ -1,0 +1,33 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/PS-steam-generator-body-2.jpg"
+    ],
+    "id": "20193",
+    "product": {
+        "name": "Máy xông hơi ướt PS Steamtec",
+        "code": "Máy xông hơi ướt PS Steamtec",
+        "brand": ""
+    },
+    "details": [
+        {
+            "name": "Stainless steel water tank",
+            "value": "reduce water scale and prolong uselife"
+        },
+        {
+            "name": "Over-heat protection",
+            "value": "When the room temperature reaches 2°C higher than your setting , then all heating elements stop working, steam generator under heat preservation state; , if water tank temperature over 115 °C, steam generator go into protection state, steam generator stop heating. When the temperature lower than 100°C, steam generator start to work again."
+        },
+        {
+            "name": "Low water level protection",
+            "value": "When water under some certain level and the machine failed to re-fill in water automatically, the steam generator will go into a “sleep model” until water is be re-filled or steam generator turn-off"
+        },
+        {
+            "name": "Sectional heating technology",
+            "value": "Each generator has 3 groups of heating elements which provide sectional heating,from the first beginning ,all 3 groups operates at maximum power and rapid heating ,when the room temp is almost reached,then group 1 stop,when the required temps is achieved ,then group 2 stop.The group 3 alternates on and off to maintain the room temp"
+        },
+        {
+            "name": "Auto flushing/Washing",
+            "value": "Will have fresh water flush tank and heating elements several times which can get soft waterscale out"
+        }
+    ]
+}

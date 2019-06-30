@@ -1,0 +1,46 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/aio-steam-generator-705x529.jpg",
+        "http://steamtec.vn/assets/images/products/aio-steam-generator-6-3.jpg"
+    ],
+    "id": "20195",
+    "product": {
+        "name": "Máy xông hơi ướt AIO Steamtec",
+        "code": "Máy xông hơi ướt AIO Steamtec",
+        "brand": ""
+    },
+    "details": [
+        {
+            "name": "Colorful lights Kit",
+            "value": "RGB LED lights"
+        },
+        {
+            "name": "Wifi Kit ",
+            "value": "Control by phone under LAN"
+        },
+        {
+            "name": "Fan ",
+            "value": "For steam room ventilation"
+        },
+        {
+            "name": "Aroma pump",
+            "value": "Twim pump, can add two kinds of essential oil"
+        },
+        {
+            "name": "Descaling pump",
+            "value": "Automatic scale removing system"
+        },
+        {
+            "name": "Fast steam switch",
+            "value": "For commercial model use"
+        },
+        {
+            "name": "Generator",
+            "value": "Salt spray generator"
+        },
+        {
+            "name": "Music system",
+            "value": "Waterproof speakers, IP66"
+        }
+    ]
+}

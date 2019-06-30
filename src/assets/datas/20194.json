@@ -1,0 +1,29 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/images/products/key-steam-generator-main-picture.jpg"
+    ],
+    "id": "20194",
+    "product": {
+        "name": "Máy xông hơi ướt KEY Steamtec",
+        "code": "Máy xông hơi ướt KEY Steamtec",
+        "brand": ""
+    },
+    "details": [
+        {
+            "name": "Auto flushing/Washing",
+            "value": "Will have fresh water flush tank and heating elements several times which can get soft waterscale out"
+        },
+        {
+            "name": "Service hole",
+            "value": "There’s an after -service hole on the top of the steam generator, also can be used as another steam outlet"
+        },
+        {
+            "name": "Over-heat protection",
+            "value": "When the room temperature reaches 2°C higher than your setting , then all heating elements stop working, steam generator under heat preservation state; if water tank temperature over 115 °C, steam generator go into protection state, steam generator stop heating. When the temperature lower than 100°C, steam generator start to work again."
+        },
+        {
+            "name": "Sectional heating technology",
+            "value": "Each generator has 3 groups of heating elements which provide sectional heating,from the first beginning ,all 3 groups operates at maximum power and rapid heating ,when the room temp is almost reached,then group 1 stop,when the required temps is achieved ,then group 2 stop.The group 3 alternates on and off to maintain the room temp"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "images": [
+        "http://steamtec.vn/assets/imgs/31839703-465d-49b0-a19b-3f36a29d6c8a.jpg",
+        "http://steamtec.vn/assets/imgs/0b07123f-b99a-45df-b6be-479d31cd8192.jpg",
+        "http://steamtec.vn/assets/imgs/4857e697-dd16-4b3b-b340-5173d02e7e5f.jpg",
+        "http://steamtec.vn/assets/imgs/b6e3a8e6-cad2-4a7e-8768-ebc0c6ffe708.jpg",
+        "http://steamtec.vn/assets/imgs/8922665c-8413-4216-aa07-a61b06ab1190.jpg",
+        "http://steamtec.vn/assets/imgs/ec9dfb66-ea0e-405c-ac7f-6785cd87af03.jpg",
+        "http://steamtec.vn/assets/imgs/868d2942-ee9b-4a8e-99b5-2554b84eae38.jpg"
+    ],
+    "id": "524",
+    "product": {
+        "name": "WS-LT10",
+        "code": "WS-LT10",
+        "brand": "5580x3500x2780mm"
+    },
+    "details": [
+        {
+            "name": "WS-LT10",
+            "value": "Configuration"
+        },
+        {
+            "name": "Type",
+            "value": "Leisure,SPA"
+        },
+        {
+            "name": "Wooden material",
+            "value": "Teak PS pnael,aluminium-plastic roof"
+        },
+        {
+            "name": "Lamp",
+            "value": "Spotlight 4pcs"
+        },
+        {
+            "name": "Zone",
+            "value": "Casual platform 3000x3000mm，SPA 2200x1870mm"
+        },
+        {
+            "name": "Extra",
+            "value": "Fitness bike,treadmill"
+        }
+    ],
+    "specification": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>WS-LT10</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Configuration</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Type</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\tLeisure,SPA</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Wooden material</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\tTeak PS pnael,aluminium-plastic roof</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Lamp</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\tSpotlight 4pcs</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Zone</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\tCasual platform 3000x3000mm，SPA 2200x1870mm</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t<strong>Extra</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\tFitness bike,treadmill</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
+}

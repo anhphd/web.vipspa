@@ -7,7 +7,7 @@
           <ion-icon name="home"></ion-icon>
         </ion-button>
         <span>/</span>
-        <ion-button fill="clear" routerLink="/dich-vu" style="text-transform: none">Dịch vụ</ion-button>
+        <ion-button fill="clear" routerLink="/dich-vu" router-direction="root" style="text-transform: none">Dịch vụ</ion-button>
         <span *ngIf="_Link">/</span>
         <ion-button fill="clear" style="text-transform: none" *ngIf="_Link">{{_Link}}</ion-button>
       </div>
@@ -16,13 +16,12 @@
     <div *ngIf="_Loading" style="padding-top:100px">
       <app-loading></app-loading>
     </div>
-    <div padding id="_ID_Content" class="html-content">
-
+    <div padding id="_ID_Content" class="html-content" [innerHTML]="_Content">      
     </div>
 
     <div class="other-services">
       <ion-list>
-        <ion-item *ngFor="let service of _OtherServices" [routerLink]='"/dich-vu/"+service.url'>
+        <ion-item *ngFor="let service of _OtherServices" [routerLink]='"/dich-vu/"+service.url' routerDirection="root">
           <ion-thumbnail slot="start">
             <ion-img [src]="service.img"></ion-img>
           </ion-thumbnail>

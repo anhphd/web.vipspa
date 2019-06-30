@@ -2,24 +2,32 @@
         "id": "thiet-ke-thi-cong-phong-xong-hoi",
         "url": "thiet-ke-thi-cong-phong-xong-hoi",
         "name": "Thiết kế, thi công phòng xông hơi",
-        "img": "assets/images/noimage.png",
-        "description": "Chúng tôi đang cung cấp cho khách hàng từ những sản phẩm phổ thông như: Phòng xông hơi khô được làm bằng gỗ thông nhập khẩu từ Phần Lan. Phòng xông hơi ướt lắp đặt bằng vách nhôm kính, gạch cách nhiệt như các mẫu XH-L90FZ, XH-W120FZ,…; Đến những sản phẩm sử dụng những vật liệu cao cấp và mức độ hoàn thiện hơn như các mẫu HX-Y1812, XH-A203ST-W,…Đi kèm máy xông hơi với các hãng nổi tiếng như Narvi, Sawo, Harvia, Amazon…",
+        "img": "assets/images/products/2e144498-c5ac-4bb6-ac5e-65ce4c0b68c9.jpg",
+        "description": "STEAMTEC nhận thiết kế và thi công tất cả các phòng xông hơi bao gồm: phòng xông hơi khô, phòng xông hơi ướt, phòng xông hơi hỗn hợp, phòng xông hơi đá muối,… Cung cấp các loại máy xông hơi gia đình và spa nhập khẩu chính hãng",
         "content_file": "assets/html/services/dich-vu-1.html"
     },
     {
         "id": "phan-phoi-lap-dat",
         "url": "phan-phoi-lap-dat",
         "name": "Phân phối, lắp đặt bể sục và bể bơi massage",
-        "img": "assets/images/noimage.png",
-        "description": "Với kính thước và hình dạng khác nhau phù hợp với từng nhu cầu sử dụng. Bể được trang bị đầy đủ các phụ kiện như máy bơm nước, đèn led trang trí, máy tạo bọt khí, máy cấp nhiệt, máy tạo ozone, các jet massage, hệ thống lọc nước, hệ thống ống dẫn,…",
-        "content_file": "assets/html/services/dich-vu-1.html"
+        "img": "assets/images/products/dich vu 22.jpg",
+        "description": "Chúng tôi cung cấp hàng trăm sản phẩm, đầy đủ kính thước, hình dáng và tính năng đáp ướng tất cả các nhu cầu của khác hàng",
+        "content_file": "assets/html/services/dich-vu-2.html"
+    },
+    {
+        "id": "thiet-ke-thi-cong-spa",
+        "url": "Thiết kế thi công spa",
+        "name": "Thiết kế thi công spa",
+        "img": "assets/images/products/dich vu 3.jpg",
+        "description": "STEAMTEC là đơn vị thiết kế và thi công spa thẩm mỹ uy tín, giá cả phải chăng. Cung cấp dịch vụ thiết kế, thi công spa chọn gói",
+        "content_file": "assets/html/services/dich-vu-3.html"
     },
     {
         "id": "bao-duong-bao-tri",
         "url": "bao-duong-bao-tri",
         "name": "Bảo dưỡng, bảo trì",
-        "img": "assets/images/noimage.png",
-        "description": "Các sản phẩm của STEAMTEC đến tay khach hàng đều kèm hợp đồng lắp đặt và bảo hành rõ ràng. Hỗ trợ kiểm tra, sửa chữa, bảo trì tận nơi",
-        "content_file": "assets/html/services/dich-vu-1.html"
+        "img": "assets/images/products/dic vu 4.jpg",
+        "description": "Tất cả các sản phẩm và công trình thi công của STEAMTEC sau khi bàn giao cho khách hàng đều được hưởng chính sách bảo hành bảo trì của công ty",
+        "content_file": "assets/html/services/dich-vu-4.html"
     }
 ]

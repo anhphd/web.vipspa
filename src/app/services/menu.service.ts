@@ -69,11 +69,7 @@ export class MenuService {
     });
     if (productCategory) {
       productCategory.children = [];
-      productCategory.children.push({
-        id: `/${productCategory.id}`,
-        name: "Tất cả",
-        url: `/${productCategory.id}`
-      });
+  
       for (let category of categories) {
         productCategory.children.push({
           id: `/${productCategory.id}/${category.id}`,
@@ -91,11 +87,6 @@ export class MenuService {
     });
     if (serviceMenuItem) {
       serviceMenuItem.children = [];
-      serviceMenuItem.children.push({
-        id: `/${serviceMenuItem.id}`,
-        name: "Tất cả",
-        url: `/${serviceMenuItem.id}`
-      });
       for (let service of services) {
         serviceMenuItem.children.push({
           id: `/${serviceMenuItem.id}/${service.id}`,

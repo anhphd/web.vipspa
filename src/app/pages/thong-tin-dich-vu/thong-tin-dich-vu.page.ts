@@ -14,6 +14,7 @@ export class ThongTinDichVuPage implements OnInit {
   _Link: string = '';
   _OtherServices = [];
   _Loading: boolean = true;
+  _Content : string = "";
   constructor(public _MenuService: MenuService, public dichvuService: DichVuService, public activeRoute: ActivatedRoute, public _DataService: DataService, public _API: ApiService) {
 
     if (this.activeRoute.snapshot.paramMap.has('link')) {
@@ -30,10 +31,11 @@ export class ThongTinDichVuPage implements OnInit {
       this._Loading = false;
       if (res) {
         this._API.getHtmlContent(res.content_file).then(data => {
-          let ele = document.getElementById("_ID_Content");
-          if (ele) {
-            ele.innerHTML = data;
-          }
+          this._Content = data;
+          // let ele = document.getElementById("_ID_Content");
+          // if (ele) {
+          //   ele.innerHTML = data;
+          // }
         }, err => { });
       }
 
