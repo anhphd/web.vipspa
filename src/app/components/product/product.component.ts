@@ -12,12 +12,12 @@ export class ProductComponent implements OnInit {
   @Input('data') product: IProduct;
 
   constructor(private sanitizer: DomSanitizer) {
-   
-   }
+
+  }
 
   ngOnInit() {
-    if(this.product && this.product.thumb.indexOf('http') == -1 && this.product.thumb.indexOf('assets') == -1){
-      this.product.thumb = "assets/images/products/"+this.product.thumb;
+    if (this.product && this.product.thumb.indexOf('http') == -1 && this.product.thumb.indexOf('assets') == -1) {
+      this.product.thumb = "http://steamtec.vn/assets/imgs/small/" + this.product.thumb;
     }
   }
 }
